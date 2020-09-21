@@ -1,0 +1,27 @@
+C:\lscc\iCEcube2.2017.08\synpbase\bin64\c_hdl.exe  -osyn  C:\Users\esi\Documents\workspace\icecube2\zipi8\zipi8_Implmnt\synwork\zipi8_comp.srs  -hdllog  C:\Users\esi\Documents\workspace\icecube2\zipi8\zipi8_Implmnt\synlog\zipi8_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -primux -fixsmult -infer_seqShift -ice -sdff_counter -nram -divnmod -nostructver  -sm  -encrypt  -pro  -dmgen  C:\Users\esi\Documents\workspace\icecube2\zipi8\zipi8_Implmnt\dm  -lite -ui -fid2 -ram -sharing on -ll 2000  -vhdl2008  -ignore_undefined_lib  -lib work C:\Users\esi\Documents\workspace\icecube2\zipi8\src\arith_and_logic_operations.vhd -lib work C:\Users\esi\Documents\workspace\icecube2\zipi8\src\decode4_pc_statck.vhd -lib work C:\Users\esi\Documents\workspace\icecube2\zipi8\src\decode4_strobes_enables.vhd -lib work C:\Users\esi\Documents\workspace\icecube2\zipi8\src\decode4alu.vhd -lib work C:\Users\esi\Documents\workspace\icecube2\zipi8\src\flags.vhd -lib work C:\Users\esi\Documents\workspace\icecube2\zipi8\src\mux_outputs_from_alu_spm_input_ports.vhd -lib work C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_counter.vhd -lib work C:\Users\esi\Documents\workspace\icecube2\zipi8\src\register_bank_control.vhd -lib work C:\Users\esi\Documents\workspace\icecube2\zipi8\src\sel_of_2nd_op_to_alu_and_port_id.vhd -lib work C:\Users\esi\Documents\workspace\icecube2\zipi8\src\sel_of_out_port_value.vhd -lib work C:\Users\esi\Documents\workspace\icecube2\zipi8\src\shift_and_rotate_operations.vhd -lib work C:\Users\esi\Documents\workspace\icecube2\zipi8\src\spm_with_output_reg.vhd -lib work C:\Users\esi\Documents\workspace\icecube2\zipi8\src\stack.vhd -lib work C:\Users\esi\Documents\workspace\icecube2\zipi8\src\state_machine.vhd -lib work C:\Users\esi\Documents\workspace\icecube2\zipi8\src\two_banks_of_16_gp_reg.vhd -lib work C:\Users\esi\Documents\workspace\icecube2\zipi8\src\x12_bit_program_address_generator.vhd -lib work C:\Users\esi\Documents\workspace\icecube2\zipi8\src\zipi8.vhd -lib work C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_memory.vhd -lib work C:\Users\esi\Documents\workspace\icecube2\zipi8\src\ram.vhd -lib work C:\Users\esi\Documents\workspace\icecube2\zipi8\src\ram_rw.vhd -lib work C:\Users\esi\Documents\workspace\icecube2\zipi8\src\top.vhd 
+rc:0 success:1 runtime:2
+file:C:\Users\esi\Documents\workspace\icecube2\zipi8\zipi8_Implmnt\synwork\zipi8_comp.srs|io:o|time:1562836509|size:87964|exec:0
+file:C:\Users\esi\Documents\workspace\icecube2\zipi8\zipi8_Implmnt\synlog\zipi8_compiler.srr|io:o|time:1562836509|size:14633|exec:0
+file:C:\Users\esi\Documents\workspace\icecube2\zipi8\src\arith_and_logic_operations.vhd|io:i|time:1556881964|size:20766|exec:0
+file:C:\Users\esi\Documents\workspace\icecube2\zipi8\src\decode4_pc_statck.vhd|io:i|time:1559374894|size:7077|exec:0
+file:C:\Users\esi\Documents\workspace\icecube2\zipi8\src\decode4_strobes_enables.vhd|io:i|time:1557935496|size:7488|exec:0
+file:C:\Users\esi\Documents\workspace\icecube2\zipi8\src\decode4alu.vhd|io:i|time:1556301363|size:6324|exec:0
+file:C:\Users\esi\Documents\workspace\icecube2\zipi8\src\flags.vhd|io:i|time:1557934661|size:19177|exec:0
+file:C:\Users\esi\Documents\workspace\icecube2\zipi8\src\mux_outputs_from_alu_spm_input_ports.vhd|io:i|time:1556302580|size:2028|exec:0
+file:C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_counter.vhd|io:i|time:1559321043|size:14588|exec:0
+file:C:\Users\esi\Documents\workspace\icecube2\zipi8\src\register_bank_control.vhd|io:i|time:1558551897|size:3604|exec:0
+file:C:\Users\esi\Documents\workspace\icecube2\zipi8\src\sel_of_2nd_op_to_alu_and_port_id.vhd|io:i|time:1557045313|size:4255|exec:0
+file:C:\Users\esi\Documents\workspace\icecube2\zipi8\src\sel_of_out_port_value.vhd|io:i|time:1557340124|size:4189|exec:0
+file:C:\Users\esi\Documents\workspace\icecube2\zipi8\src\shift_and_rotate_operations.vhd|io:i|time:1557868394|size:6154|exec:0
+file:C:\Users\esi\Documents\workspace\icecube2\zipi8\src\spm_with_output_reg.vhd|io:i|time:1559460344|size:6478|exec:0
+file:C:\Users\esi\Documents\workspace\icecube2\zipi8\src\stack.vhd|io:i|time:1559428166|size:17436|exec:0
+file:C:\Users\esi\Documents\workspace\icecube2\zipi8\src\state_machine.vhd|io:i|time:1557944185|size:6822|exec:0
+file:C:\Users\esi\Documents\workspace\icecube2\zipi8\src\two_banks_of_16_gp_reg.vhd|io:i|time:1562836460|size:9614|exec:0
+file:C:\Users\esi\Documents\workspace\icecube2\zipi8\src\x12_bit_program_address_generator.vhd|io:i|time:1556882294|size:10275|exec:0
+file:C:\Users\esi\Documents\workspace\icecube2\zipi8\src\zipi8.vhd|io:i|time:1559374156|size:21294|exec:0
+file:C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_memory.vhd|io:i|time:1559318185|size:16111|exec:0
+file:C:\Users\esi\Documents\workspace\icecube2\zipi8\src\ram.vhd|io:i|time:1557946819|size:1961|exec:0
+file:C:\Users\esi\Documents\workspace\icecube2\zipi8\src\ram_rw.vhd|io:i|time:1562791959|size:2092|exec:0
+file:C:\Users\esi\Documents\workspace\icecube2\zipi8\src\top.vhd|io:i|time:1557890372|size:3502|exec:0
+file:C:\lscc\iCEcube2.2017.08\synpbase\bin\c_hdl.exe|io:i|time:1558295215|size:1338368|exec:1
+file:C:\lscc\iCEcube2.2017.08\synpbase\bin64\c_hdl.exe|io:i|time:1558295218|size:1754112|exec:1

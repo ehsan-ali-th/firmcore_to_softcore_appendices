@@ -1,0 +1,63 @@
+Active-HDL 10.3.3558.6081  2019-06-25 00:40:50
+
+Elaboration top modules:
+Architecture                  Behavioral(top_tb)
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+Entity                               | Architecture      | Library  | Info | Compiler Version          | Compilation Options
+-----------------------------------------------------------------------------------------------------------------------------
+top_tb                               | Behavioral        | work_sim |      | 10.3.3558.6081  (Windows) | -O3 -2008
+top                                  | Behavioral        | work_sim |      | 10.3.3558.6081  (Windows) | -O3 -2008
+program_memory                       | Behavioral        | work_sim |      | 10.3.3558.6081  (Windows) | -O3 -2008
+zipi8                                | Behavioral        | work_sim |      | 10.3.3558.6081  (Windows) | -O3 -2008
+sb_ram2048x2                         | sb_ram2048x2_arch | ice      |      | 10.3.3558.6081  (Windows) | -vendor lattice
+state_machine                        | Behavioral        | work_sim |      | 10.3.3558.6081  (Windows) | -O3 -2008
+register_bank_control                | Behavioral        | work_sim |      | 10.3.3558.6081  (Windows) | -O3 -2008
+decode4_pc_statck                    | Behavioral        | work_sim |      | 10.3.3558.6081  (Windows) | -O3 -2008
+decode4alu                           | Behavioral        | work_sim |      | 10.3.3558.6081  (Windows) | -O3 -2008
+decode4_strobes_enables              | Behavioral        | work_sim |      | 10.3.3558.6081  (Windows) | -O3 -2008
+flags                                | Behavioral        | work_sim |      | 10.3.3558.6081  (Windows) | -O3 -2008
+x12_bit_program_address_generator    | Behavioral        | work_sim |      | 10.3.3558.6081  (Windows) | -O3 -2008
+program_counter                      | Behavioral        | work_sim |      | 10.3.3558.6081  (Windows) | -O3 -2008
+stack                                | Behavioral        | work_sim |      | 10.3.3558.6081  (Windows) | -O3 -2008
+two_banks_of_16_gp_reg               | Behavioral        | work_sim |      | 10.3.3558.6081  (Windows) | -O3 -2008
+sel_of_2nd_op_to_alu_and_port_id     | Behavioral        | work_sim |      | 10.3.3558.6081  (Windows) | -O3 -2008
+sel_of_out_port_value                | Behavioral        | work_sim |      | 10.3.3558.6081  (Windows) | -O3 -2008
+arith_and_logic_operations           | Behavioral        | work_sim |      | 10.3.3558.6081  (Windows) | -O3 -2008
+shift_and_rotate_operations          | Behavioral        | work_sim |      | 10.3.3558.6081  (Windows) | -O3 -2008
+spm_with_output_reg                  | Behavioral        | work_sim |      | 10.3.3558.6081  (Windows) | -O3 -2008
+mux_outputs_from_alu_spm_input_ports | Behavioral        | work_sim |      | 10.3.3558.6081  (Windows) | -O3 -2008
+ram                                  | Behavioral        | work_sim |      | 10.3.3558.6081  (Windows) | -O3 -2008
+ram32m_behav                         | Behavioral        | work_sim |      | 10.3.3558.6081  (Windows) | -O3 -2008
+-----------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------------
+VHDL Package                                             | Library  | Info | Compiler Version          | Compilation Options
+-----------------------------------------------------------------------------------------------------------------------------
+standard                                                 | std      |      |                           | <unavailable>
+TEXTIO                                                   | std      |      | 10.3.3558.6081  (Windows) |  -2008
+std_logic_1164                                           | ieee     |      | 10.3.3558.6081  (Windows) |  -2008
+ENV                                                      | std      |      | 10.3.3558.6081  (Windows) | <unavailable>
+STD_LOGIC_TEXTIO                                         | ieee     |      | 10.3.3558.6081  (Windows) | <unavailable>
+NUMERIC_STD                                              | ieee     |      | 10.3.3558.6081  (Windows) |  -2008
+std_logic_arith                                          | ieee     |      | 10.3.3558.6081  (Windows) | <unavailable>
+STD_LOGIC_UNSIGNED                                       | ieee     |      | 10.3.3558.6081  (Windows) | <unavailable>
+attributes                                               | synplify |      | 10.3.3558.6081  (Windows) | <unavailable>
+-----------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------------
+Library                                                  | Comment
+-----------------------------------------------------------------------------------------------------------------------------
+ice                                                      | LATTICE iCEcube2 2016.12, SB ICE VHDL LIBRARY
+ieee                                                     | Standard IEEE packages library
+std                                                      | Standard VHDL library
+synplify                                                 | SYNOPSYS FPGA PRODUCTS J-2014.09, SYNPLIFY VHDL LIBRARY
+work_sim                                                 | None
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 -L ovi_ice -L ice +access +w_nets +accb +accr +access +r +access +r+w top_tb Behavioral
+
+
+The performance of simulation is reduced. Version Lattice Edition

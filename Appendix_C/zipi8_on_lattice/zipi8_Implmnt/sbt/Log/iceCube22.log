@@ -1,0 +1,706 @@
+7:54:19 PM
+Active-HDL command:
+ design create -a work {C:\Users\esi\Documents\workspace\icecube2\zipi8\aldec}; design open -a {C:/Users/esi/Documents/workspace/icecube2/zipi8/aldec/work}; addfile {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\top.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\arith_and_logic_operations.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\decode4_pc_statck.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\decode4_strobes_enables.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\decode4alu.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\flags.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\mux_outputs_from_alu_spm_input_ports.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_counter.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\register_bank_control.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\sel_of_2nd_op_to_alu_and_port_id.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\sel_of_out_port_value.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\shift_and_rotate_operations.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\spm_with_output_reg.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\stack.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\state_machine.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\two_banks_of_16_gp_reg.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\x12_bit_program_address_generator.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\zipi8.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_memory.vhd} {C:\Users\esi\Documents\workspace\AHDL\zipi8_sim\top\src\top_tb.vhd};designverlibrarysim -L ovi_ice ice 
+"C:\lscc\iCEcube2.2017.08\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "zipi8_syn.prj" -log "zipi8_Implmnt/zipi8.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of zipi8_Implmnt/zipi8.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2017.08\synpbase
+#OS: Windows 7 6.1
+#Hostname: ESI-PC
+
+# Tue May 21 19:57:06 2019
+
+#Implementation: zipi8_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2017.08\synpbase\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\top.vhd":34:7:34:9|Top entity is set to top.
+File C:\Users\esi\Documents\workspace\icecube2\zipi8\src\arith_and_logic_operations.vhd changed - recompiling
+File C:\Users\esi\Documents\workspace\icecube2\zipi8\src\decode4_pc_statck.vhd changed - recompiling
+File C:\Users\esi\Documents\workspace\icecube2\zipi8\src\decode4_strobes_enables.vhd changed - recompiling
+File C:\Users\esi\Documents\workspace\icecube2\zipi8\src\decode4alu.vhd changed - recompiling
+File C:\Users\esi\Documents\workspace\icecube2\zipi8\src\flags.vhd changed - recompiling
+File C:\Users\esi\Documents\workspace\icecube2\zipi8\src\mux_outputs_from_alu_spm_input_ports.vhd changed - recompiling
+File C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_counter.vhd changed - recompiling
+File C:\Users\esi\Documents\workspace\icecube2\zipi8\src\register_bank_control.vhd changed - recompiling
+File C:\Users\esi\Documents\workspace\icecube2\zipi8\src\sel_of_2nd_op_to_alu_and_port_id.vhd changed - recompiling
+File C:\Users\esi\Documents\workspace\icecube2\zipi8\src\sel_of_out_port_value.vhd changed - recompiling
+File C:\Users\esi\Documents\workspace\icecube2\zipi8\src\shift_and_rotate_operations.vhd changed - recompiling
+File C:\Users\esi\Documents\workspace\icecube2\zipi8\src\spm_with_output_reg.vhd changed - recompiling
+File C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40_components_syn.vhd changed - recompiling
+File C:\Users\esi\Documents\workspace\icecube2\zipi8\src\stack.vhd changed - recompiling
+File C:\Users\esi\Documents\workspace\icecube2\zipi8\src\two_banks_of_16_gp_reg.vhd changed - recompiling
+File C:\lscc\iCEcube2.2017.08\synpbase\lib\vhdl_sim\synplify.vhd changed - recompiling
+File C:\lscc\iCEcube2.2017.08\synpbase\lib\vhd\synattr.vhd changed - recompiling
+File C:\Users\esi\Documents\workspace\icecube2\zipi8\src\x12_bit_program_address_generator.vhd changed - recompiling
+File C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_memory.vhd changed - recompiling
+File C:\Users\esi\Documents\workspace\icecube2\zipi8\src\zipi8.vhd changed - recompiling
+File C:\Users\esi\Documents\workspace\icecube2\zipi8\src\top.vhd changed - recompiling
+File C:\Users\esi\Documents\workspace\AHDL\zipi8_sim\top\src\top_tb.vhd changed - recompiling
+@W: CD645 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\spm_with_output_reg.vhd":37:8:37:10|Ignoring undefined library ice
+@W: CD642 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\spm_with_output_reg.vhd":38:12:38:12|Ignoring use clause - library ice not found ...
+@W: CD645 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\stack.vhd":34:8:34:10|Ignoring undefined library ice
+@W: CD642 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\stack.vhd":35:12:35:12|Ignoring use clause - library ice not found ...
+@W: CD645 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\two_banks_of_16_gp_reg.vhd":29:8:29:10|Ignoring undefined library ice
+@W: CD642 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\two_banks_of_16_gp_reg.vhd":30:12:30:12|Ignoring use clause - library ice not found ...
+@W: CD645 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_memory.vhd":4:8:4:10|Ignoring undefined library ice
+@W: CD642 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_memory.vhd":5:11:5:11|Ignoring use clause - library ice not found ...
+VHDL syntax check successful!
+File C:\Users\esi\Documents\workspace\icecube2\zipi8\src\spm_with_output_reg.vhd changed - recompiling
+File C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40_components_syn.vhd changed - recompiling
+File C:\Users\esi\Documents\workspace\icecube2\zipi8\src\stack.vhd changed - recompiling
+File C:\Users\esi\Documents\workspace\icecube2\zipi8\src\state_machine.vhd changed - recompiling
+File C:\Users\esi\Documents\workspace\icecube2\zipi8\src\two_banks_of_16_gp_reg.vhd changed - recompiling
+File C:\lscc\iCEcube2.2017.08\synpbase\lib\vhdl_sim\synplify.vhd changed - recompiling
+File C:\lscc\iCEcube2.2017.08\synpbase\lib\vhd\synattr.vhd changed - recompiling
+File C:\Users\esi\Documents\workspace\icecube2\zipi8\src\x12_bit_program_address_generator.vhd changed - recompiling
+File C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_memory.vhd changed - recompiling
+File C:\Users\esi\Documents\workspace\icecube2\zipi8\src\zipi8.vhd changed - recompiling
+File C:\Users\esi\Documents\workspace\icecube2\zipi8\src\top.vhd changed - recompiling
+File C:\Users\esi\Documents\workspace\AHDL\zipi8_sim\top\src\top_tb.vhd changed - recompiling
+@N: CD231 :"C:\lscc\iCEcube2.2017.08\synpbase\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+Warning:Can't open record reference file@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\top.vhd":34:7:34:9|Synthesizing work.top.behavioral.
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\zipi8.vhd":34:7:34:11|Synthesizing work.zipi8.behavioral.
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\mux_outputs_from_alu_spm_input_ports.vhd":34:7:34:42|Synthesizing work.mux_outputs_from_alu_spm_input_ports.behavioral.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\mux_outputs_from_alu_spm_input_ports.vhd":61:11:61:24|OTHERS clause is not synthesized.
+Post processing for work.mux_outputs_from_alu_spm_input_ports.behavioral
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\spm_with_output_reg.vhd":41:7:41:25|Synthesizing work.spm_with_output_reg.behavioral.
+@W: CD280 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\spm_with_output_reg.vhd":53:11:53:21|Unbound component SB_RAM512x8 mapped to black box
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\spm_with_output_reg.vhd":53:11:53:21|Synthesizing work.sb_ram512x8.syn_black_box.
+Post processing for work.sb_ram512x8.syn_black_box
+Post processing for work.spm_with_output_reg.behavioral
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\shift_and_rotate_operations.vhd":34:7:34:33|Synthesizing work.shift_and_rotate_operations.behavioral.
+Post processing for work.shift_and_rotate_operations.behavioral
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\arith_and_logic_operations.vhd":34:7:34:32|Synthesizing work.arith_and_logic_operations.behavioral.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\arith_and_logic_operations.vhd":336:11:336:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\arith_and_logic_operations.vhd":349:11:349:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\arith_and_logic_operations.vhd":362:11:362:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\arith_and_logic_operations.vhd":375:11:375:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\arith_and_logic_operations.vhd":388:11:388:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\arith_and_logic_operations.vhd":401:11:401:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\arith_and_logic_operations.vhd":414:11:414:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\arith_and_logic_operations.vhd":427:11:427:24|OTHERS clause is not synthesized.
+Post processing for work.arith_and_logic_operations.behavioral
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\sel_of_out_port_value.vhd":34:7:34:27|Synthesizing work.sel_of_out_port_value.behavioral.
+Post processing for work.sel_of_out_port_value.behavioral
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\sel_of_2nd_op_to_alu_and_port_id.vhd":34:7:34:38|Synthesizing work.sel_of_2nd_op_to_alu_and_port_id.behavioral.
+Post processing for work.sel_of_2nd_op_to_alu_and_port_id.behavioral
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\two_banks_of_16_gp_reg.vhd":42:7:42:28|Synthesizing work.two_banks_of_16_gp_reg.behavioral.
+Post processing for work.two_banks_of_16_gp_reg.behavioral
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\stack.vhd":37:7:37:11|Synthesizing work.stack.behavioral.
+@W: CD280 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\stack.vhd":73:11:73:22|Unbound component SB_RAM256x16 mapped to black box
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\stack.vhd":73:11:73:22|Synthesizing work.sb_ram256x16.syn_black_box.
+Post processing for work.sb_ram256x16.syn_black_box
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\stack.vhd":348:11:348:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\stack.vhd":361:11:361:24|OTHERS clause is not synthesized.
+@W: CD434 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\stack.vhd":355:95:355:117|Signal stack_pointer_carry_buf in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\stack.vhd":374:11:374:24|OTHERS clause is not synthesized.
+@W: CD434 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\stack.vhd":368:95:368:117|Signal stack_pointer_carry_buf in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\stack.vhd":387:11:387:24|OTHERS clause is not synthesized.
+@W: CD434 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\stack.vhd":381:95:381:117|Signal stack_pointer_carry_buf in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\stack.vhd":400:11:400:24|OTHERS clause is not synthesized.
+@W: CD434 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\stack.vhd":394:95:394:117|Signal stack_pointer_carry_buf in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+Post processing for work.stack.behavioral
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_counter.vhd":34:7:34:21|Synthesizing work.program_counter.behavioral.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_counter.vhd":268:11:268:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_counter.vhd":281:11:281:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_counter.vhd":294:11:294:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_counter.vhd":307:11:307:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_counter.vhd":320:11:320:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_counter.vhd":333:11:333:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_counter.vhd":346:11:346:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_counter.vhd":359:11:359:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_counter.vhd":372:11:372:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_counter.vhd":385:11:385:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_counter.vhd":398:11:398:24|OTHERS clause is not synthesized.
+Post processing for work.program_counter.behavioral
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\x12_bit_program_address_generator.vhd":34:7:34:39|Synthesizing work.x12_bit_program_address_generator.behavioral.
+Post processing for work.x12_bit_program_address_generator.behavioral
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\flags.vhd":34:7:34:11|Synthesizing work.flags.behavioral.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\flags.vhd":203:11:203:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\flags.vhd":244:11:244:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\flags.vhd":278:11:278:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\flags.vhd":335:11:335:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\flags.vhd":362:11:362:24|OTHERS clause is not synthesized.
+Post processing for work.flags.behavioral
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\decode4_strobes_enables.vhd":34:7:34:29|Synthesizing work.decode4_strobes_enables.behavioral.
+Post processing for work.decode4_strobes_enables.behavioral
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\decode4alu.vhd":34:7:34:16|Synthesizing work.decode4alu.behavioral.
+Post processing for work.decode4alu.behavioral
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\decode4_pc_statck.vhd":34:7:34:23|Synthesizing work.decode4_pc_statck.behavioral.
+Post processing for work.decode4_pc_statck.behavioral
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\register_bank_control.vhd":34:7:34:27|Synthesizing work.register_bank_control.behavioral.
+Post processing for work.register_bank_control.behavioral
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\state_machine.vhd":34:7:34:19|Synthesizing work.state_machine.behavioral.
+Post processing for work.state_machine.behavioral
+Post processing for work.zipi8.behavioral
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_memory.vhd":6:7:6:20|Synthesizing work.program_memory.behavioral.
+@W: CD280 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_memory.vhd":19:10:19:21|Unbound component SB_RAM2048x2 mapped to black box
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_memory.vhd":19:10:19:21|Synthesizing work.sb_ram2048x2.syn_black_box.
+Post processing for work.sb_ram2048x2.syn_black_box
+Post processing for work.program_memory.behavioral
+Post processing for work.top.behavioral
+@W: CL247 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_memory.vhd":12:4:12:8|Input port bit 11 of addra(11 downto 0) is unused 
+@N: CL159 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\sel_of_2nd_op_to_alu_and_port_id.vhd":39:8:39:21|Input arith_carry_in is unused.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 80MB peak: 80MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue May 21 19:57:07 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\top.vhd":34:7:34:9|Selected library: work cell: top view behavioral as top level
+@N: NF107 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\top.vhd":34:7:34:9|Selected library: work cell: top view behavioral as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue May 21 19:57:07 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue May 21 19:57:07 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+File C:\Users\esi\Documents\workspace\icecube2\zipi8\zipi8_Implmnt\synwork\zipi8_comp.srs changed - recompiling
+@N: NF107 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\top.vhd":34:7:34:9|Selected library: work cell: top view behavioral as top level
+@N: NF107 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\top.vhd":34:7:34:9|Selected library: work cell: top view behavioral as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue May 21 19:57:08 2019
+
+###########################################################]
+Pre-mapping Report
+
+# Tue May 21 19:57:08 2019
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+Reading constraint file: C:\Users\esi\Documents\workspace\icecube2\zipi8\constraints\timing.sdc
+@L: C:\Users\esi\Documents\workspace\icecube2\zipi8\zipi8_Implmnt\zipi8_scck.rpt 
+Printing clock  summary report in "C:\Users\esi\Documents\workspace\icecube2\zipi8\zipi8_Implmnt\zipi8_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 104MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 104MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 103MB peak: 104MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 103MB peak: 105MB)
+
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":302:0:302:14|Property INIT_0 size mismatch on instance Ram2048x2_inst8; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":302:0:302:14|Property INIT_1 size mismatch on instance Ram2048x2_inst8; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":302:0:302:14|Property INIT_2 size mismatch on instance Ram2048x2_inst8; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":302:0:302:14|Property INIT_3 size mismatch on instance Ram2048x2_inst8; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":302:0:302:14|Property INIT_4 size mismatch on instance Ram2048x2_inst8; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":302:0:302:14|Property INIT_5 size mismatch on instance Ram2048x2_inst8; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":302:0:302:14|Property INIT_6 size mismatch on instance Ram2048x2_inst8; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":302:0:302:14|Property INIT_8 size mismatch on instance Ram2048x2_inst8; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":302:0:302:14|Property INIT_9 size mismatch on instance Ram2048x2_inst8; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":302:0:302:14|Property INIT_C size mismatch on instance Ram2048x2_inst8; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":271:0:271:14|Property INIT_6 size mismatch on instance Ram2048x2_inst7; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":271:0:271:14|Property INIT_C size mismatch on instance Ram2048x2_inst7; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":240:0:240:14|Property INIT_0 size mismatch on instance Ram2048x2_inst6; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":240:0:240:14|Property INIT_1 size mismatch on instance Ram2048x2_inst6; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":240:0:240:14|Property INIT_2 size mismatch on instance Ram2048x2_inst6; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":240:0:240:14|Property INIT_3 size mismatch on instance Ram2048x2_inst6; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":240:0:240:14|Property INIT_4 size mismatch on instance Ram2048x2_inst6; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":240:0:240:14|Property INIT_5 size mismatch on instance Ram2048x2_inst6; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":240:0:240:14|Property INIT_6 size mismatch on instance Ram2048x2_inst6; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":240:0:240:14|Property INIT_7 size mismatch on instance Ram2048x2_inst6; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":240:0:240:14|Property INIT_8 size mismatch on instance Ram2048x2_inst6; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":240:0:240:14|Property INIT_A size mismatch on instance Ram2048x2_inst6; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":240:0:240:14|Property INIT_B size mismatch on instance Ram2048x2_inst6; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":240:0:240:14|Property INIT_C size mismatch on instance Ram2048x2_inst6; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":209:0:209:14|Property INIT_8 size mismatch on instance Ram2048x2_inst5; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":178:0:178:14|Property INIT_2 size mismatch on instance Ram2048x2_inst4; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":178:0:178:14|Property INIT_3 size mismatch on instance Ram2048x2_inst4; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":178:0:178:14|Property INIT_4 size mismatch on instance Ram2048x2_inst4; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":178:0:178:14|Property INIT_6 size mismatch on instance Ram2048x2_inst4; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":178:0:178:14|Property INIT_7 size mismatch on instance Ram2048x2_inst4; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":178:0:178:14|Property INIT_8 size mismatch on instance Ram2048x2_inst4; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":178:0:178:14|Property INIT_9 size mismatch on instance Ram2048x2_inst4; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":178:0:178:14|Property INIT_A size mismatch on instance Ram2048x2_inst4; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":178:0:178:14|Property INIT_B size mismatch on instance Ram2048x2_inst4; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":178:0:178:14|Property INIT_C size mismatch on instance Ram2048x2_inst4; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":147:0:147:14|Property INIT_1 size mismatch on instance Ram2048x2_inst3; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":116:0:116:14|Property INIT_1 size mismatch on instance Ram2048x2_inst2; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":116:0:116:14|Property INIT_3 size mismatch on instance Ram2048x2_inst2; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":116:0:116:14|Property INIT_4 size mismatch on instance Ram2048x2_inst2; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":116:0:116:14|Property INIT_5 size mismatch on instance Ram2048x2_inst2; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":116:0:116:14|Property INIT_6 size mismatch on instance Ram2048x2_inst2; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":116:0:116:14|Property INIT_8 size mismatch on instance Ram2048x2_inst2; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":116:0:116:14|Property INIT_B size mismatch on instance Ram2048x2_inst2; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":85:0:85:14|Property INIT_0 size mismatch on instance Ram2048x2_inst1; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":85:0:85:14|Property INIT_1 size mismatch on instance Ram2048x2_inst1; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":85:0:85:14|Property INIT_2 size mismatch on instance Ram2048x2_inst1; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":85:0:85:14|Property INIT_3 size mismatch on instance Ram2048x2_inst1; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":85:0:85:14|Property INIT_5 size mismatch on instance Ram2048x2_inst1; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":85:0:85:14|Property INIT_6 size mismatch on instance Ram2048x2_inst1; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":85:0:85:14|Property INIT_7 size mismatch on instance Ram2048x2_inst1; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":85:0:85:14|Property INIT_8 size mismatch on instance Ram2048x2_inst1; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":85:0:85:14|Property INIT_9 size mismatch on instance Ram2048x2_inst1; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":85:0:85:14|Property INIT_C size mismatch on instance Ram2048x2_inst1; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":54:0:54:14|Property INIT_1 size mismatch on instance Ram2048x2_inst0; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":54:0:54:14|Property INIT_2 size mismatch on instance Ram2048x2_inst0; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":54:0:54:14|Property INIT_3 size mismatch on instance Ram2048x2_inst0; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":54:0:54:14|Property INIT_5 size mismatch on instance Ram2048x2_inst0; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":54:0:54:14|Property INIT_6 size mismatch on instance Ram2048x2_inst0; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":54:0:54:14|Property INIT_7 size mismatch on instance Ram2048x2_inst0; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":54:0:54:14|Property INIT_8 size mismatch on instance Ram2048x2_inst0; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":54:0:54:14|Property INIT_B size mismatch on instance Ram2048x2_inst0; found 260 bits truncated to 256 bits.
+@W: BN284 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_memory.vhd":54:0:54:14|Property INIT_C size mismatch on instance Ram2048x2_inst0; found 260 bits truncated to 256 bits.
+@N: BN362 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\decode4_strobes_enables.vhd":63:8:63:9|Removing sequential instance k_write_strobe (in view: work.decode4_strobes_enables(behavioral)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\decode4_strobes_enables.vhd":63:8:63:9|Removing sequential instance write_strobe (in view: work.decode4_strobes_enables(behavioral)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\decode4_strobes_enables.vhd":63:8:63:9|Removing sequential instance read_strobe (in view: work.decode4_strobes_enables(behavioral)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=16  set on top level netlist top
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+
+
+Clock Summary
+*****************
+
+Start                Requested     Requested     Clock        Clock                Clock
+Clock                Frequency     Period        Type         Group                Load 
+----------------------------------------------------------------------------------------
+CLK_3P3_MHZ_main     3.3 MHz       303.030       declared     default_clkgroup     101  
+========================================================================================
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Users\esi\Documents\workspace\icecube2\zipi8\zipi8_Implmnt\zipi8.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 48MB peak: 135MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue May 21 19:57:08 2019
+
+###########################################################]
+Map & Optimize Report
+
+# Tue May 21 19:57:08 2019
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 100MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT204 |Auto Constrain mode is disabled because clocks are defined in the SDC file
+
+            CLK_3P3_MHZ_main
+
+@N: BN362 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\state_machine.vhd":45:56:45:59|Removing sequential instance interrupt_enable (in view: work.state_machine(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@W: FX1039 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\state_machine.vhd":58:38:58:40|User-specified initial value defined for instance processor_zipi8.state_machine_i.t_state[2:1] is being ignored. 
+@W: FX1039 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\state_machine.vhd":70:8:70:9|User-specified initial value defined for instance processor_zipi8.state_machine_i.run is being ignored. 
+@W: FX1039 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\state_machine.vhd":46:31:46:33|User-specified initial value defined for instance processor_zipi8.state_machine_i.internal_reset is being ignored. 
+@W: FX1039 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\decode4alu.vhd":53:8:53:9|User-specified initial value defined for instance processor_zipi8.decode4alu_i.alu_mux_sel[1:0] is being ignored. 
+@W: FX1039 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\decode4_strobes_enables.vhd":63:8:63:9|User-specified initial value defined for instance processor_zipi8.decode4_strobes_enables_i.flag_enable is being ignored. 
+@W: FX1039 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\decode4_strobes_enables.vhd":63:8:63:9|User-specified initial value defined for instance processor_zipi8.decode4_strobes_enables_i.register_enable is being ignored. 
+@W: FX1039 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\decode4_strobes_enables.vhd":63:8:63:9|User-specified initial value defined for instance processor_zipi8.decode4_strobes_enables_i.spm_enable is being ignored. 
+@W: FX1039 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\flags.vhd":91:8:91:9|User-specified initial value defined for instance processor_zipi8.flags_i.carry_flag is being ignored. 
+@W: FX1039 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\flags.vhd":91:8:91:9|User-specified initial value defined for instance processor_zipi8.flags_i.zero_flag is being ignored. 
+@W: FX1039 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\flags.vhd":63:38:63:40|User-specified initial value defined for instance processor_zipi8.flags_i.use_zero_flag is being ignored. 
+@W: FX1039 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\flags.vhd":58:38:58:40|User-specified initial value defined for instance processor_zipi8.flags_i.shift_carry is being ignored. 
+@W: FX1039 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\flags.vhd":83:8:83:9|User-specified initial value defined for instance processor_zipi8.flags_i.arith_carry is being ignored. 
+@W: FX1039 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\program_counter.vhd":55:8:55:9|User-specified initial value defined for instance processor_zipi8.program_counter_i.pc[11:0] is being ignored. 
+@W: FX1039 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\stack.vhd":137:8:137:9|User-specified initial value defined for instance processor_zipi8.stack_i.stack_pointer[4:0] is being ignored. 
+@W: FX1039 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\stack.vhd":127:8:127:9|User-specified initial value defined for instance processor_zipi8.stack_i.shadow_carry_flag is being ignored. 
+@W: FX1039 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\stack.vhd":51:39:51:41|User-specified initial value defined for instance processor_zipi8.stack_i.special_bit is being ignored. 
+@W: FX1039 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\stack.vhd":50:44:50:46|User-specified initial value defined for instance processor_zipi8.stack_i.shadow_bank is being ignored. 
+@W: FX1039 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\stack.vhd":49:45:49:47|User-specified initial value defined for instance processor_zipi8.stack_i.shadow_zero_value is being ignored. 
+@W: FX1039 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\stack.vhd":113:43:113:45|User-specified initial value defined for instance processor_zipi8.stack_i.shadow_zero_flag is being ignored. 
+@W: FX1039 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\arith_and_logic_operations.vhd":56:8:56:9|User-specified initial value defined for instance processor_zipi8.arith_and_logic_operations_i.arith_logical_result[7:0] is being ignored. 
+@W: FX1039 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\spm_with_output_reg.vhd":93:4:93:5|User-specified initial value defined for instance processor_zipi8.spm_with_output_reg_i.spm_data[7:0] is being ignored. 
+@W: FX1039 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\shift_and_rotate_operations.vhd":53:8:53:9|User-specified initial value defined for instance processor_zipi8.shift_and_rotate_operations_i.shift_rotate_result[7:0] is being ignored. 
+@W: FX1039 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\x12_bit_program_address_generator.vhd":54:8:54:9|User-specified initial value defined for instance processor_zipi8.x12_bit_program_address_generator_i.return_vector[11:0] is being ignored. 
+@W: FX1039 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\register_bank_control.vhd":63:8:63:9|User-specified initial value defined for instance processor_zipi8.register_bank_control_i.bank is being ignored. 
+@W: FX1039 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\register_bank_control.vhd":57:8:57:9|User-specified initial value defined for instance processor_zipi8.register_bank_control_i.sx_addr_4 is being ignored. 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 149MB peak: 149MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 149MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 146MB peak: 149MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 147MB peak: 149MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 147MB peak: 149MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 147MB peak: 149MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 147MB peak: 149MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 154MB peak: 155MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		   284.41ns		 252 /        74
+@N: FX1016 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\top.vhd":36:8:36:18|SB_GB_IO inserted on the port CLK_3P3_MHZ.
+@N: FX1017 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\state_machine.vhd":58:38:58:40|SB_GB inserted on the net bram_enable.
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 153MB peak: 155MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 153MB peak: 155MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 100 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+================================================ Non-Gated/Non-Generated Clocks ================================================
+Clock Tree ID     Driving Element            Drive Element Type     Fanout     Sample Instance                                  
+--------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       CLK_3P3_MHZ_ibuf_gb_io     SB_GB_IO               100        processor_zipi8.spm_with_output_reg_i.spm_data[7]
+================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 127MB peak: 155MB)
+
+Writing Analyst data base C:\Users\esi\Documents\workspace\icecube2\zipi8\zipi8_Implmnt\synwork\zipi8_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 152MB peak: 155MB)
+
+Writing EDIF Netlist and constraint files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: C:\Users\esi\Documents\workspace\icecube2\zipi8\zipi8_Implmnt\zipi8.edf
+L-2016.09L+ice40
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 153MB peak: 155MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 152MB peak: 155MB)
+
+@N: MT615 |Found clock CLK_3P3_MHZ_main with period 303.03ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Tue May 21 19:57:10 2019
+#
+
+
+Top view:               top
+Requested Frequency:    3.3 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\Users\esi\Documents\workspace\icecube2\zipi8\constraints\timing.sdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 275.728
+
+                     Requested     Estimated     Requested     Estimated                 Clock        Clock           
+Starting Clock       Frequency     Frequency     Period        Period        Slack       Type         Group           
+----------------------------------------------------------------------------------------------------------------------
+CLK_3P3_MHZ_main     3.3 MHz       36.6 MHz      303.030       27.302        275.728     declared     default_clkgroup
+======================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                              |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------
+Starting          Ending            |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------
+CLK_3P3_MHZ_main  CLK_3P3_MHZ_main  |  303.030     275.728  |  No paths    -      |  No paths    -      |  No paths    -    
+============================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: CLK_3P3_MHZ_main
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                   Starting                                                               Arrival            
+Instance                                                           Reference            Type             Pin          Net                 Time        Slack  
+                                                                   Clock                                                                                     
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+test_program.Ram2048x2_inst7                                       CLK_3P3_MHZ_main     SB_RAM2048x2     RDATA[0]     instruction[14]     0.920       275.728
+test_program.Ram2048x2_inst8                                       CLK_3P3_MHZ_main     SB_RAM2048x2     RDATA[0]     instruction[16]     0.920       275.800
+test_program.Ram2048x2_inst7                                       CLK_3P3_MHZ_main     SB_RAM2048x2     RDATA[1]     instruction[15]     0.920       275.832
+test_program.Ram2048x2_inst0                                       CLK_3P3_MHZ_main     SB_RAM2048x2     RDATA[0]     instruction[0]      0.920       277.657
+test_program.Ram2048x2_inst0                                       CLK_3P3_MHZ_main     SB_RAM2048x2     RDATA[1]     instruction[1]      0.920       277.709
+test_program.Ram2048x2_inst6                                       CLK_3P3_MHZ_main     SB_RAM2048x2     RDATA[0]     instruction[12]     0.920       277.729
+test_program.Ram2048x2_inst6                                       CLK_3P3_MHZ_main     SB_RAM2048x2     RDATA[1]     instruction[13]     0.920       277.761
+processor_zipi8.two_banks_of_16_gp_reg_i.sy_bank_ram512X8_inst     CLK_3P3_MHZ_main     SB_RAM512x8      RDATA[0]     sy[0]               0.920       277.761
+processor_zipi8.two_banks_of_16_gp_reg_i.sy_bank_ram512X8_inst     CLK_3P3_MHZ_main     SB_RAM512x8      RDATA[1]     sy[1]               0.920       277.812
+processor_zipi8.flags_i.carry_flag                                 CLK_3P3_MHZ_main     SB_DFF           Q            carry_flag          0.796       278.762
+=============================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                         Starting                                                             Required            
+Instance                                                                 Reference            Type          Pin     Net                       Time         Slack  
+                                                                         Clock                                                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+processor_zipi8.flags_i.arith_carry                                      CLK_3P3_MHZ_main     SB_DFF        D       carry_arith_logical_7     302.875      275.728
+processor_zipi8.arith_and_logic_operations_i.arith_logical_result[7]     CLK_3P3_MHZ_main     SB_DFF        D       N_24_i                    302.875      275.728
+processor_zipi8.arith_and_logic_operations_i.arith_logical_result[6]     CLK_3P3_MHZ_main     SB_DFF        D       N_23_i                    302.875      277.668
+processor_zipi8.program_counter_i.pc[9]                                  CLK_3P3_MHZ_main     SB_DFFSR      D       pc_en[9]                  302.875      277.906
+processor_zipi8.program_counter_i.pc_esr[10]                             CLK_3P3_MHZ_main     SB_DFFESR     D       N_12_i                    302.875      277.906
+processor_zipi8.program_counter_i.pc_esr[11]                             CLK_3P3_MHZ_main     SB_DFFESR     D       N_13_i                    302.875      277.906
+processor_zipi8.arith_and_logic_operations_i.arith_logical_result[5]     CLK_3P3_MHZ_main     SB_DFF        D       N_16_0                    302.875      279.700
+processor_zipi8.program_counter_i.pc[6]                                  CLK_3P3_MHZ_main     SB_DFFSR      D       pc_en[6]                  302.875      279.938
+processor_zipi8.program_counter_i.pc_esr[7]                              CLK_3P3_MHZ_main     SB_DFFESR     D       N_9_i                     302.875      279.938
+processor_zipi8.program_counter_i.pc_esr[8]                              CLK_3P3_MHZ_main     SB_DFFESR     D       N_10_i                    302.875      279.938
+==================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      303.030
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         302.875
+
+    - Propagation time:                      27.147
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     275.728
+
+    Number of logic level(s):                12
+    Starting point:                          test_program.Ram2048x2_inst7 / RDATA[0]
+    Ending point:                            processor_zipi8.arith_and_logic_operations_i.arith_logical_result[7] / D
+    The start point is clocked by            CLK_3P3_MHZ_main [rising] on pin RCLK
+    The end   point is clocked by            CLK_3P3_MHZ_main [rising] on pin C
+
+Instance / Net                                                                                                                 Pin          Pin               Arrival     No. of    
+Name                                                                                                          Type             Name         Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+test_program.Ram2048x2_inst7                                                                                  SB_RAM2048x2     RDATA[0]     Out     0.920     0.920       -         
+instruction[14]                                                                                               Net              -            -       2.259     -           27        
+processor_zipi8.decode4alu_i.arith_logical_sel_1[1]                                                           SB_LUT4          I0           In      -         3.179       -         
+processor_zipi8.decode4alu_i.arith_logical_sel_1[1]                                                           SB_LUT4          O            Out     0.661     3.840       -         
+un31_half_arith_logical                                                                                       Net              -            -       1.371     -           9         
+processor_zipi8.arith_and_logic_operations_i.calc_half_arith_logical0_process\.un36_half_arith_logical_1      SB_LUT4          I0           In      -         5.211       -         
+processor_zipi8.arith_and_logic_operations_i.calc_half_arith_logical0_process\.un36_half_arith_logical_1      SB_LUT4          O            Out     0.661     5.873       -         
+un36_half_arith_logical_1                                                                                     Net              -            -       1.371     -           2         
+processor_zipi8.arith_and_logic_operations_i.half_arith_logical_1[0]                                          SB_LUT4          I1           In      -         7.244       -         
+processor_zipi8.arith_and_logic_operations_i.half_arith_logical_1[0]                                          SB_LUT4          O            Out     0.558     7.802       -         
+half_arith_logical_1[0]                                                                                       Net              -            -       1.371     -           1         
+processor_zipi8.arith_and_logic_operations_i.half_arith_logical[0]                                            SB_LUT4          I1           In      -         9.173       -         
+processor_zipi8.arith_and_logic_operations_i.half_arith_logical[0]                                            SB_LUT4          O            Out     0.558     9.731       -         
+half_arith_logical_0[0]                                                                                       Net              -            -       1.371     -           2         
+processor_zipi8.flags_i.carry_flag_RNIKKK1G                                                                   SB_LUT4          I1           In      -         11.102      -         
+processor_zipi8.flags_i.carry_flag_RNIKKK1G                                                                   SB_LUT4          O            Out     0.589     11.691      -         
+N_23_0                                                                                                        Net              -            -       1.371     -           2         
+processor_zipi8.flags_i.carry_flag_RNIE47I01                                                                  SB_LUT4          I0           In      -         13.062      -         
+processor_zipi8.flags_i.carry_flag_RNIE47I01                                                                  SB_LUT4          O            Out     0.661     13.724      -         
+N_75                                                                                                          Net              -            -       1.371     -           2         
+processor_zipi8.arith_and_logic_operations_i.calc_carry_arith_logical2_process\.carry_arith_logical_16[2]     SB_LUT4          I0           In      -         15.095      -         
+processor_zipi8.arith_and_logic_operations_i.calc_carry_arith_logical2_process\.carry_arith_logical_16[2]     SB_LUT4          O            Out     0.569     15.663      -         
+carry_arith_logical_16[2]                                                                                     Net              -            -       1.371     -           2         
+processor_zipi8.arith_and_logic_operations_i.calc_carry_arith_logical3_process\.carry_arith_logical_22[3]     SB_LUT4          I0           In      -         17.034      -         
+processor_zipi8.arith_and_logic_operations_i.calc_carry_arith_logical3_process\.carry_arith_logical_22[3]     SB_LUT4          O            Out     0.569     17.603      -         
+carry_arith_logical_22[3]                                                                                     Net              -            -       1.371     -           2         
+processor_zipi8.flags_i.m14                                                                                   SB_LUT4          I0           In      -         18.974      -         
+processor_zipi8.flags_i.m14                                                                                   SB_LUT4          O            Out     0.661     19.635      -         
+N_15_0                                                                                                        Net              -            -       1.371     -           2         
+processor_zipi8.flags_i.m40                                                                                   SB_LUT4          I0           In      -         21.006      -         
+processor_zipi8.flags_i.m40                                                                                   SB_LUT4          O            Out     0.661     21.668      -         
+N_72                                                                                                          Net              -            -       1.371     -           2         
+processor_zipi8.arith_and_logic_operations_i.calc_carry_arith_logical6_process\.carry_arith_logical_40[6]     SB_LUT4          I0           In      -         23.039      -         
+processor_zipi8.arith_and_logic_operations_i.calc_carry_arith_logical6_process\.carry_arith_logical_40[6]     SB_LUT4          O            Out     0.569     23.607      -         
+carry_arith_logical_40[6]                                                                                     Net              -            -       1.371     -           2         
+processor_zipi8.arith_and_logic_operations_i.arith_logical_result_RNO[7]                                      SB_LUT4          I0           In      -         24.978      -         
+processor_zipi8.arith_and_logic_operations_i.arith_logical_result_RNO[7]                                      SB_LUT4          O            Out     0.661     25.640      -         
+N_24_i                                                                                                        Net              -            -       1.507     -           1         
+processor_zipi8.arith_and_logic_operations_i.arith_logical_result[7]                                          SB_DFF           D            In      -         27.147      -         
+====================================================================================================================================================================================
+Total path delay (propagation time + setup) of 27.302 is 8.455(31.0%) logic and 18.847(69.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 152MB peak: 155MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 152MB peak: 155MB)
+
+---------------------------------------
+Resource Usage Report for top 
+
+Mapping to part: ice40lp1kqn84
+Cell usage:
+GND             18 uses
+SB_DFF          54 uses
+SB_DFFESR       9 uses
+SB_DFFSR        9 uses
+SB_DFFSS        2 uses
+SB_GB           1 use
+SB_RAM2048x2    9 uses
+SB_RAM256x16    1 use
+SB_RAM512x8     3 uses
+VCC             18 uses
+SB_LUT4         246 uses
+
+I/O ports: 3
+I/O primitives: 3
+SB_GB_IO       1 use
+SB_IO          2 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   74 (5%)
+
+RAM/ROM usage summary
+Block Rams : 13 of 16 (81%)
+
+Total load per clock:
+   CLK_3P3_MHZ_main: 1
+
+@S |Mapping Summary:
+Total  LUTs: 246 (19%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 246 = 246 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:02s; Memory used current: 29MB peak: 155MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Tue May 21 19:57:10 2019
+
+###########################################################]
+
+
+Synthesis exit by 0.
+Current Implementation zipi8_Implmnt its sbt path: C:/Users/esi/Documents/workspace/icecube2/zipi8/zipi8_Implmnt\sbt
+Synthesis succeed.
+Synthesis succeeded.
+Synthesis runtime 6 seconds
+Active-HDL command:
+ design create -a aaa {C:\Users\esi\Documents\workspace\icecube2\zipi8\aldec}; design open -a {C:/Users/esi/Documents/workspace/icecube2/zipi8/aldec/aaa}; addfile {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\top.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\arith_and_logic_operations.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\decode4_pc_statck.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\decode4_strobes_enables.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\decode4alu.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\flags.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\mux_outputs_from_alu_spm_input_ports.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_counter.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\register_bank_control.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\sel_of_2nd_op_to_alu_and_port_id.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\sel_of_out_port_value.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\shift_and_rotate_operations.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\spm_with_output_reg.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\stack.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\state_machine.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\two_banks_of_16_gp_reg.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\x12_bit_program_address_generator.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\zipi8.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_memory.vhd} {C:\Users\esi\Documents\workspace\AHDL\zipi8_sim\top\src\top_tb.vhd};designverlibrarysim -L ovi_ice ice 
+3:30:05 AM

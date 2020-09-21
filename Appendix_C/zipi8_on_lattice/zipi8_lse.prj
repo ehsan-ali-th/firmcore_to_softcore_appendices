@@ -1,0 +1,59 @@
+#-- Lattice, Inc.
+#-- Project file C:\Users\esi\Documents\workspace\icecube2\zipi8\zipi8_lse.prj
+
+#device
+-a SBTiCE40
+-d iCE40LP1K
+-t QN84
+#constraint file
+-sdc "constraints/timing.sdc"
+
+#options
+-optimization_goal Area
+-twr_paths 3
+-bram_utilization 100.00
+-ramstyle Auto
+-romstyle Auto
+-use_carry_chain 1
+-carry_chain_length 0
+-resource_sharing 1
+-propagate_constants 1
+-remove_duplicate_regs 1
+-max_fanout 10000
+-fsm_encoding_style Auto
+-use_io_insertion 1
+-use_io_reg auto
+-resolve_mixed_drivers 0
+-RWCheckOnRam 0
+-fix_gated_clocks 1
+-top top
+-vh2008
+-loop_limit 1950
+
+-lib work -vhd "src/top.vhd" 
+-lib work -vhd "src/arith_and_logic_operations.vhd" 
+-lib work -vhd "src/decode4_pc_statck.vhd" 
+-lib work -vhd "src/decode4_strobes_enables.vhd" 
+-lib work -vhd "src/decode4alu.vhd" 
+-lib work -vhd "src/flags.vhd" 
+-lib work -vhd "src/mux_outputs_from_alu_spm_input_ports.vhd" 
+-lib work -vhd "src/program_counter.vhd" 
+-lib work -vhd "src/register_bank_control.vhd" 
+-lib work -vhd "src/sel_of_2nd_op_to_alu_and_port_id.vhd" 
+-lib work -vhd "src/sel_of_out_port_value.vhd" 
+-lib work -vhd "src/shift_and_rotate_operations.vhd" 
+-lib work -vhd "src/spm_with_output_reg.vhd" 
+-lib work -vhd "src/stack.vhd" 
+-lib work -vhd "src/state_machine.vhd" 
+-lib work -vhd "src/two_banks_of_16_gp_reg.vhd" 
+-lib work -vhd "src/x12_bit_program_address_generator.vhd" 
+-lib work -vhd "src/zipi8.vhd" 
+-lib work -vhd "src/program_memory.vhd" 
+-lib work -vhd "src/ram.vhd" 
+-p "C:/Users/esi/Documents/workspace/icecube2/zipi8"
+
+#set result format/file last
+-output_edif zipi8_Implmnt/zipi8.edf
+
+#set log file
+-logfile "zipi8_Implmnt/zipi8_lse.log"

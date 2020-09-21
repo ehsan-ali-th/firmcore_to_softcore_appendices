@@ -1,0 +1,120 @@
+<html><body><samp><pre>
+<!@TC:1557417439>
+# Thu May 09 22:57:18 2019
+
+<a name=mapperReport5></a>Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39</a>
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A:<a href="@A:MF827:@XP_HELP">MF827</a> : <!@TM:1557417439> | No constraint file specified. 
+Linked File: <a href="D:\workspace\icecube2\zipi8\zipi8_Implmnt\zipi8_scck.rpt:@XP_FILE">zipi8_scck.rpt</a>
+Printing clock  summary report in "D:\workspace\icecube2\zipi8\zipi8_Implmnt\zipi8_scck.rpt" file 
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1557417439> | Running in 64-bit mode. 
+@N:<a href="@N:MF666:@XP_HELP">MF666</a> : <!@TM:1557417439> | Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.) 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 104MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 104MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 104MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 105MB)
+
+<font color=#A52A2A>@W:<a href="@W:MO156:@XP_HELP">MO156</a> : <a href="d:\workspace\icecube2\zipi8\src\ram.vhd:48:11:48:16:@W:MO156:@XP_MSG">ram.vhd(48)</a><!@TM:1557417439> | RAM ram_s[7:0] removed due to constant propagation. </font>
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\flags.vhd:92:8:92:10:@N:BN362:@XP_MSG">flags.vhd(92)</a><!@TM:1557417439> | Removing sequential instance zero_flag (in view: work.flags(behavioral)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\x12_bit_program_address_generator.vhd:54:8:54:10:@N:BN362:@XP_MSG">x12_bit_program_address_generator.vhd(54)</a><!@TM:1557417439> | Removing sequential instance return_vector[11:0] (in view: work.x12_bit_program_address_generator(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N:<a href="@N:BN115:@XP_HELP">BN115</a> : <a href="d:\workspace\icecube2\zipi8\src\spm_with_output_reg.vhd:69:3:69:10:@N:BN115:@XP_MSG">spm_with_output_reg.vhd(69)</a><!@TM:1557417439> | Removing instance spm_ram (in view: work.spm_with_output_reg(behavioral)) of type view:work.ram_8_8(behavioral) because it does not drive other instances.
+@N:<a href="@N:BN115:@XP_HELP">BN115</a> : <a href="d:\workspace\icecube2\zipi8\src\zipi8.vhd:444:4:444:39:@N:BN115:@XP_MSG">zipi8.vhd(444)</a><!@TM:1557417439> | Removing instance x12_bit_program_address_generator_i (in view: work.zipi8(behavioral)) of type view:work.x12_bit_program_address_generator(behavioral) because it does not drive other instances.
+@N:<a href="@N:BN115:@XP_HELP">BN115</a> : <a href="d:\workspace\icecube2\zipi8\src\zipi8.vhd:424:4:424:11:@N:BN115:@XP_MSG">zipi8.vhd(424)</a><!@TM:1557417439> | Removing instance flags_i (in view: work.zipi8(behavioral)) of type view:work.flags(behavioral) because it does not drive other instances.
+@N:<a href="@N:BN115:@XP_HELP">BN115</a> : <a href="d:\workspace\icecube2\zipi8\src\zipi8.vhd:387:4:387:23:@N:BN115:@XP_MSG">zipi8.vhd(387)</a><!@TM:1557417439> | Removing instance decode4_pc_statck_i (in view: work.zipi8(behavioral)) of type view:work.decode4_pc_statck(behavioral) because it does not drive other instances.
+@N:<a href="@N:BN115:@XP_HELP">BN115</a> : <a href="d:\workspace\icecube2\zipi8\src\zipi8.vhd:398:4:398:16:@N:BN115:@XP_MSG">zipi8.vhd(398)</a><!@TM:1557417439> | Removing instance decode4alu_i (in view: work.zipi8(behavioral)) of type view:work.decode4alu(behavioral) because it does not drive other instances.
+@N:<a href="@N:BN115:@XP_HELP">BN115</a> : <a href="d:\workspace\icecube2\zipi8\src\zipi8.vhd:539:4:539:25:@N:BN115:@XP_MSG">zipi8.vhd(539)</a><!@TM:1557417439> | Removing instance spm_with_output_reg_i (in view: work.zipi8(behavioral)) of type view:work.spm_with_output_reg(behavioral) because it does not drive other instances.
+@N:<a href="@N:BN115:@XP_HELP">BN115</a> : <a href="d:\workspace\icecube2\zipi8\src\zipi8.vhd:529:4:529:33:@N:BN115:@XP_MSG">zipi8.vhd(529)</a><!@TM:1557417439> | Removing instance shift_and_rotate_operations_i (in view: work.zipi8(behavioral)) of type view:work.shift_and_rotate_operations(behavioral) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\stack.vhd:47:44:47:47:@N:BN362:@XP_MSG">stack.vhd(47)</a><!@TM:1557417439> | Removing sequential instance shadow_bank (in view: work.stack(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\shift_and_rotate_operations.vhd:53:8:53:10:@N:BN362:@XP_MSG">shift_and_rotate_operations.vhd(53)</a><!@TM:1557417439> | Removing sequential instance shift_rotate_result[7:0] (in view: work.shift_and_rotate_operations(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N:<a href="@N:BN115:@XP_HELP">BN115</a> : <a href="d:\workspace\icecube2\zipi8\src\stack.vhd:149:4:149:18:@N:BN115:@XP_MSG">stack.vhd(149)</a><!@TM:1557417439> | Removing instance stack_ram_high (in view: work.stack(behavioral)) of type view:work.ram_8_5_0(behavioral) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\ram.vhd:48:11:48:16:@N:BN362:@XP_MSG">ram.vhd(48)</a><!@TM:1557417439> | Removing sequential instance ram_s[7:0] (in view: work.ram_8_5_0(behavioral)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=16  set on top level netlist top
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+
+<a name=mapperReport6></a>Clock Summary</a>
+*****************
+
+Start               Requested     Requested     Clock        Clock                     Clock
+Clock               Frequency     Period        Type         Group                     Load 
+--------------------------------------------------------------------------------------------
+top|CLK_3P3_MHZ     100.3 MHz     9.968         inferred     Autoconstr_clkgroup_0     84   
+============================================================================================
+
+<font color=#A52A2A>@W:<a href="@W:MT529:@XP_HELP">MT529</a> : <a href="d:\workspace\icecube2\zipi8\src\state_machine.vhd:45:56:45:60:@W:MT529:@XP_MSG">state_machine.vhd(45)</a><!@TM:1557417439> | Found inferred clock top|CLK_3P3_MHZ which controls 84 sequential elements including processor_zipi8.state_machine_i.interrupt_enable. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </font>
+
+Finished Pre Mapping Phase.
+@N:<a href="@N:BN225:@XP_HELP">BN225</a> : <!@TM:1557417439> | Writing default property annotation file D:\workspace\icecube2\zipi8\zipi8_Implmnt\zipi8.sap. 
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+Encoding state machine t_state_1[0:2] (in view: work.state_machine(behavioral))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine stack_pointer[0:31] (in view: work.stack(behavioral))
+original code -> new code
+   00000 -> 00000000000000000000000000000001
+   00001 -> 00000000000000000000000000000010
+   00010 -> 00000000000000000000000000000100
+   00011 -> 00000000000000000000000000001000
+   00100 -> 00000000000000000000000000010000
+   00101 -> 00000000000000000000000000100000
+   00110 -> 00000000000000000000000001000000
+   00111 -> 00000000000000000000000010000000
+   01000 -> 00000000000000000000000100000000
+   01001 -> 00000000000000000000001000000000
+   01010 -> 00000000000000000000010000000000
+   01011 -> 00000000000000000000100000000000
+   01100 -> 00000000000000000001000000000000
+   01101 -> 00000000000000000010000000000000
+   01110 -> 00000000000000000100000000000000
+   01111 -> 00000000000000001000000000000000
+   10000 -> 00000000000000010000000000000000
+   10001 -> 00000000000000100000000000000000
+   10010 -> 00000000000001000000000000000000
+   10011 -> 00000000000010000000000000000000
+   10100 -> 00000000000100000000000000000000
+   10101 -> 00000000001000000000000000000000
+   10110 -> 00000000010000000000000000000000
+   10111 -> 00000000100000000000000000000000
+   11000 -> 00000001000000000000000000000000
+   11001 -> 00000010000000000000000000000000
+   11010 -> 00000100000000000000000000000000
+   11011 -> 00001000000000000000000000000000
+   11100 -> 00010000000000000000000000000000
+   11101 -> 00100000000000000000000000000000
+   11110 -> 01000000000000000000000000000000
+   11111 -> 10000000000000000000000000000000
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 48MB peak: 141MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu May 09 22:57:19 2019
+
+###########################################################]
+
+</pre></samp></body></html>

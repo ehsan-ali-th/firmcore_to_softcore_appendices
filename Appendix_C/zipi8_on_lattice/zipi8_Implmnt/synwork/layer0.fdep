@@ -1,0 +1,150 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\esi\\Documents\\workspace\\icecube2\\zipi8\\zipi8_Implmnt\\synwork\\zipi8_comp.srs|-autotop|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-ice|-sdff_counter|-nram|-divnmod|-nostructver|-sm|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-vhdl2008|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\iCEcube2.2017.08\\synpbase\\bin64\\c_vhdl.exe":1558295218
+#CUR:"C:\\lscc\\iCEcube2.2017.08\\synpbase\\lib\\vhd2008\\location.map":1558295262
+#CUR:"C:\\lscc\\iCEcube2.2017.08\\synpbase\\lib\\vhd2008\\std.vhd":1558295263
+#CUR:"C:\\lscc\\iCEcube2.2017.08\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1558295262
+#CUR:"C:\\lscc\\iCEcube2.2017.08\\synpbase\\lib\\vhd2008\\std1164.vhd":1558295263
+#CUR:"C:\\lscc\\iCEcube2.2017.08\\synpbase\\lib\\vhd2008\\std_textio.vhd":1558295263
+#CUR:"C:\\lscc\\iCEcube2.2017.08\\synpbase\\lib\\vhd2008\\numeric.vhd":1558295262
+#CUR:"C:\\lscc\\iCEcube2.2017.08\\synpbase\\lib\\vhd\\umr_capim.vhd":1558295262
+#CUR:"C:\\lscc\\iCEcube2.2017.08\\synpbase\\lib\\vhd2008\\arith.vhd":1558295262
+#CUR:"C:\\lscc\\iCEcube2.2017.08\\synpbase\\lib\\vhd2008\\unsigned.vhd":1558295263
+#CUR:"C:\\lscc\\iCEcube2.2017.08\\synpbase\\lib\\vhd\\hyperents.vhd":1558295262
+#CUR:"C:\\Users\\esi\\Documents\\workspace\\icecube2\\zipi8\\src\\arith_and_logic_operations.vhd":1556881964
+#CUR:"C:\\Users\\esi\\Documents\\workspace\\icecube2\\zipi8\\src\\decode4_pc_statck.vhd":1559374894
+#CUR:"C:\\Users\\esi\\Documents\\workspace\\icecube2\\zipi8\\src\\decode4_strobes_enables.vhd":1557935496
+#CUR:"C:\\Users\\esi\\Documents\\workspace\\icecube2\\zipi8\\src\\decode4alu.vhd":1556301363
+#CUR:"C:\\Users\\esi\\Documents\\workspace\\icecube2\\zipi8\\src\\flags.vhd":1557934661
+#CUR:"C:\\Users\\esi\\Documents\\workspace\\icecube2\\zipi8\\src\\mux_outputs_from_alu_spm_input_ports.vhd":1556302580
+#CUR:"C:\\Users\\esi\\Documents\\workspace\\icecube2\\zipi8\\src\\program_counter.vhd":1559321043
+#CUR:"C:\\Users\\esi\\Documents\\workspace\\icecube2\\zipi8\\src\\register_bank_control.vhd":1558551897
+#CUR:"C:\\Users\\esi\\Documents\\workspace\\icecube2\\zipi8\\src\\sel_of_2nd_op_to_alu_and_port_id.vhd":1557045313
+#CUR:"C:\\Users\\esi\\Documents\\workspace\\icecube2\\zipi8\\src\\sel_of_out_port_value.vhd":1557340124
+#CUR:"C:\\Users\\esi\\Documents\\workspace\\icecube2\\zipi8\\src\\shift_and_rotate_operations.vhd":1557868394
+#CUR:"C:\\Users\\esi\\Documents\\workspace\\icecube2\\zipi8\\src\\state_machine.vhd":1557944185
+#CUR:"C:\\Users\\esi\\Documents\\workspace\\icecube2\\zipi8\\src\\x12_bit_program_address_generator.vhd":1556882294
+#CUR:"C:\\Users\\esi\\Documents\\workspace\\icecube2\\zipi8\\src\\program_memory.vhd":1559318185
+#CUR:"C:\\Users\\esi\\Documents\\workspace\\icecube2\\zipi8\\src\\ram.vhd":1557946819
+#CUR:"C:\\lscc\\iCEcube2.2017.08\\synpbase\\lib\\vhdl_sim\\synplify.vhd":1558295263
+#CUR:"C:\\lscc\\iCEcube2.2017.08\\synpbase\\lib\\vhd\\synattr.vhd":1558295262
+#CUR:"C:\\Users\\esi\\Documents\\workspace\\icecube2\\zipi8\\src\\ram_rw.vhd":1562791959
+#CUR:"C:\\Users\\esi\\Documents\\workspace\\icecube2\\zipi8\\src\\spm_with_output_reg.vhd":1559460344
+#CUR:"C:\\Users\\esi\\Documents\\workspace\\icecube2\\zipi8\\src\\stack.vhd":1559428166
+#CUR:"C:\\Users\\esi\\Documents\\workspace\\icecube2\\zipi8\\src\\two_banks_of_16_gp_reg.vhd":1562836460
+#CUR:"C:\\Users\\esi\\Documents\\workspace\\icecube2\\zipi8\\src\\zipi8.vhd":1559374156
+#CUR:"C:\\Users\\esi\\Documents\\workspace\\icecube2\\zipi8\\src\\top.vhd":1557890372
+0 "C:\Users\esi\Documents\workspace\icecube2\zipi8\src\arith_and_logic_operations.vhd" vhdl
+1 "C:\Users\esi\Documents\workspace\icecube2\zipi8\src\decode4_pc_statck.vhd" vhdl
+2 "C:\Users\esi\Documents\workspace\icecube2\zipi8\src\decode4_strobes_enables.vhd" vhdl
+3 "C:\Users\esi\Documents\workspace\icecube2\zipi8\src\decode4alu.vhd" vhdl
+4 "C:\Users\esi\Documents\workspace\icecube2\zipi8\src\flags.vhd" vhdl
+5 "C:\Users\esi\Documents\workspace\icecube2\zipi8\src\mux_outputs_from_alu_spm_input_ports.vhd" vhdl
+6 "C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_counter.vhd" vhdl
+7 "C:\Users\esi\Documents\workspace\icecube2\zipi8\src\register_bank_control.vhd" vhdl
+8 "C:\Users\esi\Documents\workspace\icecube2\zipi8\src\sel_of_2nd_op_to_alu_and_port_id.vhd" vhdl
+9 "C:\Users\esi\Documents\workspace\icecube2\zipi8\src\sel_of_out_port_value.vhd" vhdl
+10 "C:\Users\esi\Documents\workspace\icecube2\zipi8\src\shift_and_rotate_operations.vhd" vhdl
+11 "C:\Users\esi\Documents\workspace\icecube2\zipi8\src\spm_with_output_reg.vhd" vhdl
+12 "C:\Users\esi\Documents\workspace\icecube2\zipi8\src\stack.vhd" vhdl
+13 "C:\Users\esi\Documents\workspace\icecube2\zipi8\src\state_machine.vhd" vhdl
+14 "C:\Users\esi\Documents\workspace\icecube2\zipi8\src\two_banks_of_16_gp_reg.vhd" vhdl
+15 "C:\Users\esi\Documents\workspace\icecube2\zipi8\src\x12_bit_program_address_generator.vhd" vhdl
+16 "C:\Users\esi\Documents\workspace\icecube2\zipi8\src\zipi8.vhd" vhdl
+17 "C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_memory.vhd" vhdl
+18 "C:\Users\esi\Documents\workspace\icecube2\zipi8\src\ram.vhd" vhdl
+19 "C:\Users\esi\Documents\workspace\icecube2\zipi8\src\ram_rw.vhd" vhdl
+20 "C:\Users\esi\Documents\workspace\icecube2\zipi8\src\top.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 -1
+7 -1
+8 -1
+9 -1
+10 -1
+11 18 
+12 18 
+13 -1
+14 18 19 
+15 -1
+16 13 7 1 3 2 4 15 6 12 14 8 9 0 10 11 5 
+17 -1
+18 -1
+19 -1
+20 17 16 
+
+# Dependency Lists (Users Of)
+0 16 
+1 16 
+2 16 
+3 16 
+4 16 
+5 16 
+6 16 
+7 16 
+8 16 
+9 16 
+10 16 
+11 16 
+12 16 
+13 16 
+14 16 
+15 16 
+16 20 
+17 20 
+18 11 14 12 
+19 14 
+20 -1
+
+# Design Unit to File Association
+arch work arith_and_logic_operations behavioral 0
+module work arith_and_logic_operations 0
+arch work decode4_pc_statck behavioral 1
+module work decode4_pc_statck 1
+arch work decode4_strobes_enables behavioral 2
+module work decode4_strobes_enables 2
+arch work decode4alu behavioral 3
+module work decode4alu 3
+arch work flags behavioral 4
+module work flags 4
+arch work mux_outputs_from_alu_spm_input_ports behavioral 5
+module work mux_outputs_from_alu_spm_input_ports 5
+arch work program_counter behavioral 6
+module work program_counter 6
+arch work register_bank_control behavioral 7
+module work register_bank_control 7
+arch work sel_of_2nd_op_to_alu_and_port_id behavioral 8
+module work sel_of_2nd_op_to_alu_and_port_id 8
+arch work sel_of_out_port_value behavioral 9
+module work sel_of_out_port_value 9
+arch work shift_and_rotate_operations behavioral 10
+module work shift_and_rotate_operations 10
+arch work spm_with_output_reg behavioral 11
+module work spm_with_output_reg 11
+arch work stack behavioral 12
+module work stack 12
+arch work state_machine behavioral 13
+module work state_machine 13
+arch work two_banks_of_16_gp_reg behavioral 14
+module work two_banks_of_16_gp_reg 14
+arch work x12_bit_program_address_generator behavioral 15
+module work x12_bit_program_address_generator 15
+arch work zipi8 behavioral 16
+module work zipi8 16
+arch work program_memory behavioral 17
+module work program_memory 17
+arch work ram behavioral 18
+module work ram 18
+arch work ram_rw behavioral 19
+module work ram_rw 19
+arch work top behavioral 20
+module work top 20
+
+
+# Configuration files used

@@ -1,0 +1,15 @@
+@W: CD645 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_memory.vhd":4:8:4:10|Ignoring undefined library ice
+@W: CD642 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_memory.vhd":5:11:5:11|Ignoring use clause - library ice not found ...
+@W: CD645 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\spm_with_output_reg.vhd":37:8:37:10|Ignoring undefined library ice
+@W: CD642 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\spm_with_output_reg.vhd":38:12:38:12|Ignoring use clause - library ice not found ...
+@W: CD645 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\stack.vhd":34:8:34:10|Ignoring undefined library ice
+@W: CD642 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\stack.vhd":35:12:35:12|Ignoring use clause - library ice not found ...
+@W: CD645 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\two_banks_of_16_gp_reg.vhd":29:8:29:10|Ignoring undefined library ice
+@W: CD642 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\two_banks_of_16_gp_reg.vhd":30:12:30:12|Ignoring use clause - library ice not found ...
+@W: CD326 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\zipi8.vhd":389:4:389:22|Port move_type_o of entity work.decode4_pc_statck is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\zipi8.vhd":389:4:389:22|Port returni_type_o of entity work.decode4_pc_statck is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\zipi8.vhd":389:4:389:22|Port pc_move_is_valid_o of entity work.decode4_pc_statck is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD638 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\two_banks_of_16_gp_reg.vhd":132:8:132:26|Signal not_register_enable is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD280 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_memory.vhd":19:10:19:21|Unbound component SB_RAM2048x2 mapped to black box
+@W: CL247 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_memory.vhd":12:4:12:8|Input port bit 11 of addra(11 downto 0) is unused 
+

@@ -1,0 +1,144 @@
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2017.08\synpbase\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\top.vhd":34:7:34:9|Top entity is set to top.
+Options changed - recompiling
+@W: CD645 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_memory.vhd":4:8:4:10|Ignoring undefined library ice
+@W: CD642 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_memory.vhd":5:11:5:11|Ignoring use clause - library ice not found ...
+@W: CD645 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\spm_with_output_reg.vhd":37:8:37:10|Ignoring undefined library ice
+@W: CD642 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\spm_with_output_reg.vhd":38:12:38:12|Ignoring use clause - library ice not found ...
+@W: CD645 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\stack.vhd":34:8:34:10|Ignoring undefined library ice
+@W: CD642 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\stack.vhd":35:12:35:12|Ignoring use clause - library ice not found ...
+@W: CD645 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\two_banks_of_16_gp_reg.vhd":29:8:29:10|Ignoring undefined library ice
+@W: CD642 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\two_banks_of_16_gp_reg.vhd":30:12:30:12|Ignoring use clause - library ice not found ...
+VHDL syntax check successful!
+Options changed - recompiling
+@N: CD231 :"C:\lscc\iCEcube2.2017.08\synpbase\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+Warning:Can't open record reference file@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\top.vhd":34:7:34:9|Synthesizing work.top.behavioral.
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\zipi8.vhd":34:7:34:11|Synthesizing work.zipi8.behavioral.
+@W: CD326 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\zipi8.vhd":389:4:389:22|Port move_type_o of entity work.decode4_pc_statck is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\zipi8.vhd":389:4:389:22|Port returni_type_o of entity work.decode4_pc_statck is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\zipi8.vhd":389:4:389:22|Port pc_move_is_valid_o of entity work.decode4_pc_statck is unconnected. If a port needs to remain unconnected, use the keyword open.
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\mux_outputs_from_alu_spm_input_ports.vhd":34:7:34:42|Synthesizing work.mux_outputs_from_alu_spm_input_ports.behavioral.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\mux_outputs_from_alu_spm_input_ports.vhd":61:11:61:24|OTHERS clause is not synthesized.
+Post processing for work.mux_outputs_from_alu_spm_input_ports.behavioral
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\spm_with_output_reg.vhd":41:7:41:25|Synthesizing work.spm_with_output_reg.behavioral.
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\ram.vhd":38:7:38:9|Synthesizing work.ram.behavioral.
+Post processing for work.ram.behavioral
+@N: CL134 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\ram.vhd":56:11:56:15|Found RAM ram_s, depth=256, width=8
+Post processing for work.spm_with_output_reg.behavioral
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\shift_and_rotate_operations.vhd":34:7:34:33|Synthesizing work.shift_and_rotate_operations.behavioral.
+Post processing for work.shift_and_rotate_operations.behavioral
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\arith_and_logic_operations.vhd":34:7:34:32|Synthesizing work.arith_and_logic_operations.behavioral.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\arith_and_logic_operations.vhd":336:11:336:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\arith_and_logic_operations.vhd":349:11:349:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\arith_and_logic_operations.vhd":362:11:362:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\arith_and_logic_operations.vhd":375:11:375:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\arith_and_logic_operations.vhd":388:11:388:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\arith_and_logic_operations.vhd":401:11:401:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\arith_and_logic_operations.vhd":414:11:414:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\arith_and_logic_operations.vhd":427:11:427:24|OTHERS clause is not synthesized.
+Post processing for work.arith_and_logic_operations.behavioral
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\sel_of_out_port_value.vhd":34:7:34:27|Synthesizing work.sel_of_out_port_value.behavioral.
+Post processing for work.sel_of_out_port_value.behavioral
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\sel_of_2nd_op_to_alu_and_port_id.vhd":34:7:34:38|Synthesizing work.sel_of_2nd_op_to_alu_and_port_id.behavioral.
+Post processing for work.sel_of_2nd_op_to_alu_and_port_id.behavioral
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\two_banks_of_16_gp_reg.vhd":45:7:45:28|Synthesizing work.two_banks_of_16_gp_reg.behavioral.
+@W: CD638 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\two_banks_of_16_gp_reg.vhd":132:8:132:26|Signal not_register_enable is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\ram_rw.vhd":38:7:38:12|Synthesizing work.ram_rw.behavioral.
+Post processing for work.ram_rw.behavioral
+@N: CL134 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\ram_rw.vhd":58:11:58:21|Found RAM ram_s_rd_wr, depth=32, width=8
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\ram.vhd":38:7:38:9|Synthesizing work.ram.behavioral.
+Post processing for work.ram.behavioral
+@N: CL134 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\ram.vhd":56:11:56:15|Found RAM ram_s, depth=32, width=8
+Post processing for work.two_banks_of_16_gp_reg.behavioral
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\stack.vhd":40:7:40:11|Synthesizing work.stack.behavioral.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\stack.vhd":353:11:353:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\stack.vhd":366:11:366:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\stack.vhd":379:11:379:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\stack.vhd":392:11:392:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\stack.vhd":405:11:405:24|OTHERS clause is not synthesized.
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\ram.vhd":38:7:38:9|Synthesizing work.ram.behavioral.
+Post processing for work.ram.behavioral
+@N: CL134 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\ram.vhd":56:11:56:15|Found RAM ram_s, depth=32, width=16
+Post processing for work.stack.behavioral
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_counter.vhd":34:7:34:21|Synthesizing work.program_counter.behavioral.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_counter.vhd":268:11:268:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_counter.vhd":281:11:281:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_counter.vhd":294:11:294:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_counter.vhd":307:11:307:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_counter.vhd":320:11:320:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_counter.vhd":333:11:333:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_counter.vhd":346:11:346:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_counter.vhd":359:11:359:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_counter.vhd":372:11:372:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_counter.vhd":385:11:385:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_counter.vhd":398:11:398:24|OTHERS clause is not synthesized.
+Post processing for work.program_counter.behavioral
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\x12_bit_program_address_generator.vhd":34:7:34:39|Synthesizing work.x12_bit_program_address_generator.behavioral.
+Post processing for work.x12_bit_program_address_generator.behavioral
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\flags.vhd":34:7:34:11|Synthesizing work.flags.behavioral.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\flags.vhd":203:11:203:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\flags.vhd":244:11:244:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\flags.vhd":278:11:278:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\flags.vhd":335:11:335:24|OTHERS clause is not synthesized.
+@N: CD604 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\flags.vhd":362:11:362:24|OTHERS clause is not synthesized.
+Post processing for work.flags.behavioral
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\decode4_strobes_enables.vhd":34:7:34:29|Synthesizing work.decode4_strobes_enables.behavioral.
+Post processing for work.decode4_strobes_enables.behavioral
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\decode4alu.vhd":34:7:34:16|Synthesizing work.decode4alu.behavioral.
+Post processing for work.decode4alu.behavioral
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\decode4_pc_statck.vhd":34:7:34:23|Synthesizing work.decode4_pc_statck.behavioral.
+Post processing for work.decode4_pc_statck.behavioral
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\register_bank_control.vhd":34:7:34:27|Synthesizing work.register_bank_control.behavioral.
+Post processing for work.register_bank_control.behavioral
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\state_machine.vhd":34:7:34:19|Synthesizing work.state_machine.behavioral.
+Post processing for work.state_machine.behavioral
+Post processing for work.zipi8.behavioral
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_memory.vhd":6:7:6:20|Synthesizing work.program_memory.behavioral.
+@W: CD280 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_memory.vhd":19:10:19:21|Unbound component SB_RAM2048x2 mapped to black box
+@N: CD630 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_memory.vhd":19:10:19:21|Synthesizing work.sb_ram2048x2.syn_black_box.
+Post processing for work.sb_ram2048x2.syn_black_box
+Post processing for work.program_memory.behavioral
+Post processing for work.top.behavioral
+@W: CL247 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_memory.vhd":12:4:12:8|Input port bit 11 of addra(11 downto 0) is unused 
+@N: CL159 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_memory.vhd":11:4:11:6|Input wea is unused.
+@N: CL159 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\sel_of_2nd_op_to_alu_and_port_id.vhd":39:8:39:21|Input arith_carry_in is unused.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 83MB peak: 83MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Jul 11 16:15:08 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\top.vhd":34:7:34:9|Selected library: work cell: top view behavioral as top level
+@N: NF107 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\top.vhd":34:7:34:9|Selected library: work cell: top view behavioral as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 73MB peak: 74MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Jul 11 16:15:09 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Jul 11 16:15:09 2019
+
+###########################################################]

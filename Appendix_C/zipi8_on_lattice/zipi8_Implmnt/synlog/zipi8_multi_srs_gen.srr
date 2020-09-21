@@ -1,0 +1,14 @@
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+File C:\Users\esi\Documents\workspace\icecube2\zipi8\zipi8_Implmnt\synwork\zipi8_comp.srs changed - recompiling
+@N: NF107 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\top.vhd":34:7:34:9|Selected library: work cell: top view behavioral as top level
+@N: NF107 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\top.vhd":34:7:34:9|Selected library: work cell: top view behavioral as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 77MB peak: 78MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Jul 11 16:15:10 2019
+
+###########################################################]

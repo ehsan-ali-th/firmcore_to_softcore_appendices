@@ -1,0 +1,2 @@
+@E: CD722 :"C:\Users\esi\Documents\workspace\icecube2\zipi8\src\ram_rw.vhd":39:13:39:22|Generic data_width has not been given a value
+

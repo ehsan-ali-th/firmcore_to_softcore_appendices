@@ -1,0 +1,955 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Jul 11 04:38:17 2019
+# Process ID: 9745
+# Current directory: /home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.runs/synth_2
+# Command line: vivado -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: /home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.runs/synth_2/top.vds
+# Journal file: /home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.runs/synth_2/vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace
+Command: synth_design -top top -part xczu7ev-ffvc1156-2-e
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 9788 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1428.406 ; gain = 75.871 ; free physical = 576 ; free virtual = 17197
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/top.vhd:44]
+INFO: [Synth 8-3491] module 'clk_wiz_0' declared at '/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.runs/synth_2/.Xil/Vivado-9745-esi-OMEN-by-HP-Laptop-15-dc0xxx/realtime/clk_wiz_0_stub.vhdl:5' bound to instance 'clock_gen' of component 'clk_wiz_0' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/top.vhd:158]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.runs/synth_2/.Xil/Vivado-9745-esi-OMEN-by-HP-Laptop-15-dc0xxx/realtime/clk_wiz_0_stub.vhdl:16]
+INFO: [Synth 8-3491] module 'proc_sys_reset_0' declared at '/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.runs/synth_2/.Xil/Vivado-9745-esi-OMEN-by-HP-Laptop-15-dc0xxx/realtime/proc_sys_reset_0_stub.vhdl:5' bound to instance 'processor_reset' of component 'proc_sys_reset_0' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/top.vhd:171]
+INFO: [Synth 8-638] synthesizing module 'proc_sys_reset_0' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.runs/synth_2/.Xil/Vivado-9745-esi-OMEN-by-HP-Laptop-15-dc0xxx/realtime/proc_sys_reset_0_stub.vhdl:21]
+INFO: [Synth 8-3491] module 'program_memory' declared at '/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.runs/synth_2/.Xil/Vivado-9745-esi-OMEN-by-HP-Laptop-15-dc0xxx/realtime/program_memory_stub.vhdl:5' bound to instance 'test_program' of component 'program_memory' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/top.vhd:185]
+INFO: [Synth 8-638] synthesizing module 'program_memory' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.runs/synth_2/.Xil/Vivado-9745-esi-OMEN-by-HP-Laptop-15-dc0xxx/realtime/program_memory_stub.vhdl:17]
+INFO: [Synth 8-3491] module 'zipi8' declared at '/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/new/zipi8.vhd:35' bound to instance 'processor_zipi8' of component 'zipi8' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/top.vhd:194]
+INFO: [Synth 8-638] synthesizing module 'zipi8' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/new/zipi8.vhd:54]
+INFO: [Synth 8-3491] module 'state_machine' declared at '/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/state_machine.vhd:34' bound to instance 'state_machine_i' of component 'state_machine' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/new/zipi8.vhd:352]
+INFO: [Synth 8-638] synthesizing module 'state_machine' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/state_machine.vhd:54]
+INFO: [Synth 8-256] done synthesizing module 'state_machine' (1#1) [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/state_machine.vhd:54]
+INFO: [Synth 8-3491] module 'register_bank_control' declared at '/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/register_bank_control.vhd:34' bound to instance 'register_bank_control_i' of component 'register_bank_control' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/new/zipi8.vhd:373]
+INFO: [Synth 8-638] synthesizing module 'register_bank_control' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/register_bank_control.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'register_bank_control' (2#1) [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/register_bank_control.vhd:49]
+INFO: [Synth 8-3491] module 'decode4_pc_statck' declared at '/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/decode4_pc_statck.vhd:34' bound to instance 'decode4_pc_statck_i' of component 'decode4_pc_statck' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/new/zipi8.vhd:387]
+INFO: [Synth 8-638] synthesizing module 'decode4_pc_statck' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/decode4_pc_statck.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'decode4_pc_statck' (3#1) [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/decode4_pc_statck.vhd:46]
+INFO: [Synth 8-3491] module 'decode4alu' declared at '/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/decode4alu.vhd:34' bound to instance 'decode4alu_i' of component 'decode4alu' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/new/zipi8.vhd:398]
+INFO: [Synth 8-638] synthesizing module 'decode4alu' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/decode4alu.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'decode4alu' (4#1) [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/decode4alu.vhd:46]
+INFO: [Synth 8-3491] module 'decode4_strobes_enables' declared at '/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/decode4_strobes_enables.vhd:34' bound to instance 'decode4_strobes_enables_i' of component 'decode4_strobes_enables' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/new/zipi8.vhd:408]
+INFO: [Synth 8-638] synthesizing module 'decode4_strobes_enables' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/decode4_strobes_enables.vhd:51]
+INFO: [Synth 8-256] done synthesizing module 'decode4_strobes_enables' (5#1) [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/decode4_strobes_enables.vhd:51]
+INFO: [Synth 8-3491] module 'flags' declared at '/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/flags.vhd:34' bound to instance 'flags_i' of component 'flags' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/new/zipi8.vhd:424]
+INFO: [Synth 8-638] synthesizing module 'flags' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/flags.vhd:55]
+INFO: [Synth 8-226] default block is never used [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/flags.vhd:198]
+INFO: [Synth 8-226] default block is never used [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/flags.vhd:239]
+INFO: [Synth 8-226] default block is never used [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/flags.vhd:273]
+INFO: [Synth 8-226] default block is never used [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/flags.vhd:330]
+INFO: [Synth 8-226] default block is never used [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/flags.vhd:357]
+INFO: [Synth 8-256] done synthesizing module 'flags' (6#1) [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/flags.vhd:55]
+INFO: [Synth 8-3491] module 'x12_bit_program_address_generator' declared at '/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/x12_bit_program_address_generator.vhd:34' bound to instance 'x12_bit_program_address_generator_i' of component 'x12_bit_program_address_generator' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/new/zipi8.vhd:444]
+INFO: [Synth 8-638] synthesizing module 'x12_bit_program_address_generator' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/x12_bit_program_address_generator.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'x12_bit_program_address_generator' (7#1) [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/x12_bit_program_address_generator.vhd:46]
+INFO: [Synth 8-3491] module 'program_counter' declared at '/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/program_counter.vhd:34' bound to instance 'program_counter_i' of component 'program_counter' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/new/zipi8.vhd:455]
+INFO: [Synth 8-638] synthesizing module 'program_counter' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/program_counter.vhd:46]
+INFO: [Synth 8-226] default block is never used [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/program_counter.vhd:288]
+INFO: [Synth 8-226] default block is never used [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/program_counter.vhd:301]
+INFO: [Synth 8-226] default block is never used [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/program_counter.vhd:314]
+INFO: [Synth 8-226] default block is never used [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/program_counter.vhd:327]
+INFO: [Synth 8-226] default block is never used [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/program_counter.vhd:340]
+INFO: [Synth 8-226] default block is never used [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/program_counter.vhd:353]
+INFO: [Synth 8-226] default block is never used [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/program_counter.vhd:366]
+INFO: [Synth 8-226] default block is never used [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/program_counter.vhd:379]
+INFO: [Synth 8-226] default block is never used [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/program_counter.vhd:392]
+INFO: [Synth 8-226] default block is never used [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/program_counter.vhd:405]
+INFO: [Synth 8-226] default block is never used [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/program_counter.vhd:418]
+INFO: [Synth 8-256] done synthesizing module 'program_counter' (8#1) [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/program_counter.vhd:46]
+INFO: [Synth 8-3491] module 'stack' declared at '/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/stack.vhd:34' bound to instance 'stack_i' of component 'stack' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/new/zipi8.vhd:468]
+INFO: [Synth 8-638] synthesizing module 'stack' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/stack.vhd:55]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter ADDRESS_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'ram' declared at '/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/ram.vhd:34' bound to instance 'stack_ram_low' of component 'ram' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/stack.vhd:105]
+INFO: [Synth 8-638] synthesizing module 'ram' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/ram.vhd:46]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter ADDRESS_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ram' (9#1) [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/ram.vhd:46]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter ADDRESS_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'ram' declared at '/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/ram.vhd:34' bound to instance 'stack_ram_high' of component 'ram' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/stack.vhd:149]
+INFO: [Synth 8-638] synthesizing module 'ram__parameterized1' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/ram.vhd:46]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter ADDRESS_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ram__parameterized1' (9#1) [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/ram.vhd:46]
+INFO: [Synth 8-226] default block is never used [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/stack.vhd:307]
+INFO: [Synth 8-226] default block is never used [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/stack.vhd:320]
+INFO: [Synth 8-226] default block is never used [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/stack.vhd:333]
+INFO: [Synth 8-226] default block is never used [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/stack.vhd:346]
+INFO: [Synth 8-226] default block is never used [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/stack.vhd:359]
+INFO: [Synth 8-256] done synthesizing module 'stack' (10#1) [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/stack.vhd:55]
+INFO: [Synth 8-3491] module 'two_banks_of_16_gp_reg' declared at '/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/two_banks_of_16_gp_reg.vhd:34' bound to instance 'two_banks_of_16_gp_reg_i' of component 'two_banks_of_16_gp_reg' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/new/zipi8.vhd:488]
+INFO: [Synth 8-638] synthesizing module 'two_banks_of_16_gp_reg' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/two_banks_of_16_gp_reg.vhd:46]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter ADDRESS_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'ram' declared at '/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/ram.vhd:34' bound to instance 'sx_bank' of component 'ram' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/two_banks_of_16_gp_reg.vhd:75]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter ADDRESS_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'ram32m_behav' declared at '/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/ram32m_behav.vhd:34' bound to instance 'sy_bank' of component 'ram32m_behav' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/two_banks_of_16_gp_reg.vhd:88]
+INFO: [Synth 8-638] synthesizing module 'ram32m_behav' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/ram32m_behav.vhd:47]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter ADDRESS_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ram32m_behav' (11#1) [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/ram32m_behav.vhd:47]
+INFO: [Synth 8-256] done synthesizing module 'two_banks_of_16_gp_reg' (12#1) [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/two_banks_of_16_gp_reg.vhd:46]
+INFO: [Synth 8-3491] module 'sel_of_2nd_op_to_alu_and_port_id' declared at '/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/sel_of_2nd_op_to_alu_and_port_id.vhd:34' bound to instance 'sel_of_2nd_op_to_alu_and_port_id_i' of component 'sel_of_2nd_op_to_alu_and_port_id' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/new/zipi8.vhd:499]
+INFO: [Synth 8-638] synthesizing module 'sel_of_2nd_op_to_alu_and_port_id' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/sel_of_2nd_op_to_alu_and_port_id.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'sel_of_2nd_op_to_alu_and_port_id' (13#1) [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/sel_of_2nd_op_to_alu_and_port_id.vhd:44]
+INFO: [Synth 8-3491] module 'sel_of_out_port_value' declared at '/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/sel_of_out_port_value.vhd:34' bound to instance 'sel_of_out_port_value_i' of component 'sel_of_out_port_value' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/new/zipi8.vhd:510]
+INFO: [Synth 8-638] synthesizing module 'sel_of_out_port_value' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/sel_of_out_port_value.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'sel_of_out_port_value' (14#1) [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/sel_of_out_port_value.vhd:43]
+INFO: [Synth 8-3491] module 'arith_and_logic_operations' declared at '/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/arith_and_logic_operations.vhd:34' bound to instance 'arith_and_logic_operations_i' of component 'arith_and_logic_operations' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/new/zipi8.vhd:518]
+INFO: [Synth 8-638] synthesizing module 'arith_and_logic_operations' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/arith_and_logic_operations.vhd:46]
+INFO: [Synth 8-226] default block is never used [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/arith_and_logic_operations.vhd:331]
+INFO: [Synth 8-226] default block is never used [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/arith_and_logic_operations.vhd:344]
+INFO: [Synth 8-226] default block is never used [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/arith_and_logic_operations.vhd:357]
+INFO: [Synth 8-226] default block is never used [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/arith_and_logic_operations.vhd:370]
+INFO: [Synth 8-226] default block is never used [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/arith_and_logic_operations.vhd:383]
+INFO: [Synth 8-226] default block is never used [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/arith_and_logic_operations.vhd:396]
+INFO: [Synth 8-226] default block is never used [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/arith_and_logic_operations.vhd:409]
+INFO: [Synth 8-226] default block is never used [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/arith_and_logic_operations.vhd:422]
+INFO: [Synth 8-256] done synthesizing module 'arith_and_logic_operations' (15#1) [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/arith_and_logic_operations.vhd:46]
+INFO: [Synth 8-3491] module 'shift_and_rotate_operations' declared at '/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/shift_and_rotate_operations.vhd:34' bound to instance 'shift_and_rotate_operations_i' of component 'shift_and_rotate_operations' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/new/zipi8.vhd:529]
+INFO: [Synth 8-638] synthesizing module 'shift_and_rotate_operations' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/shift_and_rotate_operations.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'shift_and_rotate_operations' (16#1) [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/shift_and_rotate_operations.vhd:45]
+INFO: [Synth 8-3491] module 'spm_with_output_reg' declared at '/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/spm_with_output_reg.vhd:34' bound to instance 'spm_with_output_reg_i' of component 'spm_with_output_reg' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/new/zipi8.vhd:539]
+INFO: [Synth 8-638] synthesizing module 'spm_with_output_reg' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/spm_with_output_reg.vhd:44]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter ADDRESS_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'ram' declared at '/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/ram.vhd:34' bound to instance 'spm_ram' of component 'ram' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/spm_with_output_reg.vhd:69]
+INFO: [Synth 8-638] synthesizing module 'ram__parameterized4' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/ram.vhd:46]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter ADDRESS_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ram__parameterized4' (16#1) [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/ram.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'spm_with_output_reg' (17#1) [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/spm_with_output_reg.vhd:44]
+INFO: [Synth 8-3491] module 'mux_outputs_from_alu_spm_input_ports' declared at '/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/mux_outputs_from_alu_spm_input_ports.vhd:34' bound to instance 'mux_outputs_from_alu_spm_input_ports_i' of component 'mux_outputs_from_alu_spm_input_ports' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/new/zipi8.vhd:548]
+INFO: [Synth 8-638] synthesizing module 'mux_outputs_from_alu_spm_input_ports' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/mux_outputs_from_alu_spm_input_ports.vhd:45]
+INFO: [Synth 8-226] default block is never used [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/mux_outputs_from_alu_spm_input_ports.vhd:52]
+INFO: [Synth 8-256] done synthesizing module 'mux_outputs_from_alu_spm_input_ports' (18#1) [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/mux_outputs_from_alu_spm_input_ports.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'zipi8' (19#1) [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/new/zipi8.vhd:54]
+INFO: [Synth 8-3491] module 'program_memory' declared at '/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.runs/synth_2/.Xil/Vivado-9745-esi-OMEN-by-HP-Laptop-15-dc0xxx/realtime/program_memory_stub.vhdl:5' bound to instance 'kcpsm6_test_program' of component 'program_memory' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/top.vhd:216]
+	Parameter hwbuild bound to: 8'b01000001 
+	Parameter interrupt_vector bound to: 12'b001111111111 
+	Parameter scratch_pad_memory_size bound to: 256 - type: integer 
+INFO: [Synth 8-3491] module 'kcpsm6' declared at '/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:87' bound to instance 'processor_kcpsm6' of component 'kcpsm6' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/top.vhd:225]
+INFO: [Synth 8-638] synthesizing module 'kcpsm6' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:111]
+	Parameter hwbuild bound to: 8'b01000001 
+	Parameter interrupt_vector bound to: 12'b001111111111 
+	Parameter scratch_pad_memory_size bound to: 256 - type: integer 
+	Parameter INIT bound to: 64'b1111111111111111111101010101010100000000000000000000111011101110 
+INFO: [Synth 8-113] binding component instance 'reset_lut' to cell 'LUT6_2' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:685]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'run_flop' to cell 'FD' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:696]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'internal_reset_flop' to cell 'FD' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:701]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'sync_sleep_flop' to cell 'FD' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:706]
+	Parameter INIT bound to: 64'b0000000010000011000000000000101100000000110001000000000001001100 
+INFO: [Synth 8-113] binding component instance 't_state_lut' to cell 'LUT6_2' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:711]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 't_state1_flop' to cell 'FD' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:722]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 't_state2_flop' to cell 'FD' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:727]
+	Parameter INIT bound to: 64'b0000000000010000000000000000000000000000000000000000100000000000 
+INFO: [Synth 8-113] binding component instance 'int_enable_type_lut' to cell 'LUT6_2' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:733]
+	Parameter INIT bound to: 64'b0000000000000000000000000000000000000000000000001100101010101010 
+INFO: [Synth 8-113] binding component instance 'interrupt_enable_lut' to cell 'LUT6' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:744]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'interrupt_enable_flop' to cell 'FD' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:754]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'sync_interrupt_flop' to cell 'FD' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:759]
+	Parameter INIT bound to: 64'b1100110000110011111111110000000010000000100000001000000010000000 
+INFO: [Synth 8-113] binding component instance 'active_interrupt_lut' to cell 'LUT6_2' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:764]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'active_interrupt_flop' to cell 'FD' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:775]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'interrupt_ack_flop' to cell 'FD' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:780]
+	Parameter INIT bound to: 64'b0101101000111100111111111111111100000000000000000000000000000000 
+INFO: [Synth 8-113] binding component instance 'pc_move_is_valid_lut' to cell 'LUT6' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:804]
+	Parameter INIT bound to: 64'b0111011101110111000000100111011100000000000000000000001000000000 
+INFO: [Synth 8-113] binding component instance 'move_type_lut' to cell 'LUT6_2' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:814]
+	Parameter INIT bound to: 64'b0000000000000000111100000000000000000000000000000010001111111111 
+INFO: [Synth 8-113] binding component instance 'pc_mode1_lut' to cell 'LUT6_2' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:825]
+	Parameter INIT bound to: 64'b1111111111111111111111111111111100000000000001000000000000000000 
+INFO: [Synth 8-113] binding component instance 'pc_mode2_lut' to cell 'LUT6' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:836]
+	Parameter INIT bound to: 64'b1111111111111111000100000000000000000000000000000010000000000000 
+INFO: [Synth 8-113] binding component instance 'push_pop_lut' to cell 'LUT6_2' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:846]
+	Parameter INIT bound to: 64'b0000001111001010000000000000000000000100001000000000000000000000 
+INFO: [Synth 8-113] binding component instance 'alu_decode0_lut' to cell 'LUT6_2' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:861]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'alu_mux_sel0_flop' to cell 'FD' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:872]
+	Parameter INIT bound to: 64'b0111011100001000000000000000000000000000000000000000111100000000 
+INFO: [Synth 8-113] binding component instance 'alu_decode1_lut' to cell 'LUT6_2' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:877]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'alu_mux_sel1_flop' to cell 'FD' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:888]
+	Parameter INIT bound to: 64'b1101000000000000000000000000000000000010000000000000000000000000 
+INFO: [Synth 8-113] binding component instance 'alu_decode2_lut' to cell 'LUT6_2' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:894]
+	Parameter INIT bound to: 64'b0000000000000001001111110011111100000000000100001111011111001110 
+INFO: [Synth 8-113] binding component instance 'register_enable_type_lut' to cell 'LUT6_2' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:909]
+	Parameter INIT bound to: 64'b1100000011001100000000000000000010100000101010100000000000000000 
+INFO: [Synth 8-113] binding component instance 'register_enable_lut' to cell 'LUT6_2' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:920]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'flag_enable_flop' to cell 'FDR' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:931]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'register_enable_flop' to cell 'FDR' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:937]
+	Parameter INIT bound to: 64'b1000000000000000000000000000000000100000000000000000000000000000 
+INFO: [Synth 8-113] binding component instance 'spm_enable_lut' to cell 'LUT6_2' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:943]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'k_write_strobe_flop' to cell 'FDR' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:954]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'spm_enable_flop' to cell 'FDR' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:960]
+	Parameter INIT bound to: 64'b0100000000000000000000000000000000000001000000000000000000000000 
+INFO: [Synth 8-113] binding component instance 'read_strobe_lut' to cell 'LUT6_2' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:966]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'write_strobe_flop' to cell 'FDR' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:977]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'read_strobe_flop' to cell 'FDR' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:983]
+	Parameter INIT bound to: 64'b0000000010000000000000100000000000000000000000000000000000000000 
+INFO: [Synth 8-113] binding component instance 'regbank_type_lut' to cell 'LUT6' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1001]
+	Parameter INIT bound to: 64'b1010110010101100111111110000000011111111000000001111111100000000 
+INFO: [Synth 8-113] binding component instance 'bank_lut' to cell 'LUT6' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1011]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'bank_flop' to cell 'FDR' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1021]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'sx_addr4_flop' to cell 'FD' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1027]
+INFO: [Synth 8-113] binding component instance 'arith_carry_xorcy' to cell 'XORCY' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1051]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'arith_carry_flop' to cell 'FD' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1056]
+	Parameter INIT bound to: 64'b0000000000000000000000000000000010000111011110000000000000000000 
+INFO: [Synth 8-113] binding component instance 'lower_parity_lut' to cell 'LUT6_2' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1061]
+INFO: [Synth 8-113] binding component instance 'parity_muxcy' to cell 'MUXCY' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1072]
+	Parameter INIT bound to: 64'b0110100110010110100101100110100110010110011010010110100110010110 
+INFO: [Synth 8-113] binding component instance 'upper_parity_lut' to cell 'LUT6' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1078]
+INFO: [Synth 8-113] binding component instance 'parity_xorcy' to cell 'XORCY' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1088]
+	Parameter INIT bound to: 64'b1111111111111111101010101100110011110000111100001111000011110000 
+INFO: [Synth 8-113] binding component instance 'shift_carry_lut' to cell 'LUT6' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1093]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'shift_carry_flop' to cell 'FD' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1103]
+	Parameter INIT bound to: 64'b0011001100110011101010101100110011110000101010100000000000000000 
+INFO: [Synth 8-113] binding component instance 'carry_flag_lut' to cell 'LUT6_2' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1108]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'carry_flag_flop' to cell 'FDRE' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1119]
+INFO: [Synth 8-113] binding component instance 'init_zero_muxcy' to cell 'MUXCY' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1126]
+	Parameter INIT bound to: 64'b1010001010000000000000000000000000000000111100000000000011110000 
+INFO: [Synth 8-113] binding component instance 'use_zero_flag_lut' to cell 'LUT6_2' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1132]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'use_zero_flag_flop' to cell 'FD' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1143]
+	Parameter INIT bound to: 64'b0000000000000000000000000000000000000000000000000000000000000001 
+INFO: [Synth 8-113] binding component instance 'lower_zero_lut' to cell 'LUT6_2' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1148]
+INFO: [Synth 8-113] binding component instance 'lower_zero_muxcy' to cell 'MUXCY' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1159]
+	Parameter INIT bound to: 64'b0000000000000000000000000000110100000000000000000000000000000000 
+INFO: [Synth 8-113] binding component instance 'middle_zero_lut' to cell 'LUT6_2' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1165]
+INFO: [Synth 8-113] binding component instance 'middle_zero_muxcy' to cell 'MUXCY' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1176]
+	Parameter INIT bound to: 64'b1111101111111111000000000000000000000000000000000000000000000000 
+INFO: [Synth 8-113] binding component instance 'upper_zero_lut' to cell 'LUT6' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1182]
+INFO: [Synth 8-113] binding component instance 'upper_zero_muxcy' to cell 'MUXCY' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1192]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'zero_flag_flop' to cell 'FDRE' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1198]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'return_vector_flop' to cell 'FD' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1249]
+	Parameter INIT bound to: 64'b1111111100000000111100001111000011001100110011001010101010101010 
+INFO: [Synth 8-113] binding component instance 'pc_vector_mux_lut' to cell 'LUT6_2' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1264]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'pc_flop' to cell 'FDRE' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1309]
+	Parameter INIT bound to: 64'b0000000010101010000000001111111100110011110011000000111100000000 
+INFO: [Synth 8-113] binding component instance 'pc_lut' to cell 'LUT6' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1350]
+INFO: [Synth 8-113] binding component instance 'pc_xorcy' to cell 'XORCY' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1366]
+INFO: [Synth 8-113] binding component instance 'pc_muxcy' to cell 'MUXCY' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1371]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'return_vector_flop' to cell 'FD' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1249]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'pc_flop' to cell 'FDRE' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1309]
+	Parameter INIT bound to: 64'b0000000010101010000000001111111111001100110011001111000000000000 
+INFO: [Synth 8-113] binding component instance 'pc_lut' to cell 'LUT6' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1411]
+INFO: [Synth 8-113] binding component instance 'pc_xorcy' to cell 'XORCY' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1426]
+INFO: [Synth 8-113] binding component instance 'pc_muxcy' to cell 'MUXCY' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1440]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'return_vector_flop' to cell 'FD' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1249]
+	Parameter INIT bound to: 64'b1111111100000000111100001111000011001100110011001010101010101010 
+INFO: [Synth 8-113] binding component instance 'pc_vector_mux_lut' to cell 'LUT6_2' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1264]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'pc_flop' to cell 'FDRE' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1309]
+	Parameter INIT bound to: 64'b0000000010101010000000001111111111001100110011001111000000000000 
+INFO: [Synth 8-113] binding component instance 'pc_lut' to cell 'LUT6' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1411]
+INFO: [Synth 8-113] binding component instance 'pc_xorcy' to cell 'XORCY' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1426]
+INFO: [Synth 8-113] binding component instance 'pc_muxcy' to cell 'MUXCY' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1440]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'return_vector_flop' to cell 'FD' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1249]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'pc_flop' to cell 'FDRE' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1309]
+	Parameter INIT bound to: 64'b0000000010101010000000001111111111001100110011001111000000000000 
+INFO: [Synth 8-113] binding component instance 'pc_lut' to cell 'LUT6' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1411]
+INFO: [Synth 8-113] binding component instance 'pc_xorcy' to cell 'XORCY' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1426]
+INFO: [Synth 8-113] binding component instance 'pc_muxcy' to cell 'MUXCY' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1440]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'return_vector_flop' to cell 'FD' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1249]
+	Parameter INIT bound to: 64'b1111111100000000111100001111000011001100110011001010101010101010 
+INFO: [Synth 8-113] binding component instance 'pc_vector_mux_lut' to cell 'LUT6_2' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1264]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'pc_flop' to cell 'FDRE' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1309]
+	Parameter INIT bound to: 64'b0000000010101010000000001111111111001100110011001111000000000000 
+INFO: [Synth 8-113] binding component instance 'pc_lut' to cell 'LUT6' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1411]
+INFO: [Synth 8-113] binding component instance 'pc_xorcy' to cell 'XORCY' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1426]
+INFO: [Synth 8-113] binding component instance 'pc_muxcy' to cell 'MUXCY' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1440]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'return_vector_flop' to cell 'FD' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1249]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'pc_flop' to cell 'FDRE' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1309]
+	Parameter INIT bound to: 64'b0000000010101010000000001111111111001100110011001111000000000000 
+INFO: [Synth 8-113] binding component instance 'pc_lut' to cell 'LUT6' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1411]
+INFO: [Synth 8-113] binding component instance 'pc_xorcy' to cell 'XORCY' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1426]
+INFO: [Synth 8-113] binding component instance 'pc_muxcy' to cell 'MUXCY' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1440]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'return_vector_flop' to cell 'FD' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1249]
+	Parameter INIT bound to: 64'b1111111100000000111100001111000011001100110011001010101010101010 
+INFO: [Synth 8-113] binding component instance 'pc_vector_mux_lut' to cell 'LUT6_2' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1264]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'pc_flop' to cell 'FDRE' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1309]
+	Parameter INIT bound to: 64'b0000000010101010000000001111111111001100110011001111000000000000 
+INFO: [Synth 8-113] binding component instance 'pc_lut' to cell 'LUT6' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1411]
+INFO: [Synth 8-113] binding component instance 'pc_xorcy' to cell 'XORCY' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1426]
+INFO: [Synth 8-113] binding component instance 'pc_muxcy' to cell 'MUXCY' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1440]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'return_vector_flop' to cell 'FD' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1249]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'pc_flop' to cell 'FDRE' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1309]
+	Parameter INIT bound to: 64'b0000000010101010000000001111111111001100110011001111000000000000 
+INFO: [Synth 8-113] binding component instance 'pc_lut' to cell 'LUT6' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:1411]
+INFO: [Common 17-14] Message 'Synth 8-113' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 64'b1111111100000000111100001111000011001100110011001010101010101010 
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 64'b0000000010101010000000001111111111001100110011001111000000000000 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 64'b0000000010101010000000001111111111001100110011001111000000000000 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 64'b1111111100000000111100001111000011001100110011001010101010101010 
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 64'b0000000010101010000000000000000011001100110011001111000000000000 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 64'b0000000010101010000000000000000011001100110011001111000000000000 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT_A bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_B bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_C bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_D bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter IS_WCLK_INVERTED bound to: 1'b0 
+	Parameter INIT_A bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_B bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_C bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_D bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter IS_WCLK_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 64'b0000000000010101001010011010101010101010101010101010101010101010 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 64'b0000000000101010001001010010101010101010101010101010101010101010 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 64'b0000000000101010001001010010101010101010101010101010101010101010 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 64'b0000000000101010001001010010101010101010101010101010101010101010 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 64'b0000000000101010001001010010101010101010101010101010101010101010 
+	Parameter INIT bound to: 64'b1111111100000000111100001111000011001100110011001010101010101010 
+	Parameter INIT bound to: 64'b1111111100000000111100001111000011001100110011001010101010101010 
+	Parameter INIT bound to: 64'b0110100101101001011011101000101011001100110011000000000000000000 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b1 
+	Parameter INIT bound to: 64'b1011111110111100100011111000110010110011101100001000001110000000 
+	Parameter INIT bound to: 64'b1111111100000000111100001111000011001100110011001010101010101010 
+	Parameter INIT bound to: 64'b1111111100000000111100001111000011001100110011001010101010101010 
+	Parameter INIT bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter IS_WCLK_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 64'b0110100101101001011011101000101011001100110011000000000000000000 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 64'b1111111100000000111100001111000011001100110011001010101010101010 
+	Parameter INIT bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter IS_WCLK_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 64'b1111111100000000111100001111000011001100110011001010101010101010 
+	Parameter INIT bound to: 64'b1111111100000000111100001111000011001100110011001010101010101010 
+	Parameter INIT bound to: 64'b0110100101101001011011101000101011001100110011000000000000000000 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 64'b1111111100000000111100001111000011001100110011001010101010101010 
+	Parameter INIT bound to: 64'b1111111100000000111100001111000011001100110011001010101010101010 
+	Parameter INIT bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter IS_WCLK_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 64'b0110100101101001011011101000101011001100110011000000000000000000 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 64'b1111111100000000111100001111000011001100110011001010101010101010 
+	Parameter INIT bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter IS_WCLK_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 64'b1111111100000000111100001111000011001100110011001010101010101010 
+	Parameter INIT bound to: 64'b1111111100000000111100001111000011001100110011001010101010101010 
+	Parameter INIT bound to: 64'b0110100101101001011011101000101011001100110011000000000000000000 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 64'b1111111100000000111100001111000011001100110011001010101010101010 
+	Parameter INIT bound to: 64'b1111111100000000111100001111000011001100110011001010101010101010 
+	Parameter INIT bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter IS_WCLK_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 64'b0110100101101001011011101000101011001100110011000000000000000000 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 64'b1111111100000000111100001111000011001100110011001010101010101010 
+	Parameter INIT bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter IS_WCLK_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 64'b1111111100000000111100001111000011001100110011001010101010101010 
+	Parameter INIT bound to: 64'b1111111100000000111100001111000011001100110011001010101010101010 
+	Parameter INIT bound to: 64'b0110100101101001011011101000101011001100110011000000000000000000 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b1 
+	Parameter INIT bound to: 64'b1111111100000000111100001111000011001100110011001010101010101010 
+	Parameter INIT bound to: 64'b1111111100000000111100001111000011001100110011001010101010101010 
+	Parameter INIT bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter IS_WCLK_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 64'b0110100101101001011011101000101011001100110011000000000000000000 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 64'b1111111100000000111100001111000011001100110011001010101010101010 
+	Parameter INIT bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter IS_WCLK_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT_A bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_B bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_C bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_D bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter IS_WCLK_INVERTED bound to: 1'b0 
+	Parameter INIT_A bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_B bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_C bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_D bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter IS_WCLK_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'kcpsm6' (20#1) [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/imports/KCPSM6_Release9_30Sept14/kcpsm6.vhd:111]
+INFO: [Synth 8-256] done synthesizing module 'top' (21#1) [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/top.vhd:44]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 1483.156 ; gain = 130.621 ; free physical = 563 ; free virtual = 17188
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1483.156 ; gain = 130.621 ; free physical = 566 ; free virtual = 17190
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1483.156 ; gain = 130.621 ; free physical = 566 ; free virtual = 17190
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 186 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xczu7ev-ffvc1156-2-e
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clock_gen'
+Finished Parsing XDC File [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clock_gen'
+Parsing XDC File [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/ip/proc_sys_reset_0/proc_sys_reset_0/proc_sys_reset_0_in_context.xdc] for cell 'processor_reset'
+Finished Parsing XDC File [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/ip/proc_sys_reset_0/proc_sys_reset_0/proc_sys_reset_0_in_context.xdc] for cell 'processor_reset'
+Parsing XDC File [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/ip/program_memory/program_memory/program_memory_in_context.xdc] for cell 'test_program'
+Finished Parsing XDC File [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/ip/program_memory/program_memory/program_memory_in_context.xdc] for cell 'test_program'
+Parsing XDC File [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/ip/program_memory/program_memory/program_memory_in_context.xdc] for cell 'kcpsm6_test_program'
+Finished Parsing XDC File [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/ip/program_memory/program_memory/program_memory_in_context.xdc] for cell 'kcpsm6_test_program'
+Parsing XDC File [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/constrs_1/imports/zcu104-xdc-rdf0438/zcu104_Rev1.0_U1_01302018.xdc]
+Finished Parsing XDC File [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/constrs_1/imports/zcu104-xdc-rdf0438/zcu104_Rev1.0_U1_01302018.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/constrs_1/imports/zcu104-xdc-rdf0438/zcu104_Rev1.0_U1_01302018.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2554.062 ; gain = 0.000 ; free physical = 227 ; free virtual = 16361
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2554.062 ; gain = 0.000 ; free physical = 223 ; free virtual = 16358
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 130 instances were transformed.
+  FD => FDRE: 48 instances
+  FDR => FDRE: 18 instances
+  FDS => FDSE: 2 instances
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 50 instances
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 8 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 4 instances
+
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2554.062 ; gain = 0.000 ; free physical = 220 ; free virtual = 16355
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.20 . Memory (MB): peak = 2554.062 ; gain = 0.000 ; free physical = 220 ; free virtual = 16355
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'kcpsm6_test_program' at clock pin 'clka' is different from the actual clock period '9.999', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'test_program' at clock pin 'clka' is different from the actual clock period '9.999', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:30 . Memory (MB): peak = 2554.062 ; gain = 1201.527 ; free physical = 273 ; free virtual = 16417
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu7ev-ffvc1156-2-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:30 . Memory (MB): peak = 2554.062 ; gain = 1201.527 ; free physical = 273 ; free virtual = 16417
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for CLK_300_N. (constraint file  /home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for CLK_300_N. (constraint file  /home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 4).
+Applied set_property IO_BUFFER_TYPE = NONE for CLK_300_P. (constraint file  /home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 5).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for CLK_300_P. (constraint file  /home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 6).
+Applied set_property DONT_TOUCH = true for clock_gen. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for processor_reset. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for kcpsm6_test_program. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for test_program. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:30 . Memory (MB): peak = 2554.062 ; gain = 1201.527 ; free physical = 275 ; free virtual = 16420
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:31 . Memory (MB): peak = 2554.062 ; gain = 1201.527 ; free physical = 264 ; free virtual = 16414
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 24    
++---Registers : 
+	               12 Bit    Registers := 2     
+	                8 Bit    Registers := 3     
+	                5 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 25    
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 26    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module state_machine 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
+Module register_bank_control 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module decode4alu 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+Module decode4_strobes_enables 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 6     
+Module flags 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module x12_bit_program_address_generator 
+Detailed RTL Component Info : 
++---Registers : 
+	               12 Bit    Registers := 1     
+Module program_counter 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 11    
++---Registers : 
+	               12 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 11    
+Module stack 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 4     
++---Registers : 
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 5     
+Module arith_and_logic_operations 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 8     
++---Registers : 
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 8     
+Module shift_and_rotate_operations 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+Module spm_with_output_reg 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+Module mux_outputs_from_alu_spm_input_ports 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1728 (col length:144)
+BRAMs: 624 (col length: RAMB18 144 RAMB36 72)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-4471] merging register 'processor_zipi8/state_machine_i/sync_interrupt_reg' into 'processor_zipi8/state_machine_i/sync_sleep_reg' [/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sources_1/new/state_machine.vhd:81]
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\processor_kcpsm6/sync_sleep_flop )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\processor_kcpsm6/sync_interrupt_flop )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\processor_zipi8/state_machine_i/sync_sleep_reg )
+INFO: [Synth 8-3886] merging instance 'processor_zipi8/state_machine_i/sync_sleep_reg' (FD) to 'processor_zipi8/state_machine_i/active_interrupt_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\processor_zipi8/state_machine_i/active_interrupt_reg )
+WARNING: [Synth 8-3332] Sequential element (processor_kcpsm6/sync_sleep_flop) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (processor_kcpsm6/sync_interrupt_flop) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (processor_kcpsm6/interrupt_ack_flop) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (processor_kcpsm6/k_write_strobe_flop) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (processor_kcpsm6/write_strobe_flop) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (processor_kcpsm6/read_strobe_flop) is unused and will be removed from module top.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:33 . Memory (MB): peak = 2554.062 ; gain = 1201.527 ; free physical = 274 ; free virtual = 16429
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping  Report (see note below)
++------------+---------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------+
+|Module Name | RTL Object                                              | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | Cascade Heights | 
++------------+---------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------+
+|top         | processor_zipi8/spm_with_output_reg_i/spm_ram/ram_s_reg | 256 x 8(READ_FIRST)    | W | R |                        |   |   | Port A           | 1      | 0      |                 | 
++------------+---------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+------------------------------------------------------------+-----------+----------------------+----------------+
+|Module Name | RTL Object                                                 | Inference | Size (Depth x Width) | Primitives     | 
++------------+------------------------------------------------------------+-----------+----------------------+----------------+
+|top         | processor_zipi8/stack_i/stack_ram_low/ram_s_reg            | Implied   | 32 x 8               | RAM32X1S x 8   | 
+|top         | processor_zipi8/stack_i/stack_ram_high/ram_s_reg           | Implied   | 32 x 8               | RAM32X1S x 8   | 
+|top         | processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/ram_s_reg | Implied   | 32 x 8               | RAM32X1S x 8   | 
+|top         | processor_zipi8/two_banks_of_16_gp_reg_i/sy_bank/ram_s_reg | Implied   | 32 x 8               | RAM32M16 x 1   | 
++------------+------------------------------------------------------------+-----------+----------------------+----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6837] The timing for the instance processor_zipi8i_28/processor_zipi8/spm_with_output_reg_i/spm_ram/ram_s_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'clock_gen/clk_out1' to pin 'clock_gen/bbstub_clk_out1/O'
+INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:36 ; elapsed = 00:01:08 . Memory (MB): peak = 2805.664 ; gain = 1453.129 ; free physical = 189 ; free virtual = 15895
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:37 ; elapsed = 00:01:09 . Memory (MB): peak = 2832.695 ; gain = 1480.160 ; free physical = 171 ; free virtual = 15881
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping  Report
++------------+---------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------+
+|Module Name | RTL Object                                              | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | Cascade Heights | 
++------------+---------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------+
+|top         | processor_zipi8/spm_with_output_reg_i/spm_ram/ram_s_reg | 256 x 8(READ_FIRST)    | W | R |                        |   |   | Port A           | 1      | 0      |                 | 
++------------+---------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------+
+
+
+Distributed RAM: Final Mapping  Report
++------------+------------------------------------------------------------+-----------+----------------------+----------------+
+|Module Name | RTL Object                                                 | Inference | Size (Depth x Width) | Primitives     | 
++------------+------------------------------------------------------------+-----------+----------------------+----------------+
+|top         | processor_zipi8/stack_i/stack_ram_low/ram_s_reg            | Implied   | 32 x 8               | RAM32X1S x 8   | 
+|top         | processor_zipi8/stack_i/stack_ram_high/ram_s_reg           | Implied   | 32 x 8               | RAM32X1S x 8   | 
+|top         | processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/ram_s_reg | Implied   | 32 x 8               | RAM32X1S x 8   | 
+|top         | processor_zipi8/two_banks_of_16_gp_reg_i/sy_bank/ram_s_reg | Implied   | 32 x 8               | RAM32M16 x 1   | 
++------------+------------------------------------------------------------+-----------+----------------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6837] The timing for the instance processor_zipi8/spm_with_output_reg_i/spm_ram/ram_s_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:37 ; elapsed = 00:01:09 . Memory (MB): peak = 2832.695 ; gain = 1480.160 ; free physical = 205 ; free virtual = 15867
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:37 ; elapsed = 00:01:10 . Memory (MB): peak = 2832.695 ; gain = 1480.160 ; free physical = 203 ; free virtual = 15867
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:37 ; elapsed = 00:01:10 . Memory (MB): peak = 2832.695 ; gain = 1480.160 ; free physical = 203 ; free virtual = 15867
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:38 ; elapsed = 00:01:10 . Memory (MB): peak = 2832.695 ; gain = 1480.160 ; free physical = 203 ; free virtual = 15867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:38 ; elapsed = 00:01:10 . Memory (MB): peak = 2832.695 ; gain = 1480.160 ; free physical = 203 ; free virtual = 15867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:38 ; elapsed = 00:01:10 . Memory (MB): peak = 2832.695 ; gain = 1480.160 ; free physical = 202 ; free virtual = 15867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:38 ; elapsed = 00:01:10 . Memory (MB): peak = 2832.695 ; gain = 1480.160 ; free physical = 202 ; free virtual = 15867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-----------------+----------+
+|      |BlackBox name    |Instances |
++------+-----------------+----------+
+|1     |clk_wiz_0        |         1|
+|2     |proc_sys_reset_0 |         1|
+|3     |program_memory   |         2|
++------+-----------------+----------+
+
+Report Cell Usage: 
++------+------------------------+------+
+|      |Cell                    |Count |
++------+------------------------+------+
+|1     |clk_wiz_0_bbox_1        |     1|
+|2     |proc_sys_reset_0_bbox_2 |     1|
+|3     |program_memory_bbox_3   |     1|
+|4     |program_memory_bbox_4   |     1|
+|5     |LUT2                    |    12|
+|6     |LUT3                    |    37|
+|7     |LUT4                    |    16|
+|8     |LUT5                    |    34|
+|9     |LUT6                    |    69|
+|10    |LUT6_2                  |    46|
+|11    |MUXCY                   |    29|
+|12    |RAM256X1S               |     8|
+|13    |RAM32M                  |     4|
+|14    |RAM32M16                |     1|
+|15    |RAM32X1S                |    24|
+|16    |RAMB18E2                |     1|
+|17    |XORCY                   |    27|
+|18    |FD                      |    45|
+|19    |FDR                     |    15|
+|20    |FDRE                    |    78|
+|21    |FDS                     |     2|
+|22    |FDSE                    |     2|
+|23    |IBUF                    |     1|
+|24    |OBUF                    |     2|
++------+------------------------+------+
+
+Report Instance Areas: 
++------+----------------------------------------+----------------------------------+------+
+|      |Instance                                |Module                            |Cells |
++------+----------------------------------------+----------------------------------+------+
+|1     |top                                     |                                  |   496|
+|2     |  processor_kcpsm6                      |kcpsm6                            |   219|
+|3     |  processor_zipi8                       |zipi8                             |   231|
+|4     |    arith_and_logic_operations_i        |arith_and_logic_operations        |    15|
+|5     |    decode4_strobes_enables_i           |decode4_strobes_enables           |     3|
+|6     |    decode4alu_i                        |decode4alu                        |    14|
+|7     |    flags_i                             |flags                             |    14|
+|8     |    program_counter_i                   |program_counter                   |    13|
+|9     |    register_bank_control_i             |register_bank_control             |     6|
+|10    |    shift_and_rotate_operations_i       |shift_and_rotate_operations       |     8|
+|11    |    spm_with_output_reg_i               |spm_with_output_reg               |     1|
+|12    |      spm_ram                           |ram__parameterized4               |     1|
+|13    |    stack_i                             |stack                             |    28|
+|14    |      stack_ram_low                     |ram_0                             |     8|
+|15    |      stack_ram_high                    |ram__parameterized1               |     8|
+|16    |    state_machine_i                     |state_machine                     |    24|
+|17    |    two_banks_of_16_gp_reg_i            |two_banks_of_16_gp_reg            |    57|
+|18    |      sx_bank                           |ram                               |    36|
+|19    |      sy_bank                           |ram32m_behav                      |    21|
+|20    |    x12_bit_program_address_generator_i |x12_bit_program_address_generator |    48|
++------+----------------------------------------+----------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:38 ; elapsed = 00:01:10 . Memory (MB): peak = 2832.695 ; gain = 1480.160 ; free physical = 202 ; free virtual = 15867
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:00:46 . Memory (MB): peak = 2832.695 ; gain = 409.254 ; free physical = 242 ; free virtual = 15907
+Synthesis Optimization Complete : Time (s): cpu = 00:00:38 ; elapsed = 00:01:10 . Memory (MB): peak = 2832.703 ; gain = 1480.160 ; free physical = 241 ; free virtual = 15908
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 202 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2885.344 ; gain = 0.000 ; free physical = 162 ; free virtual = 15842
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 153 instances were transformed.
+  (CARRY4) => CARRY8: 7 instances
+  FD => FDRE: 45 instances
+  FDR => FDRE: 15 instances
+  FDS => FDSE: 2 instances
+  IBUF => IBUF (IBUFCTRL, INBUF): 1 instances
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 46 instances
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 8 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 4 instances
+  RAM32M16 => RAM32M16 (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 1 instances
+  RAM32X1S => RAM32X1S (RAMS32): 24 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+232 Infos, 8 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:40 ; elapsed = 00:01:15 . Memory (MB): peak = 2885.344 ; gain = 1544.391 ; free physical = 198 ; free virtual = 15882
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2885.344 ; gain = 0.000 ; free physical = 194 ; free virtual = 15882
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.runs/synth_2/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Jul 11 04:39:46 2019...

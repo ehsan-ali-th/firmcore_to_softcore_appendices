@@ -1,0 +1,14 @@
+C:\lscc\iCEcube2.2017.08\synpbase\bin64\m_generic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  C:\Users\esi\Documents\workspace\icecube2\zipi8\zipi8_Implmnt   -part iCE40LP1K  -package QN84    -maxfan 10000 -RWCheckOnRam 0 -pipe -fixgatedclocks 1 -fixgeneratedclocks 1 -summaryfile C:\Users\esi\Documents\workspace\icecube2\zipi8\zipi8_Implmnt\synlog\report\zipi8_premap.xml  -oedif  C:\Users\esi\Documents\workspace\icecube2\zipi8\zipi8_Implmnt\zipi8.edf  -conchk_prepass  C:\Users\esi\Documents\workspace\icecube2\zipi8\zipi8_Implmnt\zipi8_cck.rpt   -autoconstraint  -freq 1.000   -tcl  C:\Users\esi\Documents\workspace\icecube2\zipi8\constraints\timing.sdc  C:\Users\esi\Documents\workspace\icecube2\zipi8\zipi8_Implmnt\synwork\zipi8_mult.srs  -flow prepass  -gcc_prepass  -osrd  C:\Users\esi\Documents\workspace\icecube2\zipi8\zipi8_Implmnt\synwork\zipi8_prem.srd  -qsap  C:\Users\esi\Documents\workspace\icecube2\zipi8\zipi8_Implmnt\zipi8.sap  -devicelib  C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v  -ologparam  C:\Users\esi\Documents\workspace\icecube2\zipi8\zipi8_Implmnt\syntmp\zipi8.plg  -osyn  C:\Users\esi\Documents\workspace\icecube2\zipi8\zipi8_Implmnt\synwork\zipi8_prem.srd  -prjdir  C:\Users\esi\Documents\workspace\icecube2\zipi8\  -prjname  zipi8_syn  -log  C:\Users\esi\Documents\workspace\icecube2\zipi8\zipi8_Implmnt\synlog\zipi8_premap.srr 
+rc:0 success:1 runtime:1
+file:C:\Users\esi\Documents\workspace\icecube2\zipi8\zipi8_Implmnt\zipi8.edf|io:o|time:0|size:0|exec:0
+file:C:\Users\esi\Documents\workspace\icecube2\zipi8\zipi8_Implmnt\zipi8_cck.rpt|io:o|time:1562836511|size:2231|exec:0
+file:C:\Users\esi\Documents\workspace\icecube2\zipi8\constraints\timing.sdc|io:i|time:1557418586|size:386|exec:0
+file:C:\Users\esi\Documents\workspace\icecube2\zipi8\zipi8_Implmnt\synwork\zipi8_mult.srs|io:i|time:1562836510|size:3322|exec:0
+file:C:\Users\esi\Documents\workspace\icecube2\zipi8\zipi8_Implmnt\synwork\zipi8_prem.srd|io:o|time:1562836511|size:161055|exec:0
+file:C:\Users\esi\Documents\workspace\icecube2\zipi8\zipi8_Implmnt\zipi8.sap|io:o|time:1562836511|size:2307|exec:0
+file:C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v|io:i|time:1558295238|size:224837|exec:0
+file:C:\Users\esi\Documents\workspace\icecube2\zipi8\zipi8_Implmnt\syntmp\zipi8.plg|io:o|time:1562836510|size:0|exec:0
+file:C:\Users\esi\Documents\workspace\icecube2\zipi8\zipi8_Implmnt\synwork\zipi8_prem.srd|io:o|time:1562836511|size:161055|exec:0
+file:C:\Users\esi\Documents\workspace\icecube2\zipi8\zipi8_Implmnt\synlog\zipi8_premap.srr|io:o|time:1562836511|size:6345|exec:0
+file:C:\lscc\iCEcube2.2017.08\synpbase\bin\m_generic.exe|io:i|time:1558295216|size:17853440|exec:1
+file:C:\lscc\iCEcube2.2017.08\synpbase\bin64\m_generic.exe|io:i|time:1558295219|size:32355840|exec:1

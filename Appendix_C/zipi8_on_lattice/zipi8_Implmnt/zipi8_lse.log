@@ -1,0 +1,607 @@
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+Wed Jul 10 03:17:44 2019
+
+
+Command Line:  C:\lscc\iCEcube2.2017.08\LSE\bin\nt\synthesis.exe -f zipi8_lse.prj 
+
+Synthesis options:
+The -a option is SBTiCE40.
+The -t option is QN84.
+The -d option is iCE40LP1K.
+                                                          
+
+##########################################################
+
+### Lattice Family : SBTiCE40
+
+### Device  : iCE40LP1K
+
+### Package : QN84
+
+### Number of Logic Cells: 1280
+
+### Number of RAM4k Blocks: 16
+
+### Number of DSP Blocks: 0
+
+### Number of PLLs: 1
+
+### Number of IO Pins: 95
+
+##########################################################
+
+                                                          
+
+Optimization goal = Area
+Top-level module name = top.
+Target frequency = 1.000000 MHz.
+Maximum fanout = 10000.
+Timing path count = 3
+RWCheckOnRam = 0
+
+BRAM utilization = 100.000000 %
+DSP usage = true (default)
+DSP utilization = 100 % (default)
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = auto (Default)
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+Output EDIF file name = zipi8_Implmnt/zipi8.edf.
+WARNING - synthesis: Option -force_gsr will be set to false when option -output_edif/-ngo are set
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p C:/Users/esi/Documents/workspace/icecube2/zipi8 (searchpath added)
+VHDL library = work
+VHDL design file = src/top.vhd
+VHDL library = work
+VHDL design file = src/arith_and_logic_operations.vhd
+VHDL library = work
+VHDL design file = src/decode4_pc_statck.vhd
+VHDL library = work
+VHDL design file = src/decode4_strobes_enables.vhd
+VHDL library = work
+VHDL design file = src/decode4alu.vhd
+VHDL library = work
+VHDL design file = src/flags.vhd
+VHDL library = work
+VHDL design file = src/mux_outputs_from_alu_spm_input_ports.vhd
+VHDL library = work
+VHDL design file = src/program_counter.vhd
+VHDL library = work
+VHDL design file = src/register_bank_control.vhd
+VHDL library = work
+VHDL design file = src/sel_of_2nd_op_to_alu_and_port_id.vhd
+VHDL library = work
+VHDL design file = src/sel_of_out_port_value.vhd
+VHDL library = work
+VHDL design file = src/shift_and_rotate_operations.vhd
+VHDL library = work
+VHDL design file = src/spm_with_output_reg.vhd
+VHDL library = work
+VHDL design file = src/stack.vhd
+VHDL library = work
+VHDL design file = src/state_machine.vhd
+VHDL library = work
+VHDL design file = src/two_banks_of_16_gp_reg.vhd
+VHDL library = work
+VHDL design file = src/x12_bit_program_address_generator.vhd
+VHDL library = work
+VHDL design file = src/zipi8.vhd
+VHDL library = work
+VHDL design file = src/program_memory.vhd
+VHDL library = work
+VHDL design file = src/ram.vhd
+-sdc option: SDC file input is constraints/timing.sdc.
+-vh2008
+
+Technology check ok...
+
+Analyzing Verilog file C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/machxo2.v. VERI-1482
+Analyzing Verilog file C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v. VERI-1482
+Compile design.
+Compile Design Begin
+INFO - synthesis: The default VHDL library search path is now "C:/Users/esi/Documents/workspace/icecube2/zipi8". VHDL-1504
+Analyzing VHDL file src/top.vhd. VHDL-1481
+INFO - synthesis: src/top.vhd(34): analyzing entity top. VHDL-1012
+INFO - synthesis: src/top.vhd(42): analyzing architecture behavioral. VHDL-1010
+Analyzing VHDL file src/arith_and_logic_operations.vhd. VHDL-1481
+INFO - synthesis: src/arith_and_logic_operations.vhd(34): analyzing entity arith_and_logic_operations. VHDL-1012
+INFO - synthesis: src/arith_and_logic_operations.vhd(46): analyzing architecture behavioral. VHDL-1010
+Analyzing VHDL file src/decode4_pc_statck.vhd. VHDL-1481
+INFO - synthesis: src/decode4_pc_statck.vhd(34): analyzing entity decode4_pc_statck. VHDL-1012
+INFO - synthesis: src/decode4_pc_statck.vhd(50): analyzing architecture behavioral. VHDL-1010
+Analyzing VHDL file src/decode4_strobes_enables.vhd. VHDL-1481
+INFO - synthesis: src/decode4_strobes_enables.vhd(34): analyzing entity decode4_strobes_enables. VHDL-1012
+INFO - synthesis: src/decode4_strobes_enables.vhd(51): analyzing architecture behavioral. VHDL-1010
+Analyzing VHDL file src/decode4alu.vhd. VHDL-1481
+INFO - synthesis: src/decode4alu.vhd(34): analyzing entity decode4alu. VHDL-1012
+INFO - synthesis: src/decode4alu.vhd(46): analyzing architecture behavioral. VHDL-1010
+Analyzing VHDL file src/flags.vhd. VHDL-1481
+INFO - synthesis: src/flags.vhd(34): analyzing entity flags. VHDL-1012
+INFO - synthesis: src/flags.vhd(55): analyzing architecture behavioral. VHDL-1010
+Analyzing VHDL file src/mux_outputs_from_alu_spm_input_ports.vhd. VHDL-1481
+INFO - synthesis: src/mux_outputs_from_alu_spm_input_ports.vhd(34): analyzing entity mux_outputs_from_alu_spm_input_ports. VHDL-1012
+INFO - synthesis: src/mux_outputs_from_alu_spm_input_ports.vhd(45): analyzing architecture behavioral. VHDL-1010
+Analyzing VHDL file src/program_counter.vhd. VHDL-1481
+INFO - synthesis: src/program_counter.vhd(34): analyzing entity program_counter. VHDL-1012
+INFO - synthesis: src/program_counter.vhd(46): analyzing architecture behavioral. VHDL-1010
+Analyzing VHDL file src/register_bank_control.vhd. VHDL-1481
+INFO - synthesis: src/register_bank_control.vhd(34): analyzing entity register_bank_control. VHDL-1012
+INFO - synthesis: src/register_bank_control.vhd(49): analyzing architecture behavioral. VHDL-1010
+Analyzing VHDL file src/sel_of_2nd_op_to_alu_and_port_id.vhd. VHDL-1481
+INFO - synthesis: src/sel_of_2nd_op_to_alu_and_port_id.vhd(34): analyzing entity sel_of_2nd_op_to_alu_and_port_id. VHDL-1012
+INFO - synthesis: src/sel_of_2nd_op_to_alu_and_port_id.vhd(44): analyzing architecture behavioral. VHDL-1010
+Analyzing VHDL file src/sel_of_out_port_value.vhd. VHDL-1481
+INFO - synthesis: src/sel_of_out_port_value.vhd(34): analyzing entity sel_of_out_port_value. VHDL-1012
+INFO - synthesis: src/sel_of_out_port_value.vhd(43): analyzing architecture behavioral. VHDL-1010
+Analyzing VHDL file src/shift_and_rotate_operations.vhd. VHDL-1481
+INFO - synthesis: src/shift_and_rotate_operations.vhd(34): analyzing entity shift_and_rotate_operations. VHDL-1012
+INFO - synthesis: src/shift_and_rotate_operations.vhd(45): analyzing architecture behavioral. VHDL-1010
+Analyzing VHDL file src/spm_with_output_reg.vhd. VHDL-1481
+INFO - synthesis: src/spm_with_output_reg.vhd(41): analyzing entity spm_with_output_reg. VHDL-1012
+INFO - synthesis: src/spm_with_output_reg.vhd(51): analyzing architecture behavioral. VHDL-1010
+Analyzing VHDL file src/stack.vhd. VHDL-1481
+INFO - synthesis: src/stack.vhd(40): analyzing entity stack. VHDL-1012
+INFO - synthesis: src/stack.vhd(61): analyzing architecture behavioral. VHDL-1010
+Analyzing VHDL file src/state_machine.vhd. VHDL-1481
+INFO - synthesis: src/state_machine.vhd(34): analyzing entity state_machine. VHDL-1012
+INFO - synthesis: src/state_machine.vhd(54): analyzing architecture behavioral. VHDL-1010
+Analyzing VHDL file src/two_banks_of_16_gp_reg.vhd. VHDL-1481
+INFO - synthesis: src/two_banks_of_16_gp_reg.vhd(45): analyzing entity two_banks_of_16_gp_reg. VHDL-1012
+INFO - synthesis: src/two_banks_of_16_gp_reg.vhd(57): analyzing architecture behavioral. VHDL-1010
+Analyzing VHDL file src/x12_bit_program_address_generator.vhd. VHDL-1481
+INFO - synthesis: src/x12_bit_program_address_generator.vhd(34): analyzing entity x12_bit_program_address_generator. VHDL-1012
+INFO - synthesis: src/x12_bit_program_address_generator.vhd(46): analyzing architecture behavioral. VHDL-1010
+Analyzing VHDL file src/zipi8.vhd. VHDL-1481
+INFO - synthesis: src/zipi8.vhd(34): analyzing entity zipi8. VHDL-1012
+INFO - synthesis: src/zipi8.vhd(53): analyzing architecture behavioral. VHDL-1010
+Analyzing VHDL file src/program_memory.vhd. VHDL-1481
+INFO - synthesis: src/program_memory.vhd(6): analyzing entity program_memory. VHDL-1012
+INFO - synthesis: src/program_memory.vhd(18): analyzing architecture behavioral. VHDL-1010
+Analyzing VHDL file src/ram.vhd. VHDL-1481
+INFO - synthesis: src/ram.vhd(38): analyzing entity ram. VHDL-1012
+INFO - synthesis: src/ram.vhd(50): analyzing architecture behavioral. VHDL-1010
+unit top is not yet analyzed. VHDL-1485
+src/top.vhd(34): executing top(Behavioral)
+
+WARNING - synthesis: src/top.vhd(40): replacing existing netlist top(Behavioral). VHDL-1205
+Top module name (VHDL): top
+Loading NGL library 'C:/lscc/iCEcube2.2017.08/LSE/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/iCEcube2.2017.08/LSE/or5g00/data/orc5glib.ngl'...
+Top-level module name = top.
+WARNING - synthesis: Initial value found on net address[11] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net address[10] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net address[9] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net address[8] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net address[7] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net address[6] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net address[5] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net address[4] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net address[3] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net address[2] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net address[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net address[0] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net bram_enable will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sx_addr4_value will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net run_value will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net internal_reset_value will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net t_state_value[2] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net t_state_value[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net interrupt_enable_value will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net active_interrupt_value will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net loadstar_type will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net int_enable_type will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net regbank_type will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net bank_value will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net pop_stack will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net push_stack will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net pc_mode[2] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net pc_mode[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net pc_mode[0] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net pc_move_is_valid_o will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net returni_type_o will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net move_type_o will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net arith_logical_sel[2] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net arith_logical_sel[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net arith_logical_sel[0] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net arith_carry_in will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net alu_mux_sel_value[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net alu_mux_sel_value[0] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net flag_enable_type will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net register_enable_type will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net flag_enable_value will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net register_enable_value will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net k_write_strobe_value will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net spm_enable_value will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net read_strobe_value will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net write_strobe_value will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net gnd will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net strobe_type will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net lower_parity will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net upper_parity will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net shift_carry_value will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net parity will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net carry_flag_value will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net lower_zero will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net use_zero_flag_value will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net middle_zero_sel will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net carry_middle_zero will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net upper_zero_sel will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net zero_flag_value will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net pc_vector[11] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net pc_vector[10] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net pc_vector[9] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net pc_vector[8] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net pc_vector[7] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net pc_vector[6] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net pc_vector[5] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net pc_vector[4] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net pc_vector[3] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net pc_vector[2] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net pc_vector[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net pc_vector[0] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_memory[11] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_memory[10] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_memory[9] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_memory[8] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_memory[7] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_memory[6] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_memory[5] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_memory[4] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_memory[3] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_memory[2] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_memory[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_memory[0] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_pointer_carry[4] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_pointer_carry[3] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_pointer_carry[2] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_pointer_carry[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_pointer_carry[0] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net data_out_ram_low[3] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net data_out_ram_low[2] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net data_out_ram_low[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net data_out_ram_low[0] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_pointer_value[4] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_pointer_value[3] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_pointer_value[2] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_pointer_value[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_pointer_value[0] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net half_pointer_value[4] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net half_pointer_value[3] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net half_pointer_value[2] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net half_pointer_value[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sx[7] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sx[6] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sx[5] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sx[4] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sx[3] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sx[2] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sx[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sx[0] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sy[7] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sy[6] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sy[5] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sy[4] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sy[3] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sy[2] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sy[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sy[0] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sy_or_kk[7] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sy_or_kk[6] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sy_or_kk[5] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sy_or_kk[4] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sy_or_kk[3] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sy_or_kk[2] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sy_or_kk[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sy_or_kk[0] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net out_port[7] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net out_port[6] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net out_port[5] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net out_port[4] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net out_port[3] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net out_port[2] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net out_port[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net out_port[0] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net carry_arith_logical_7 will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net logical_carry_mask[7] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net logical_carry_mask[6] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net logical_carry_mask[5] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net logical_carry_mask[4] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net logical_carry_mask[3] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net logical_carry_mask[2] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net logical_carry_mask[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net logical_carry_mask[0] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net half_arith_logical[7] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net half_arith_logical[6] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net half_arith_logical[5] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net half_arith_logical[4] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net half_arith_logical[3] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net half_arith_logical[2] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net half_arith_logical[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net half_arith_logical[0] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net arith_logical_value[7] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net arith_logical_value[6] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net arith_logical_value[5] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net arith_logical_value[4] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net arith_logical_value[3] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net arith_logical_value[2] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net arith_logical_value[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net arith_logical_value[0] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net carry_arith_logical[6] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net carry_arith_logical[5] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net carry_arith_logical[4] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net carry_arith_logical[3] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net carry_arith_logical[2] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net carry_arith_logical[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net carry_arith_logical[0] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net shift_rotate_value[7] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net shift_rotate_value[6] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net shift_rotate_value[5] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net shift_rotate_value[4] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net shift_rotate_value[3] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net shift_rotate_value[2] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net shift_rotate_value[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net shift_rotate_value[0] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net shift_in_bit will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net spm_ram_data[7] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net spm_ram_data[6] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net spm_ram_data[5] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net spm_ram_data[4] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net spm_ram_data[3] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net spm_ram_data[2] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net spm_ram_data[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net spm_ram_data[0] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net alu_result[7] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net alu_result[6] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net alu_result[5] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net alu_result[4] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net alu_result[3] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net alu_result[2] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net alu_result[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net alu_result[0] will be ignored due to unrecognized driver type
+WARNING - synthesis: src/state_machine.vhd(79): Register \processor_zipi8/state_machine_i/sync_sleep_118 is stuck at Zero. VDB-5013
+
+
+
+######## Found 3 RTL RAMs in the design.
+WARNING - synthesis: No suitable device RAM type or available RAMs found.
+######## Mapping RTL RAM \processor_zipi8/stack_i/stack_ram/ram_s to 1 EBR blocks in PSEUDO_DUAL_PORT Mode
+
+WARNING - synthesis: No suitable device RAM type or available RAMs found.
+WARNING - synthesis: Initial value found on instance \processor_zipi8/flags_i/shift_carry_423 will be ignored.
+WARNING - synthesis: Initial value found on instance \processor_zipi8/state_machine_i/internal_reset_117 will be ignored.
+WARNING - synthesis: Initial value found on instance \processor_zipi8/state_machine_i/run_116 will be ignored.
+WARNING - synthesis: Initial value found on instance \processor_zipi8/state_machine_i/t_state_i2 will be ignored.
+Writing scf file : zipi8_Implmnt/zipi8.scf
+
+Writing scf file : zipi8_Implmnt/zipi8.scf
+
+Writing scf file : zipi8_Implmnt/zipi8.scf
+
+Writing scf file : zipi8_Implmnt/zipi8.scf
+
+Writing scf file : zipi8_Implmnt/zipi8.scf
+
+WARNING - synthesis: Type "0000001000100100001001011111000101000101100000000000011100000010001101000111110011010110110011000000110011010100010110010100011000001011001011101110001111111111101010100101010100000000111111101010100101010100000000111010111011000000101000000000001001010101" not supported
+WARNING - synthesis: Type "0001000000110000000000000011000000000000010000000000111000000001001100001000011000100110111001000000111011111111000010001000010000001110111001100010011011111111000010101010101010101000101010101000001000000000101010110000000000000000000000000000101000010011" not supported
+WARNING - synthesis: Type "0101010000100000110001010101000000000101010100000000110000010101010000000000000010110001001000000000000000001100101100010010000111001100000001111001011010010000100010100110110001000100010001000100010001000100010100000101000001010000010100000001000000000100" not supported
+WARNING - synthesis: Type "0000000111000101000001011010000101010100000000111111111010100001000010001111110010000000000010001100010101010000000011111111101010101011000101010100000000111111111010101011000101010100000000010101010000000000000001100100000000000010001100010101010000000001" not supported
+WARNING - synthesis: Type "0011000000000000000000111111111111110000000000000000000000011111000011111100110010000100110000110011000000000100101100001111101010100101110000110010001010101010101011110000101010101010101101001000001001000000001000100000010010001111100101101000010000000000" not supported
+WARNING - synthesis: Type "0000001100000000000000000000000000000000001100111000000100001100000100000001101010101000010101010000000011111111111111101010101111111010101000010101010000000000001111101010100101000000001111111110000000000001010101001100110000000000000001110001000100011100" not supported
+WARNING - synthesis: Type "0101010000000011000011000001100010011000101011101110111011111111111111111101010101000000001100110000001110101010011111111110100100111000110011001001011011101110111011111000001000100010000000111111110101010100001000110000000000001010101011101110111011110010" not supported
+WARNING - synthesis: Type "0101000000000000000011111111111111000100000000111111111000000000000000001111111111111100110010001000100010001000101011111111111111111111111010101111000011101000100010001000101111111111111111111111111010100011001110101000100110001001100010111111111111111101" not supported
+WARNING - synthesis: Type "1111001100000011110000000000000000010010110011001010000110110010100000101100101000101011001010000010110010100010101100011000010110111101010101001100111111001111110011000000110011001111000010100000110011000000110010101010101010110011001100110000111110101010" not supported
+WARNING - synthesis: Type "0000000000000000000101010100000000100000000000000000000100001100000000000001011011000000000000010000000000000101010100000000000000111110100000101000000011111111100000001111010100000101001110101010010100111111001110101011110110110000110000001110101010101010" not supported
+WARNING - synthesis: Type "0101010000000011111010101001000000000000001111101010100111111010101001010101000000000100000000000000000000000000000101001111101010100101010100000000111010101001010000001010101010101111001101111010101001010000111110101010010101010000000000001111111110000000" not supported
+WARNING - synthesis: Type "1100011000010101111101010101000000000101010100000000000000101100000000110011001110001011100100000100010000001011001100100001000010100000110000010110100000000000000100100000111010101001011010101010101111101010100101010101000000000000000000000001010100000000" not supported
+WARNING - synthesis: Type "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000100001100101000011011001010000010110010100010101100101000001011001010001010" not supported
+WARNING - synthesis: Type "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" not supported
+WARNING - synthesis: Type "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" not supported
+WARNING - synthesis: Type "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" not supported
+WARNING - synthesis: Type "0001010100000000000101001101001101100100000001010100100111001111001100000101111100011110011000111011001001000100000100000100000111000010001001001011010111000100111001001110010011100100100100111001001110010011100100001110100101100011000000110000001100000000" not supported
+WARNING - synthesis: Type "0000000010110010011100001011100010010000010001000100010000000010001101010000111000011110110011100001111010101010000000000000111000011110110011100001111010101010000000000011001100100010001100110100010000000000001000010000000101000001010001110001010000110010" not supported
+WARNING - synthesis: Type "1001001110000100110011100100111001001110010011100100110000111001001110010000001100111001001000000000000000000000100000100000000100001100010011000010110011111100100011100010100001001100010110000110010001110000010011000101100001100100011100000000001101000001" not supported
+WARNING - synthesis: Type "0000001110011110000001001001001110010011100100111001001110001111100001000111000000000000000000001100111001001110010011100100111000010011001110010011100100111001001110010011001110010011100100111001001110000100000011001000000000000000001100111001001110010011" not supported
+WARNING - synthesis: Type "1010000000000000000000111111111111110000000000000000000000111010001101101000110000111111100011011110001000111100000100000100111001001110010001010001000000000000000010000001000000000000001011000001000011000000010101110001000110001110000100100100110000000000" not supported
+WARNING - synthesis: Type "0000001100000000000000000000000010010000010100010100001000001001101100000000101011111010111001001110010001110111100100111001001001001110010010111001001110010001000100111001001110001001001110010011000001101100011011001000110000000000000010110011111111111000" not supported
+WARNING - synthesis: Type "1001001110010111000011010000100010001000100010001000100010111111111111111111100100111001111100110100000011100100111110010011101000110100010000001101000010001000100010110111001000010000000100111001001110010011101100110100110010001010010010001000100010110100" not supported
+WARNING - synthesis: Type "1110000000000000000011111111111111001100100100111001001100000000000000001111111111111100100011011100110011001100111111111111111111111001001110011111000011010000110011001100110111111111111111111001001110010111001101001001100010001000100010011111111111111111" not supported
+WARNING - synthesis: Type "1001001100000011100100000000000000100000110001000011001100010000110000000100001100010001000011001000010000110011000100001100000011110111111111001101011111001101000111000001110001010001000011100100010011000001110000000000000000100010000100100000010011100100" not supported
+WARNING - synthesis: Type "0000000000000110110001101100000011000000000000000000001000011100000000000010000011000000000000100000000000001010010011100100000110100001100000011000010011100100110000101000000100000001000011100100111010100000000111101111100010100000110001001100000000000000" not supported
+WARNING - synthesis: Type "1001001110010001001110010011000000000000000100111001001101001110010011100100111001001001000000000000000000000000001000000100111001001110010011100100001110010011100101010000000000001011010101001110010011100000010011100100111001001110010001001110010011000000" not supported
+WARNING - synthesis: Type "0100001100000000110111111111000100001110010011100100000011001100000100110000000000000011010000010000000001001000001100100011110011100011110000010010010000000000001000100101001110010011100000000000001000111001001110100100111001000000000000000010010011100100" not supported
+WARNING - synthesis: Type "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000101000000000000001000000100001100110001000011000000010000110001000100001100100001000011001100" not supported
+WARNING - synthesis: Type "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" not supported
+WARNING - synthesis: Type "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" not supported
+WARNING - synthesis: Type "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" not supported
+WARNING - synthesis: Type "0000000100110000001010101000101011101000101010101010110001010000101011101010101010100100000000110001000011010001010000010000010101000000101111000011001000110101010101010101010101010101000000000000000000000000000000111111101110100010000000100000000000000000" not supported
+WARNING - synthesis: Type "0100000000110100000000000011000100000000100100000000100000000000001100001111010111010100001101011101000000000000010100001111010011001100001101111111110000000000010011001101110111001111110111010100001100001000110011000001000001100000110000000000000000100011" not supported
+WARNING - synthesis: Type "0000000000000000110001010101010101010000000000000000110001010101010101010000101001111110001010000000000000001101101101010000001011010010001011110010110001111101110111111011000011010100110101001101010011010100110101001101010011010100110101000000000000000000" not supported
+WARNING - synthesis: Type "1110011001000000111010100101000101010101010101000000000000001011100000000111010000000001000000001100010101010101010100000000000000000011000101010101010101000000000000000011000101010101010101000000000000000010000001000100000001000000001100010101010101010100" not supported
+WARNING - synthesis: Type "0010000000000000000010111111111111111000001110010011100100100110001010011000010000101001100010100110000100100100011010101010101010101010100000101011100000000000000000110000000000000000000010001110001100111000000100110000010011111010011010010111000011100100" not supported
+WARNING - synthesis: Type "0000001100000000000000000000000011000011001010101000111000000100100000000010111111111110000000000000000010001000000000000000000000000000000010000000000000000000001010101010101010001010100101010101000101010101010101101000000000000000000000101100100010001000" not supported
+WARNING - synthesis: Type "0000000000000111111111000001110011011100110000000000000000101111111111110000000000000000111111110000001010101010100000000000001000000000110111001110100000000000000000110010001000100000001010010101010000000000000100000000010101001101010000000000000000110001" not supported
+WARNING - synthesis: Type "1010000000000000001011111111111111101000101010010101010100000000000000101111111111111110010011001100111011001101110011111111111100000000000000000011111111000000110011001100111011111111111100000000000000001111111100001100110111101101110111001111111111110000" not supported
+WARNING - synthesis: Type "0000111000101110100000000000000000001011110101010010011000011000100110000111001001010001000010010100010100100100000110001001000010110100000000111100001100111000110010110000101100001100001011111101001110110000101100000000000000000000100010011000101010101010" not supported
+WARNING - synthesis: Type "0000000000010101010101010111001010010011000000000000000000000000000000000000100000000000000000000000000000000000000000000000001000101101010010010111101001010101010000001011101000101010111010101010101000101101001011111111111011000011100000111000000000000000" not supported
+WARNING - synthesis: Type "0000000000000000000000000000010011100100110000000000000001010101010101010101010101010000000000000000000000000000000010000101010101010101010101010101101010101010101000000000000000000010001011101010101010100000010101010101010101010101010110100101010101000000" not supported
+WARNING - synthesis: Type "0101001001000010110100000000100000010101010101010100001010011100001000001011011100100011010101100101011001000011010010001011000111110000111110101001010000000000000000010000101010101010100000000000000010101010101010000000000000000100111001001101010101010101" not supported
+WARNING - synthesis: Type "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000010010100001001100001010010011000011000100101000111001001010001000010010000" not supported
+WARNING - synthesis: Type "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" not supported
+WARNING - synthesis: Type "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" not supported
+WARNING - synthesis: Type "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" not supported
+WARNING - synthesis: Type "0000010000010000000001010101000101010101000000000000000101010101000101000101010101010100000101010101011011101100101100101100101001000010100011001000001100110101010101010101010101010101010101010101010101010101010101000000000000000011000000110000001000000000" not supported
+WARNING - synthesis: Type "0100000000000100000011000001000100001000111000000010110010000011001100000101011100111100000101110011110000000000011000000101011100111000000101100010100000000000010001010101010001010100010101001000000100001000010001000010000001010000000000100000100000100001" not supported
+WARNING - synthesis: Type "0000000000000000110000000000000000000000000000000000110000000000000000000010000000111101011000000000000000001000101000010101010110001100010001100000010000010000000000000011010011000000110000001100000011000000110000001100000011000000110000000000000000010000" not supported
+WARNING - synthesis: Type "1010101010000000000000000000000000000000000000000000000000001111111000101101111000101010101000001100000000000000000000000000000000000011000000000000000000000000000000000011000000000000000000000000000000100010000010001010101010101000001100000000000000000000" not supported
+WARNING - synthesis: Type "1000100000000000000000011111111111111110011111111110101010101000000111100000011000011011001001111100100110000110000011000000000000000000000000000000000000000000000000000000000000000000000010000000000001000000000000000000000000000000000000000010000011111111" not supported
+WARNING - synthesis: Type "1000001110000000000000000010000011000011001100111101111110001100110000000000110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100010000000000000000000000000110011000000" not supported
+WARNING - synthesis: Type "0000000000001001111101000010001000100001000000000000000000011111111111110000000000000000010111010000000000000000000000000000000000000000000000100000000000000000000000010000100000001000000000000000000000000000000000000000000000100000000000000000000000010000" not supported
+WARNING - synthesis: Type "0000000000000000000001111111111111111000000000000000000000000000000000000111111111111111100000000000000000000000001111111111111100000000000000001101111101000000001000000001001011111111111100000000000000001001110100000000001000000010000000101111111111110000" not supported
+WARNING - synthesis: Type "0010000000100000010000000000000000001001111011000001100100110000011001001100000110010011010001100100110100011001001101000110010001111100000000010100101100000010000000000000000010000010101100000000101100000000000000000000000000000000000000000000000000000000" not supported
+WARNING - synthesis: Type "0000000000000000000000000011101100000011000000000000000000000000000000000000110000000000000000000000000000000001010101010101001111101100000010000011000000000000001110111011000000100000110000000000000011101110101000001111100011010000000000000000000000000000" not supported
+WARNING - synthesis: Type "0101010101010101010101010101111110101010010101010101010101010101010101010101010101010100000000000000000000000000000001000101010101010101010101010101000000000000000000000000000000000000001000000000000000000000010101010101010101010101010100000000000000000000" not supported
+WARNING - synthesis: Type "1101000110010000111100000000010000000000000000000000100000001100001101110010001000110001111100111100110011011010001100110001110000000000110000000000000000000000000000000000000000000000000000000000000000000000000000010101010101011111101010100101010101010101" not supported
+WARNING - synthesis: Type "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010101100000110010011000001100100110000011001001100000110010011010001100100" not supported
+WARNING - synthesis: Type "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" not supported
+WARNING - synthesis: Type "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" not supported
+WARNING - synthesis: Type "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" not supported
+WARNING - synthesis: Type "1001100101001010010101010101010101010101010101010101010101010101010101010101010101010101010000010001000000000001000001000001000010110100000000010000110010010000000000000000000000000000000000000000000000000000000000000000000000000000000110000001100000000000" not supported
+WARNING - synthesis: Type "0101010010100110011110001010110110011000000000100111000101000000000000010001110011000011110001000100000101010101110100000001110011000011110001000100000101010101110000010001000100010001000100010011100000011100000100010000111011100000000001000011001010110000" not supported
+WARNING - synthesis: Type "0110110001101011110000011011000110110001101100011011110001000000000000000001011001110101100110010001000100010110010110011001010101100110010101011111011111010110010110011110110000110110001101100011011000110110001101100011011000110110001101100001010110100101" not supported
+WARNING - synthesis: Type "1110011010001010010010110001000001101100011011000110110001100110010110110111011011011010000100011100000110110001101100011011000110101111000001101100011011000110110001101111000001101100011011000110110001101011110001000101011010000100011100000110110001101100" not supported
+WARNING - synthesis: Type "1000001110010011100100111001001110010010111110010011100100101000001011100000100000101011000010111100001000001000000000001001101100011011100100101010000001101100011011100100000110110001101110010010010010010011101000000100100000000111111011000110100011100100" not supported
+WARNING - synthesis: Type "0011001011110011100100111001000010000010011000101000101000001001100001000011101001100110110110110001101100001011011011000110110110110001101100000110110001101100000001101100011011000001101100011011000111100100111001011011110100010001000100010000100010000000" not supported
+WARNING - synthesis: Type "0110110001101111101011101111000000110000000001000100010001110001101100011000011011000110111110111011000001101100010001101100011010101000110011000010111011101110111011111000001100111111000001101100010001101100011010101000110011000010111011101110111011111000" not supported
+WARNING - synthesis: Type "1011111001001110010011100100111001001000000110110001101111100100111001001110010011100100100000000000000000000000001101101100011011011011000110111111101011101100000000000000001101101100011011011011000110111111101110110000001100000011000000110001101100011000" not supported
+WARNING - synthesis: Type "1100000101000001000111100100111001000100101010001000100001100010001000011000100010000110001000100001100010001000011000100010000100011000000000001110001110101100000001000100010000000000111110110011000001000100010000011011000110111100110000001100000110110001" not supported
+WARNING - synthesis: Type "1011000100010011100100111001111110110000010001000100010001000000111001001110000000001110010011100011100100111010110001101100000100010011101110111001000110110001100010000100111011101110010001101100011000010000100010010011011110110000010100000100011011000110" not supported
+WARNING - synthesis: Type "1100011011000100011011000110100100111001001100011011000100011011000110110001101100010110010011100100111001001110010001100001101100011011000110110001000110110001100111100001101100011001000111000110110001101011000110110001101100011011000100011011000110110001" not supported
+WARNING - synthesis: Type "1000100010000110011000000000001000010000000000000000010110011100110110011001100101010110010110010110011001010101100110010101010110010001000100101100010011100100111000011011000110110001100001101100011000011011000110000110110001101001001110010000011011000110" not supported
+WARNING - synthesis: Type "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001001111001001110010001101000100010000110001000100001100010001000011000100010000110001000100001" not supported
+WARNING - synthesis: Type "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" not supported
+WARNING - synthesis: Type "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" not supported
+WARNING - synthesis: Type "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" not supported
+WARNING - synthesis: Type "0101010101000101010101010101010101010101010101010101010101010101010101010101010101010101010000010001000000000010000010000010000010100001000000000100010001010000000000000000000000000000000000000000000000000000000000000000000000000000100101001001010000000000" not supported
+WARNING - synthesis: Type "0101010001010101010101000101010101010100001010010101001010000000001010100001010001000001010001000100000101010101010110000001010001000001010001000100000101010101010000010001000100010001000100010010100000011000000100010000010101010000000001000001000101010000" not supported
+WARNING - synthesis: Type "0000000101010101110000000000010101010000000001010101110000000000000000000000000000110000000000101010101010100000000000000000000000000000000000000000000000000000000000000000000000010101000101010001010100010101000101010001010100010101000101010001010001010101" not supported
+WARNING - synthesis: Type "0000000000000000000000000000000000000001010101000000000101010001001001010001001001101010101010101100000000000101010100000000010101010111000000000001010101000000000101010111000000000001010101000000000101010101011000100010101010101010101100000000000101010100" not supported
+WARNING - synthesis: Type "0010100101010100000000010101010000000000010101010100000000000000000000000000000000000000000000000000000000000000001010100010101011111111000000000000101010101011111111000000101010101111111100000000000000000000000001010000000101000011110000000000000001010101" not supported
+WARNING - synthesis: Type "0000000001010001010101000000100000100000000000000000000000000010001010000000000101010101011010101111111110000101000000010101011010101111111110000000000101010100001010101011111111000000000001010101001001010101000000101001011010101010101010101001000100011010" not supported
+WARNING - synthesis: Type "0000000101010001010101010100000000000000001010101010101010000000000001010100000000010101000101010101000000000001010000000001010101010100000000000001010101010101010101010100000000000101000000000001010000000001010101010100000000000001010101010101010101010100" not supported
+WARNING - synthesis: Type "1111111111111010101011111111101010100000000000000101010101010101000000000101010100000000000000000000000000000000000010101011111111101010111111110001010101010100000000000000000010101011111111101010111111110001010101010000000000000000000000000000000001010100" not supported
+WARNING - synthesis: Type "0101101010101010011001010101000000001001101000101001100110001010011001100010100110011000101001100110001010011001100010100110011001100010101010100110011010101001101010101010101001101001111111110101010010101010101000000000010101011101110100010100101010101111" not supported
+WARNING - synthesis: Type "1010111100001001010101000000111111111000000000000000000000001010010101010000011010100101010100001001010101000000000101010110000101010111111111111101000000000101010100010101111111111111010000000001010101010101000100000111010000000010101010101000000000010101" not supported
+WARNING - synthesis: Type "0110101010111100000000010101010101000000000110101010111100000000010101011010101011110111111110101010010101010000000001110000000001010101101010101111000000000101010111110000000001010101000111000000000101011111000000000101010110101010111100000000010101011010" not supported
+WARNING - synthesis: Type "0010100110011001100010101010101000000000000000000000000000001100110100000000000011111111010100010100010001000000000000010000010000000000000000000000001001010101000000011111000000000101010000000001010100000000010101000000000101010101010000000000000000010101" not supported
+WARNING - synthesis: Type "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000110010101010000000010100010100110011000101001100110001010011001100010100110011000101001100110" not supported
+WARNING - synthesis: Type "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" not supported
+WARNING - synthesis: Type "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" not supported
+WARNING - synthesis: Type "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" not supported
+WARNING - synthesis: Type "1101010101100101010101010101010101010101010101010101010101010101010101010101010101010101011010011001100000000001000001000001000001010000001000000010010001011111111111111111111111111111111111111111111111111111111111111111111111110100010101000101010010101010" not supported
+WARNING - synthesis: Type "0001010101110001010101010111010001010101100001110110000100010110010101010000011001101001110001100110100100000000001001010000011001101001110001100110100100000000000100010001000100010001000100011011010001010001000100010110110101010111110101100101100101010110" not supported
+WARNING - synthesis: Type "1111111111011111010111111111111111111111111111111111010111111111111111110111101111011010011001000000000000001001101001100110011010011001100110100111100111101001100111110000000100110101001101010011010100110101001101010011010100110101001101010101011001010101" not supported
+WARNING - synthesis: Type "1010000000111010100011111111011111111111111111111111111111011011100111011011100111101000111111110101111111111111111111111111111101111101011111111111111111111111111111111101011111111111111111111111111111001100110110011001101000111111110101111111111111111111" not supported
+WARNING - synthesis: Type "1011011111111111111101111111111111111110011010101010101000000011011000001101100111100000110110000011011001111001111111001111111111111111101101110110010000000000000000101101000000000000000000010110110110100011011001111101100111111111111111111100101110101010" not supported
+WARNING - synthesis: Type "0110011001110111111111111100010110010110011001101001101001011001100001011100001111111111111111111111111111111111111111111111111111111111111111111111111111111111011111111111111111011111111111111111011111111111111111001100110000000000000000111100000000001101" not supported
+WARNING - synthesis: Type "1111111111111011011111111110110111101101110000000000000000101111111111110111111111111111101101111111011111111111111111111111111100111101100110011111110000000000000000111111011001100111011111111111111111111111111100111101100110011111110000000000000000111111" not supported
+WARNING - synthesis: Type "1111111111111111110111111111111111110001111111111111111111111111111111011111111111111111000111011101110111011101111011111111111101111111111111111011011111111101110111011101111011111111111101111111111111111011011111111101111011011110110111101111111111110111" not supported
+WARNING - synthesis: Type "0010111111001111100100000000000000000010010000000110001001000001100010010000011000100100000110001001000001100010010000011000100110010000000000001101101101111110110111111101111110011110011011111001100011111101111100000000000000000110011001100101111111111111" not supported
+WARNING - synthesis: Type "0101010101111111111111111100111011110011000000000000000011011100000000000000100111000000000000000000000000000011111111111111010010000011111100111100111111111111111001100000111111001111001111111111111110000010011011111001000000000111111101111100000000000000" not supported
+WARNING - synthesis: Type "1111111111111111111111111111101010101010001111111111111111111111111111111111111111111001000000000000000000000000000010011111111111111111111111111111111111111111111001010000000000000010011001111111111111110101111111111111111111111111111111111111111111010101" not supported
+WARNING - synthesis: Type "0000011000100110010000000000000101111111111111111101111011110101011001100110011011101101101001101001100110011010011001100110100111110111011000111111110000000000000001100101111111111111110000000000000011111111111111111111111111111010101010101011111111111111" not supported
+WARNING - synthesis: Type "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011001000000000000000000000000011000100100000110001001000001100010010000011000100100000110001001" not supported
+WARNING - synthesis: Type "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" not supported
+WARNING - synthesis: Type "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" not supported
+WARNING - synthesis: Type "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" not supported
+WARNING - synthesis: Type "1010000011011110000000000000000000000000000000000000000000000000000000000000000000000000000001110011000000000000000000000000000000000000000000000001110000001111111111111111111111111111111111111111111111111111111111111111111111110000000000000000000000000000" not supported
+WARNING - synthesis: Type "0111000111000111111101011100100111110101101100000011000000010100001110000000000000001011000000000000101101010101001000010000000000001011000000000000101101010101000100000000000000000000000000000000000000110101000000000101101000000110100110000010011110000101" not supported
+WARNING - synthesis: Type "1010101010011010000111111111111111111010101010101010000111111111111111110000001010000001110111010101010101010111000111011100110001110111001100001110001110000111001110100000000100100000001000000010000000100000001000000010000000100000001000000111000110001100" not supported
+WARNING - synthesis: Type "1111110000010110111110101010011111111111111111101010101010010000011110010000011110010000000010100001111111111111111110101010101001101000011111111111111111101010101010101000011111111111111111101010101010011001100000000011010000000010100001111111111111111110" not supported
+WARNING - synthesis: Type "0011000000000000000000010101010101010100110000000000000000000011000000001100001110000000110000000011000011100011101100011011111111111111011010110000110101010101010101001010010101010101010100000010111100101000000111100000011110111111101010101000110111111111" not supported
+WARNING - synthesis: Type "0000000111100100000000000000000000000000110111000011000111010000100100010100001111101011111111111111111111111010111111111111111010101010101010101010101010101001011010101010101010011010101010101010011111111111111111011001000101010101010101101000000000001100" not supported
+WARNING - synthesis: Type "1010101010100111110000101000110110001101100101010101010101011111111111111110101010101010011111001010011111111111111010101010101101001000000001111011110101010101010101001011000000011110011111111111111010101010101101001000000001111011110101010101010101001011" not supported
+WARNING - synthesis: Type "1111000000000000000001010101010101010001111111111111111100000000000000000101010101010101000111011001110110011101100011111111111111101010101010100111110000101001110110011101100111111111111111101010101010100111110010101101100011011000110110001111111111111110" not supported
+WARNING - synthesis: Type "0100111110101010011001010101010101010000110000000000000011000000000000110000000000001100000000000011000000000000110000000000001100110001010101000000001111101000110011110000101001111000110010100011000111110000101001010101010101010000000011001101111111111111" not supported
+WARNING - synthesis: Type "0000000001111111111111111101000110100100010101010101010100000001010101010101001100010101010101010101010101010110101010101010010000000011111010101000101010101010100111000000111110101010001010101010101000000001110110100011000000000111110000101001010101010101" not supported
+WARNING - synthesis: Type "1010101010101011111111111111000000000000001010101010101011111111111111111111111111110110010101010101010101010101010100111010101010101010101010101010111111111111110000000101010101010101110011101010101010100000111111111111111111111111111110101010101010000000" not supported
+WARNING - synthesis: Type "0000000000001100110001010101000001111111111111111100000110100001000111011101110011001000000111000111011100110001110111001100001110100110100000101010100101010101010101000000111111111111110101010101010110101010101010111111111111110000000000000010101010101010" not supported
+WARNING - synthesis: Type "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010110010101010101010100000000000000001100000000000011000000000000110000000000001100000000000011" not supported
+WARNING - synthesis: Type "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" not supported
+WARNING - synthesis: Type "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" not supported
+WARNING - synthesis: Type "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" not supported
+WARNING - synthesis: Type "0101000010110000101010101010101010101010101010101010101010101010101010101010101010101010101011011101111010101000101000101000101000001010101010101011001000001010101010101010101010101010101010101010101010101010101010101010101010100010000000100000001010101010" not supported
+WARNING - synthesis: Type "0010001010000010101000101000000010100010110101010110100100101010110001011000011001101101001001100110110101010101000000101000011001101101001001100110110101010101001010001000100010001000100010001001011011011010100010001011010100001010101000101101110000001011" not supported
+WARNING - synthesis: Type "0000000000000000001010101010101010100000000000000000001010101010101010100000000000001011001100010101010101011100101100110011001011001100110010110000110000101100110000001010101010000000100000001000000010000000100000001000000010000000100000001010001101001000" not supported
+WARNING - synthesis: Type "0101011010111111010100000000101010101010101010000000000000001000110000001000110000000000000000000010101010101010101000000000000000000000101010101010101010000000000000000000101010101010101010000000000000000000000010001100000000000000000010101010101010101000" not supported
+WARNING - synthesis: Type "1010000101010101010101000000000000000011000101010101010101101010001010101000110000101010100010101010001100001100001000000010101010101010110101100011000101010101010101110101010101010101010110000011010111010101011100000101110000101010000000000010111101010101" not supported
+WARNING - synthesis: Type "0010001100001001010101010101000010000011001100101100101100101001110100101110101010000010101010101010101010100000101010101010100000000000000000000000000000000011100000000000000000100000000000000000101010101010101010000000000101010101010101000010101010101000" not supported
+WARNING - synthesis: Type "0000000000001101010000000010100000101000000101010101010101110000000000000000000000000000110000000000101010101010100000000000001000000000100011000010100101010101010101000010001000110000101010101010100000000000001000000000100011000010100101010101010101000010" not supported
+WARNING - synthesis: Type "1010010101010101010100000000000000001010101010101010101001010101010101010000000000000000101010000010100000101000001100000000000000000000000000001101010000000010100000101000001100000000000000000000000000001100000000001000001010000010100000110000000000000000" not supported
+WARNING - synthesis: Type "0110101001010000110101010101010101010011000110000110011101100001100111011000011001110110000110011101100001100111011000011001110111001001010101000000110000000010100010100101000011000011000000001100100010100101000001010101010101010010001100110010101010101010" not supported
+WARNING - synthesis: Type "0000000010101010101010101000000000000000010101010101010101010001010101010101110000010101010101010101010101010100000000000000101010101010100101000010000000000000001100101010101001010000100000000000000010101011001100001101101010101010100101000001010101010101" not supported
+WARNING - synthesis: Type "0000000000000010101010101010010101010101010000000000000010101010101010101010101010101101010101010101010101010101010111010000000000000000000000000000101010101010101001010101010101010111001101000000000000000000101010101010101010101010101000000000000000000000" not supported
+WARNING - synthesis: Type "1000011001110111001001010101000010101010101010101000000000000010001100110011001010000000101100101100110011001011001100110010110000001001010101000000000101010101010110100001101010101010100101010101010100000000000000101010101010100101010101010100000000000000" not supported
+WARNING - synthesis: Type "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000101101010101010101010100011000011001110110000110011101100001100111011000011001110110000110011101" not supported
+WARNING - synthesis: Type "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" not supported
+WARNING - synthesis: Type "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" not supported
+WARNING - synthesis: Type "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" not supported
+Results of NGD DRC are available in top_drc.log.
+
+################### Begin Area Report (top)######################
+Number of register bits => 2378 of 1280 (185 % )
+SB_DFF => 2348
+SB_DFFESR => 13
+SB_DFFESS => 1
+SB_DFFSR => 11
+SB_DFFSS => 5
+SB_GB_IO => 1
+SB_IO => 2
+SB_LUT4 => 4393
+SB_RAM2048x2 => 9
+SB_RAM256x16 => 1
+################### End Area Report ##################
+
+################### Begin BlackBox Report ######################
+ram32m_behav => 1
+################### End BlackBox Report ##################
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 1
+  Net : CLK_3P3_MHZ_c, loads : 2369
+Clock Enable Nets
+Number of Clock Enables: 0
+Top 0 highest fanout Clock Enables:
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : processor_zipi8/sel_of_2nd_op_to_alu_and_port_id_i/port_id_7, loads : 1460
+  Net : processor_zipi8/sel_of_2nd_op_to_alu_and_port_id_i/port_id_1, loads : 937
+  Net : processor_zipi8/sel_of_2nd_op_to_alu_and_port_id_i/port_id_0, loads : 585
+  Net : processor_zipi8/register_bank_control_i/sx_addr_4, loads : 266
+  Net : processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/DO_0, loads : 262
+  Net : processor_zipi8/sel_of_2nd_op_to_alu_and_port_id_i/port_id_3, loads : 261
+  Net : processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/DO_3, loads : 260
+  Net : processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/DO_2, loads : 260
+  Net : processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/DO_5, loads : 260
+  Net : processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/DO_1, loads : 259
+################### End Clock Report ##################
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 303.029999         |             |             |
+-waveform { 0.000000 151.514999 } -name |             |             |
+CLK_3P3_MHZ_main [ get_ports {          |             |             |
+CLK_3P3_MHZ } ]                         |    3.300 MHz|   40.303 MHz|    16  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Peak Memory Usage: 86.359  MB
+
+--------------------------------------------------------------
+Elapsed CPU time for LSE flow : 5.516  secs
+--------------------------------------------------------------

@@ -1,0 +1,1608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_zipi8_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="op_codes" />
+            <top_module name="test_zipi8" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="3126724140fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="218"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="396" />
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/internal_reset">
+      <obj_property name="ElementShortName">internal_reset</obj_property>
+      <obj_property name="ObjectShortName">internal_reset</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/pc">
+      <obj_property name="ElementShortName">pc[11:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/pc_value">
+      <obj_property name="ElementShortName">pc_value[11:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_value[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/address">
+      <obj_property name="ElementShortName">address[11:0]</obj_property>
+      <obj_property name="ObjectShortName">address[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/instruction">
+      <obj_property name="ElementShortName">instruction[17:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[17:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/bram_enable">
+      <obj_property name="ElementShortName">bram_enable</obj_property>
+      <obj_property name="ObjectShortName">bram_enable</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/in_port">
+      <obj_property name="ElementShortName">in_port[7:0]</obj_property>
+      <obj_property name="ObjectShortName">in_port[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/out_port">
+      <obj_property name="ElementShortName">out_port[7:0]</obj_property>
+      <obj_property name="ObjectShortName">out_port[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/port_id">
+      <obj_property name="ElementShortName">port_id[7:0]</obj_property>
+      <obj_property name="ObjectShortName">port_id[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/write_strobe">
+      <obj_property name="ElementShortName">write_strobe</obj_property>
+      <obj_property name="ObjectShortName">write_strobe</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/k_write_strobe">
+      <obj_property name="ElementShortName">k_write_strobe</obj_property>
+      <obj_property name="ObjectShortName">k_write_strobe</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/read_strobe">
+      <obj_property name="ElementShortName">read_strobe</obj_property>
+      <obj_property name="ObjectShortName">read_strobe</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/interrupt">
+      <obj_property name="ElementShortName">interrupt</obj_property>
+      <obj_property name="ObjectShortName">interrupt</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/interrupt_ack">
+      <obj_property name="ElementShortName">interrupt_ack</obj_property>
+      <obj_property name="ObjectShortName">interrupt_ack</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/sleep">
+      <obj_property name="ElementShortName">sleep</obj_property>
+      <obj_property name="ObjectShortName">sleep</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/t_state_value">
+      <obj_property name="ElementShortName">t_state_value[2:1]</obj_property>
+      <obj_property name="ObjectShortName">t_state_value[2:1]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/t_state">
+      <obj_property name="ElementShortName">t_state[2:1]</obj_property>
+      <obj_property name="ObjectShortName">t_state[2:1]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/run_value">
+      <obj_property name="ElementShortName">run_value</obj_property>
+      <obj_property name="ObjectShortName">run_value</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/run">
+      <obj_property name="ElementShortName">run</obj_property>
+      <obj_property name="ObjectShortName">run</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/internal_reset_value">
+      <obj_property name="ElementShortName">internal_reset_value</obj_property>
+      <obj_property name="ObjectShortName">internal_reset_value</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/internal_reset">
+      <obj_property name="ElementShortName">internal_reset</obj_property>
+      <obj_property name="ObjectShortName">internal_reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/sync_sleep">
+      <obj_property name="ElementShortName">sync_sleep</obj_property>
+      <obj_property name="ObjectShortName">sync_sleep</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/int_enable_type">
+      <obj_property name="ElementShortName">int_enable_type</obj_property>
+      <obj_property name="ObjectShortName">int_enable_type</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/interrupt_enable_value">
+      <obj_property name="ElementShortName">interrupt_enable_value</obj_property>
+      <obj_property name="ObjectShortName">interrupt_enable_value</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/interrupt_enable">
+      <obj_property name="ElementShortName">interrupt_enable</obj_property>
+      <obj_property name="ObjectShortName">interrupt_enable</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/sync_interrupt">
+      <obj_property name="ElementShortName">sync_interrupt</obj_property>
+      <obj_property name="ObjectShortName">sync_interrupt</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/active_interrupt_value">
+      <obj_property name="ElementShortName">active_interrupt_value</obj_property>
+      <obj_property name="ObjectShortName">active_interrupt_value</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/active_interrupt">
+      <obj_property name="ElementShortName">active_interrupt</obj_property>
+      <obj_property name="ObjectShortName">active_interrupt</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/arith_logical_sel">
+      <obj_property name="ElementShortName">arith_logical_sel[2:0]</obj_property>
+      <obj_property name="ObjectShortName">arith_logical_sel[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/arith_carry_in">
+      <obj_property name="ElementShortName">arith_carry_in</obj_property>
+      <obj_property name="ObjectShortName">arith_carry_in</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/arith_carry_value">
+      <obj_property name="ElementShortName">arith_carry_value</obj_property>
+      <obj_property name="ObjectShortName">arith_carry_value</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/arith_carry">
+      <obj_property name="ElementShortName">arith_carry</obj_property>
+      <obj_property name="ObjectShortName">arith_carry</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/half_arith_logical">
+      <obj_property name="ElementShortName">half_arith_logical[7:0]</obj_property>
+      <obj_property name="ObjectShortName">half_arith_logical[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/logical_carry_mask">
+      <obj_property name="ElementShortName">logical_carry_mask[7:0]</obj_property>
+      <obj_property name="ObjectShortName">logical_carry_mask[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/carry_arith_logical">
+      <obj_property name="ElementShortName">carry_arith_logical[7:0]</obj_property>
+      <obj_property name="ObjectShortName">carry_arith_logical[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/arith_logical_value">
+      <obj_property name="ElementShortName">arith_logical_value[7:0]</obj_property>
+      <obj_property name="ObjectShortName">arith_logical_value[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/arith_logical_result">
+      <obj_property name="ElementShortName">arith_logical_result[7:0]</obj_property>
+      <obj_property name="ObjectShortName">arith_logical_result[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/shift_rotate_value">
+      <obj_property name="ElementShortName">shift_rotate_value[7:0]</obj_property>
+      <obj_property name="ObjectShortName">shift_rotate_value[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/shift_rotate_result">
+      <obj_property name="ElementShortName">shift_rotate_result[7:0]</obj_property>
+      <obj_property name="ObjectShortName">shift_rotate_result[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/shift_in_bit">
+      <obj_property name="ElementShortName">shift_in_bit</obj_property>
+      <obj_property name="ObjectShortName">shift_in_bit</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/alu_result">
+      <obj_property name="ElementShortName">alu_result[7:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_result[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/alu_mux_sel_value">
+      <obj_property name="ElementShortName">alu_mux_sel_value[1:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_mux_sel_value[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/alu_mux_sel">
+      <obj_property name="ElementShortName">alu_mux_sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_mux_sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/strobe_type">
+      <obj_property name="ElementShortName">strobe_type</obj_property>
+      <obj_property name="ObjectShortName">strobe_type</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/write_strobe_value">
+      <obj_property name="ElementShortName">write_strobe_value</obj_property>
+      <obj_property name="ObjectShortName">write_strobe_value</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/k_write_strobe_value">
+      <obj_property name="ElementShortName">k_write_strobe_value</obj_property>
+      <obj_property name="ObjectShortName">k_write_strobe_value</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/read_strobe_value">
+      <obj_property name="ElementShortName">read_strobe_value</obj_property>
+      <obj_property name="ObjectShortName">read_strobe_value</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/flag_enable_type">
+      <obj_property name="ElementShortName">flag_enable_type</obj_property>
+      <obj_property name="ObjectShortName">flag_enable_type</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/flag_enable_value">
+      <obj_property name="ElementShortName">flag_enable_value</obj_property>
+      <obj_property name="ObjectShortName">flag_enable_value</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/flag_enable">
+      <obj_property name="ElementShortName">flag_enable</obj_property>
+      <obj_property name="ObjectShortName">flag_enable</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/lower_parity">
+      <obj_property name="ElementShortName">lower_parity</obj_property>
+      <obj_property name="ObjectShortName">lower_parity</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/lower_parity_sel">
+      <obj_property name="ElementShortName">lower_parity_sel</obj_property>
+      <obj_property name="ObjectShortName">lower_parity_sel</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/carry_lower_parity">
+      <obj_property name="ElementShortName">carry_lower_parity</obj_property>
+      <obj_property name="ObjectShortName">carry_lower_parity</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/upper_parity">
+      <obj_property name="ElementShortName">upper_parity</obj_property>
+      <obj_property name="ObjectShortName">upper_parity</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/parity">
+      <obj_property name="ElementShortName">parity</obj_property>
+      <obj_property name="ObjectShortName">parity</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/shift_carry_value">
+      <obj_property name="ElementShortName">shift_carry_value</obj_property>
+      <obj_property name="ObjectShortName">shift_carry_value</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/shift_carry">
+      <obj_property name="ElementShortName">shift_carry</obj_property>
+      <obj_property name="ObjectShortName">shift_carry</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/carry_flag_value">
+      <obj_property name="ElementShortName">carry_flag_value</obj_property>
+      <obj_property name="ObjectShortName">carry_flag_value</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/carry_flag">
+      <obj_property name="ElementShortName">carry_flag</obj_property>
+      <obj_property name="ObjectShortName">carry_flag</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/use_zero_flag_value">
+      <obj_property name="ElementShortName">use_zero_flag_value</obj_property>
+      <obj_property name="ObjectShortName">use_zero_flag_value</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/use_zero_flag">
+      <obj_property name="ElementShortName">use_zero_flag</obj_property>
+      <obj_property name="ObjectShortName">use_zero_flag</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/drive_carry_in_zero">
+      <obj_property name="ElementShortName">drive_carry_in_zero</obj_property>
+      <obj_property name="ObjectShortName">drive_carry_in_zero</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/carry_in_zero">
+      <obj_property name="ElementShortName">carry_in_zero</obj_property>
+      <obj_property name="ObjectShortName">carry_in_zero</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/lower_zero">
+      <obj_property name="ElementShortName">lower_zero</obj_property>
+      <obj_property name="ObjectShortName">lower_zero</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/lower_zero_sel">
+      <obj_property name="ElementShortName">lower_zero_sel</obj_property>
+      <obj_property name="ObjectShortName">lower_zero_sel</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/carry_lower_zero">
+      <obj_property name="ElementShortName">carry_lower_zero</obj_property>
+      <obj_property name="ObjectShortName">carry_lower_zero</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/middle_zero">
+      <obj_property name="ElementShortName">middle_zero</obj_property>
+      <obj_property name="ObjectShortName">middle_zero</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/middle_zero_sel">
+      <obj_property name="ElementShortName">middle_zero_sel</obj_property>
+      <obj_property name="ObjectShortName">middle_zero_sel</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/carry_middle_zero">
+      <obj_property name="ElementShortName">carry_middle_zero</obj_property>
+      <obj_property name="ObjectShortName">carry_middle_zero</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/upper_zero_sel">
+      <obj_property name="ElementShortName">upper_zero_sel</obj_property>
+      <obj_property name="ObjectShortName">upper_zero_sel</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/zero_flag_value">
+      <obj_property name="ElementShortName">zero_flag_value</obj_property>
+      <obj_property name="ObjectShortName">zero_flag_value</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/zero_flag">
+      <obj_property name="ElementShortName">zero_flag</obj_property>
+      <obj_property name="ObjectShortName">zero_flag</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/spm_enable_value">
+      <obj_property name="ElementShortName">spm_enable_value</obj_property>
+      <obj_property name="ObjectShortName">spm_enable_value</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/spm_enable">
+      <obj_property name="ElementShortName">spm_enable</obj_property>
+      <obj_property name="ObjectShortName">spm_enable</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/spm_ram_data">
+      <obj_property name="ElementShortName">spm_ram_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">spm_ram_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/spm_data">
+      <obj_property name="ElementShortName">spm_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">spm_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/regbank_type">
+      <obj_property name="ElementShortName">regbank_type</obj_property>
+      <obj_property name="ObjectShortName">regbank_type</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/bank_value">
+      <obj_property name="ElementShortName">bank_value</obj_property>
+      <obj_property name="ObjectShortName">bank_value</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/bank">
+      <obj_property name="ElementShortName">bank</obj_property>
+      <obj_property name="ObjectShortName">bank</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/loadstar_type">
+      <obj_property name="ElementShortName">loadstar_type</obj_property>
+      <obj_property name="ObjectShortName">loadstar_type</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/sx_addr4_value">
+      <obj_property name="ElementShortName">sx_addr4_value</obj_property>
+      <obj_property name="ObjectShortName">sx_addr4_value</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/register_enable_type">
+      <obj_property name="ElementShortName">register_enable_type</obj_property>
+      <obj_property name="ObjectShortName">register_enable_type</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/register_enable_value">
+      <obj_property name="ElementShortName">register_enable_value</obj_property>
+      <obj_property name="ObjectShortName">register_enable_value</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/register_enable">
+      <obj_property name="ElementShortName">register_enable</obj_property>
+      <obj_property name="ObjectShortName">register_enable</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sx_addr">
+      <obj_property name="ElementShortName">sx_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">sx_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sy_addr">
+      <obj_property name="ElementShortName">sy_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">sy_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sx">
+      <obj_property name="ElementShortName">sx[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sx[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sy">
+      <obj_property name="ElementShortName">sy[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sy[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sy_or_kk">
+      <obj_property name="ElementShortName">sy_or_kk[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sy_or_kk[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/pc_move_is_valid">
+      <obj_property name="ElementShortName">pc_move_is_valid</obj_property>
+      <obj_property name="ObjectShortName">pc_move_is_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/move_type">
+      <obj_property name="ElementShortName">move_type</obj_property>
+      <obj_property name="ObjectShortName">move_type</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/returni_type">
+      <obj_property name="ElementShortName">returni_type</obj_property>
+      <obj_property name="ObjectShortName">returni_type</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/pc_mode">
+      <obj_property name="ElementShortName">pc_mode[2:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_mode[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/register_vector">
+      <obj_property name="ElementShortName">register_vector[11:0]</obj_property>
+      <obj_property name="ObjectShortName">register_vector[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/half_pc">
+      <obj_property name="ElementShortName">half_pc[11:0]</obj_property>
+      <obj_property name="ObjectShortName">half_pc[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/carry_pc">
+      <obj_property name="ElementShortName">carry_pc[10:0]</obj_property>
+      <obj_property name="ObjectShortName">carry_pc[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/pc_value">
+      <obj_property name="ElementShortName">pc_value[11:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_value[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/pc">
+      <obj_property name="ElementShortName">pc[11:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/pc_vector">
+      <obj_property name="ElementShortName">pc_vector[11:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_vector[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/push_stack">
+      <obj_property name="ElementShortName">push_stack</obj_property>
+      <obj_property name="ObjectShortName">push_stack</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/pop_stack">
+      <obj_property name="ElementShortName">pop_stack</obj_property>
+      <obj_property name="ObjectShortName">pop_stack</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/stack_memory">
+      <obj_property name="ElementShortName">stack_memory[11:0]</obj_property>
+      <obj_property name="ObjectShortName">stack_memory[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/return_vector">
+      <obj_property name="ElementShortName">return_vector[11:0]</obj_property>
+      <obj_property name="ObjectShortName">return_vector[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/stack_carry_flag">
+      <obj_property name="ElementShortName">stack_carry_flag</obj_property>
+      <obj_property name="ObjectShortName">stack_carry_flag</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/shadow_carry_flag">
+      <obj_property name="ElementShortName">shadow_carry_flag</obj_property>
+      <obj_property name="ObjectShortName">shadow_carry_flag</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/stack_zero_flag">
+      <obj_property name="ElementShortName">stack_zero_flag</obj_property>
+      <obj_property name="ObjectShortName">stack_zero_flag</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/shadow_zero_value">
+      <obj_property name="ElementShortName">shadow_zero_value</obj_property>
+      <obj_property name="ObjectShortName">shadow_zero_value</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/shadow_zero_flag">
+      <obj_property name="ElementShortName">shadow_zero_flag</obj_property>
+      <obj_property name="ObjectShortName">shadow_zero_flag</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/stack_bank">
+      <obj_property name="ElementShortName">stack_bank</obj_property>
+      <obj_property name="ObjectShortName">stack_bank</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/shadow_bank">
+      <obj_property name="ElementShortName">shadow_bank</obj_property>
+      <obj_property name="ObjectShortName">shadow_bank</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/stack_bit">
+      <obj_property name="ElementShortName">stack_bit</obj_property>
+      <obj_property name="ObjectShortName">stack_bit</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_kcpsm6/special_bit">
+      <obj_property name="ElementShortName">special_bit</obj_property>
+      <obj_property name="ObjectShortName">special_bit</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/half_pointer_value">
+      <obj_property name="ElementShortName">half_pointer_value[4:0]</obj_property>
+      <obj_property name="ObjectShortName">half_pointer_value[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/feed_pointer_value">
+      <obj_property name="ElementShortName">feed_pointer_value[4:0]</obj_property>
+      <obj_property name="ObjectShortName">feed_pointer_value[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/stack_pointer_carry">
+      <obj_property name="ElementShortName">stack_pointer_carry[4:0]</obj_property>
+      <obj_property name="ObjectShortName">stack_pointer_carry[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/stack_pointer_value">
+      <obj_property name="ElementShortName">stack_pointer_value[4:0]</obj_property>
+      <obj_property name="ObjectShortName">stack_pointer_value[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/stack_pointer">
+      <obj_property name="ElementShortName">stack_pointer[4:0]</obj_property>
+      <obj_property name="ObjectShortName">stack_pointer[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/kcpsm6_opcode">
+      <obj_property name="ElementShortName">kcpsm6_opcode[1:19]</obj_property>
+      <obj_property name="ObjectShortName">kcpsm6_opcode[1:19]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/kcpsm6_status">
+      <obj_property name="ElementShortName">kcpsm6_status[1:16]</obj_property>
+      <obj_property name="ObjectShortName">kcpsm6_status[1:16]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_s0">
+      <obj_property name="ElementShortName">sim_s0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_s0[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_s1">
+      <obj_property name="ElementShortName">sim_s1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_s1[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_s2">
+      <obj_property name="ElementShortName">sim_s2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_s2[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_s3">
+      <obj_property name="ElementShortName">sim_s3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_s3[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_s4">
+      <obj_property name="ElementShortName">sim_s4[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_s4[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_s5">
+      <obj_property name="ElementShortName">sim_s5[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_s5[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_s6">
+      <obj_property name="ElementShortName">sim_s6[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_s6[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_s7">
+      <obj_property name="ElementShortName">sim_s7[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_s7[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_s8">
+      <obj_property name="ElementShortName">sim_s8[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_s8[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_s9">
+      <obj_property name="ElementShortName">sim_s9[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_s9[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_sA">
+      <obj_property name="ElementShortName">sim_sA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_sA[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_sB">
+      <obj_property name="ElementShortName">sim_sB[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_sB[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_sC">
+      <obj_property name="ElementShortName">sim_sC[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_sC[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_sD">
+      <obj_property name="ElementShortName">sim_sD[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_sD[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_sE">
+      <obj_property name="ElementShortName">sim_sE[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_sE[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_sF">
+      <obj_property name="ElementShortName">sim_sF[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_sF[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm00">
+      <obj_property name="ElementShortName">sim_spm00[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm00[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm01">
+      <obj_property name="ElementShortName">sim_spm01[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm01[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm02">
+      <obj_property name="ElementShortName">sim_spm02[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm02[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm03">
+      <obj_property name="ElementShortName">sim_spm03[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm03[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm04">
+      <obj_property name="ElementShortName">sim_spm04[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm04[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm05">
+      <obj_property name="ElementShortName">sim_spm05[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm05[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm06">
+      <obj_property name="ElementShortName">sim_spm06[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm06[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm07">
+      <obj_property name="ElementShortName">sim_spm07[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm07[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm08">
+      <obj_property name="ElementShortName">sim_spm08[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm08[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm09">
+      <obj_property name="ElementShortName">sim_spm09[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm09[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm0A">
+      <obj_property name="ElementShortName">sim_spm0A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm0A[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm0B">
+      <obj_property name="ElementShortName">sim_spm0B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm0B[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm0C">
+      <obj_property name="ElementShortName">sim_spm0C[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm0C[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm0D">
+      <obj_property name="ElementShortName">sim_spm0D[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm0D[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm0E">
+      <obj_property name="ElementShortName">sim_spm0E[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm0E[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm0F">
+      <obj_property name="ElementShortName">sim_spm0F[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm0F[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm10">
+      <obj_property name="ElementShortName">sim_spm10[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm10[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm11">
+      <obj_property name="ElementShortName">sim_spm11[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm11[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm12">
+      <obj_property name="ElementShortName">sim_spm12[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm12[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm13">
+      <obj_property name="ElementShortName">sim_spm13[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm13[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm14">
+      <obj_property name="ElementShortName">sim_spm14[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm14[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm15">
+      <obj_property name="ElementShortName">sim_spm15[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm15[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm16">
+      <obj_property name="ElementShortName">sim_spm16[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm16[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm17">
+      <obj_property name="ElementShortName">sim_spm17[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm17[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm18">
+      <obj_property name="ElementShortName">sim_spm18[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm18[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm19">
+      <obj_property name="ElementShortName">sim_spm19[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm19[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm1A">
+      <obj_property name="ElementShortName">sim_spm1A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm1A[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm1B">
+      <obj_property name="ElementShortName">sim_spm1B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm1B[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm1C">
+      <obj_property name="ElementShortName">sim_spm1C[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm1C[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm1D">
+      <obj_property name="ElementShortName">sim_spm1D[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm1D[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm1E">
+      <obj_property name="ElementShortName">sim_spm1E[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm1E[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm1F">
+      <obj_property name="ElementShortName">sim_spm1F[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm1F[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm20">
+      <obj_property name="ElementShortName">sim_spm20[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm20[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm21">
+      <obj_property name="ElementShortName">sim_spm21[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm21[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm22">
+      <obj_property name="ElementShortName">sim_spm22[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm22[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm23">
+      <obj_property name="ElementShortName">sim_spm23[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm23[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm24">
+      <obj_property name="ElementShortName">sim_spm24[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm24[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm25">
+      <obj_property name="ElementShortName">sim_spm25[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm25[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm26">
+      <obj_property name="ElementShortName">sim_spm26[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm26[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm27">
+      <obj_property name="ElementShortName">sim_spm27[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm27[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm28">
+      <obj_property name="ElementShortName">sim_spm28[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm28[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm29">
+      <obj_property name="ElementShortName">sim_spm29[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm29[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm2A">
+      <obj_property name="ElementShortName">sim_spm2A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm2A[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm2B">
+      <obj_property name="ElementShortName">sim_spm2B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm2B[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm2C">
+      <obj_property name="ElementShortName">sim_spm2C[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm2C[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm2D">
+      <obj_property name="ElementShortName">sim_spm2D[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm2D[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm2E">
+      <obj_property name="ElementShortName">sim_spm2E[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm2E[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm2F">
+      <obj_property name="ElementShortName">sim_spm2F[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm2F[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm30">
+      <obj_property name="ElementShortName">sim_spm30[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm30[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm31">
+      <obj_property name="ElementShortName">sim_spm31[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm31[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm32">
+      <obj_property name="ElementShortName">sim_spm32[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm32[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm33">
+      <obj_property name="ElementShortName">sim_spm33[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm33[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm34">
+      <obj_property name="ElementShortName">sim_spm34[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm34[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm35">
+      <obj_property name="ElementShortName">sim_spm35[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm35[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm36">
+      <obj_property name="ElementShortName">sim_spm36[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm36[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm37">
+      <obj_property name="ElementShortName">sim_spm37[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm37[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm38">
+      <obj_property name="ElementShortName">sim_spm38[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm38[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm39">
+      <obj_property name="ElementShortName">sim_spm39[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm39[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm3A">
+      <obj_property name="ElementShortName">sim_spm3A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm3A[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm3B">
+      <obj_property name="ElementShortName">sim_spm3B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm3B[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm3C">
+      <obj_property name="ElementShortName">sim_spm3C[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm3C[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm3D">
+      <obj_property name="ElementShortName">sim_spm3D[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm3D[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm3E">
+      <obj_property name="ElementShortName">sim_spm3E[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm3E[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm3F">
+      <obj_property name="ElementShortName">sim_spm3F[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm3F[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm40">
+      <obj_property name="ElementShortName">sim_spm40[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm40[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm41">
+      <obj_property name="ElementShortName">sim_spm41[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm41[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm42">
+      <obj_property name="ElementShortName">sim_spm42[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm42[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm43">
+      <obj_property name="ElementShortName">sim_spm43[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm43[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm44">
+      <obj_property name="ElementShortName">sim_spm44[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm44[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm45">
+      <obj_property name="ElementShortName">sim_spm45[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm45[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm46">
+      <obj_property name="ElementShortName">sim_spm46[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm46[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm47">
+      <obj_property name="ElementShortName">sim_spm47[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm47[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm48">
+      <obj_property name="ElementShortName">sim_spm48[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm48[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm49">
+      <obj_property name="ElementShortName">sim_spm49[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm49[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm4A">
+      <obj_property name="ElementShortName">sim_spm4A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm4A[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm4B">
+      <obj_property name="ElementShortName">sim_spm4B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm4B[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm4C">
+      <obj_property name="ElementShortName">sim_spm4C[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm4C[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm4D">
+      <obj_property name="ElementShortName">sim_spm4D[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm4D[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm4E">
+      <obj_property name="ElementShortName">sim_spm4E[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm4E[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm4F">
+      <obj_property name="ElementShortName">sim_spm4F[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm4F[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm50">
+      <obj_property name="ElementShortName">sim_spm50[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm50[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm51">
+      <obj_property name="ElementShortName">sim_spm51[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm51[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm52">
+      <obj_property name="ElementShortName">sim_spm52[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm52[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm53">
+      <obj_property name="ElementShortName">sim_spm53[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm53[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm54">
+      <obj_property name="ElementShortName">sim_spm54[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm54[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm55">
+      <obj_property name="ElementShortName">sim_spm55[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm55[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm56">
+      <obj_property name="ElementShortName">sim_spm56[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm56[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm57">
+      <obj_property name="ElementShortName">sim_spm57[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm57[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm58">
+      <obj_property name="ElementShortName">sim_spm58[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm58[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm59">
+      <obj_property name="ElementShortName">sim_spm59[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm59[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm5A">
+      <obj_property name="ElementShortName">sim_spm5A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm5A[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm5B">
+      <obj_property name="ElementShortName">sim_spm5B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm5B[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm5C">
+      <obj_property name="ElementShortName">sim_spm5C[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm5C[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm5D">
+      <obj_property name="ElementShortName">sim_spm5D[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm5D[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm5E">
+      <obj_property name="ElementShortName">sim_spm5E[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm5E[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm5F">
+      <obj_property name="ElementShortName">sim_spm5F[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm5F[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm60">
+      <obj_property name="ElementShortName">sim_spm60[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm60[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm61">
+      <obj_property name="ElementShortName">sim_spm61[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm61[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm62">
+      <obj_property name="ElementShortName">sim_spm62[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm62[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm63">
+      <obj_property name="ElementShortName">sim_spm63[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm63[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm64">
+      <obj_property name="ElementShortName">sim_spm64[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm64[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm65">
+      <obj_property name="ElementShortName">sim_spm65[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm65[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm66">
+      <obj_property name="ElementShortName">sim_spm66[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm66[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm67">
+      <obj_property name="ElementShortName">sim_spm67[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm67[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm68">
+      <obj_property name="ElementShortName">sim_spm68[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm68[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm69">
+      <obj_property name="ElementShortName">sim_spm69[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm69[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm6A">
+      <obj_property name="ElementShortName">sim_spm6A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm6A[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm6B">
+      <obj_property name="ElementShortName">sim_spm6B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm6B[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm6C">
+      <obj_property name="ElementShortName">sim_spm6C[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm6C[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm6D">
+      <obj_property name="ElementShortName">sim_spm6D[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm6D[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm6E">
+      <obj_property name="ElementShortName">sim_spm6E[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm6E[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm6F">
+      <obj_property name="ElementShortName">sim_spm6F[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm6F[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm70">
+      <obj_property name="ElementShortName">sim_spm70[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm70[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm71">
+      <obj_property name="ElementShortName">sim_spm71[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm71[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm72">
+      <obj_property name="ElementShortName">sim_spm72[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm72[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm73">
+      <obj_property name="ElementShortName">sim_spm73[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm73[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm74">
+      <obj_property name="ElementShortName">sim_spm74[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm74[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm75">
+      <obj_property name="ElementShortName">sim_spm75[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm75[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm76">
+      <obj_property name="ElementShortName">sim_spm76[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm76[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm77">
+      <obj_property name="ElementShortName">sim_spm77[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm77[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm78">
+      <obj_property name="ElementShortName">sim_spm78[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm78[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm79">
+      <obj_property name="ElementShortName">sim_spm79[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm79[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm7A">
+      <obj_property name="ElementShortName">sim_spm7A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm7A[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm7B">
+      <obj_property name="ElementShortName">sim_spm7B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm7B[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm7C">
+      <obj_property name="ElementShortName">sim_spm7C[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm7C[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm7D">
+      <obj_property name="ElementShortName">sim_spm7D[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm7D[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm7E">
+      <obj_property name="ElementShortName">sim_spm7E[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm7E[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm7F">
+      <obj_property name="ElementShortName">sim_spm7F[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm7F[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm80">
+      <obj_property name="ElementShortName">sim_spm80[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm80[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm81">
+      <obj_property name="ElementShortName">sim_spm81[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm81[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm82">
+      <obj_property name="ElementShortName">sim_spm82[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm82[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm83">
+      <obj_property name="ElementShortName">sim_spm83[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm83[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm84">
+      <obj_property name="ElementShortName">sim_spm84[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm84[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm85">
+      <obj_property name="ElementShortName">sim_spm85[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm85[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm86">
+      <obj_property name="ElementShortName">sim_spm86[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm86[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm87">
+      <obj_property name="ElementShortName">sim_spm87[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm87[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm88">
+      <obj_property name="ElementShortName">sim_spm88[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm88[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm89">
+      <obj_property name="ElementShortName">sim_spm89[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm89[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm8A">
+      <obj_property name="ElementShortName">sim_spm8A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm8A[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm8B">
+      <obj_property name="ElementShortName">sim_spm8B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm8B[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm8C">
+      <obj_property name="ElementShortName">sim_spm8C[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm8C[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm8D">
+      <obj_property name="ElementShortName">sim_spm8D[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm8D[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm8E">
+      <obj_property name="ElementShortName">sim_spm8E[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm8E[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm8F">
+      <obj_property name="ElementShortName">sim_spm8F[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm8F[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm90">
+      <obj_property name="ElementShortName">sim_spm90[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm90[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm91">
+      <obj_property name="ElementShortName">sim_spm91[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm91[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm92">
+      <obj_property name="ElementShortName">sim_spm92[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm92[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm93">
+      <obj_property name="ElementShortName">sim_spm93[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm93[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm94">
+      <obj_property name="ElementShortName">sim_spm94[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm94[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm95">
+      <obj_property name="ElementShortName">sim_spm95[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm95[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm96">
+      <obj_property name="ElementShortName">sim_spm96[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm96[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm97">
+      <obj_property name="ElementShortName">sim_spm97[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm97[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm98">
+      <obj_property name="ElementShortName">sim_spm98[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm98[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm99">
+      <obj_property name="ElementShortName">sim_spm99[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm99[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm9A">
+      <obj_property name="ElementShortName">sim_spm9A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm9A[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm9B">
+      <obj_property name="ElementShortName">sim_spm9B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm9B[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm9C">
+      <obj_property name="ElementShortName">sim_spm9C[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm9C[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm9D">
+      <obj_property name="ElementShortName">sim_spm9D[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm9D[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm9E">
+      <obj_property name="ElementShortName">sim_spm9E[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm9E[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spm9F">
+      <obj_property name="ElementShortName">sim_spm9F[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spm9F[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmA0">
+      <obj_property name="ElementShortName">sim_spmA0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmA0[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmA1">
+      <obj_property name="ElementShortName">sim_spmA1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmA1[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmA2">
+      <obj_property name="ElementShortName">sim_spmA2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmA2[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmA3">
+      <obj_property name="ElementShortName">sim_spmA3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmA3[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmA4">
+      <obj_property name="ElementShortName">sim_spmA4[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmA4[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmA5">
+      <obj_property name="ElementShortName">sim_spmA5[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmA5[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmA6">
+      <obj_property name="ElementShortName">sim_spmA6[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmA6[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmA7">
+      <obj_property name="ElementShortName">sim_spmA7[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmA7[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmA8">
+      <obj_property name="ElementShortName">sim_spmA8[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmA8[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmA9">
+      <obj_property name="ElementShortName">sim_spmA9[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmA9[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmAA">
+      <obj_property name="ElementShortName">sim_spmAA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmAA[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmAB">
+      <obj_property name="ElementShortName">sim_spmAB[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmAB[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmAC">
+      <obj_property name="ElementShortName">sim_spmAC[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmAC[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmAD">
+      <obj_property name="ElementShortName">sim_spmAD[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmAD[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmAE">
+      <obj_property name="ElementShortName">sim_spmAE[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmAE[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmAF">
+      <obj_property name="ElementShortName">sim_spmAF[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmAF[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmB0">
+      <obj_property name="ElementShortName">sim_spmB0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmB0[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmB1">
+      <obj_property name="ElementShortName">sim_spmB1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmB1[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmB2">
+      <obj_property name="ElementShortName">sim_spmB2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmB2[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmB3">
+      <obj_property name="ElementShortName">sim_spmB3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmB3[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmB4">
+      <obj_property name="ElementShortName">sim_spmB4[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmB4[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmB5">
+      <obj_property name="ElementShortName">sim_spmB5[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmB5[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmB6">
+      <obj_property name="ElementShortName">sim_spmB6[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmB6[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmB7">
+      <obj_property name="ElementShortName">sim_spmB7[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmB7[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmB8">
+      <obj_property name="ElementShortName">sim_spmB8[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmB8[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmB9">
+      <obj_property name="ElementShortName">sim_spmB9[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmB9[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmBA">
+      <obj_property name="ElementShortName">sim_spmBA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmBA[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmBB">
+      <obj_property name="ElementShortName">sim_spmBB[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmBB[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmBC">
+      <obj_property name="ElementShortName">sim_spmBC[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmBC[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmBD">
+      <obj_property name="ElementShortName">sim_spmBD[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmBD[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmBE">
+      <obj_property name="ElementShortName">sim_spmBE[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmBE[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmBF">
+      <obj_property name="ElementShortName">sim_spmBF[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmBF[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmC0">
+      <obj_property name="ElementShortName">sim_spmC0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmC0[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmC1">
+      <obj_property name="ElementShortName">sim_spmC1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmC1[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmC2">
+      <obj_property name="ElementShortName">sim_spmC2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmC2[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmC3">
+      <obj_property name="ElementShortName">sim_spmC3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmC3[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmC4">
+      <obj_property name="ElementShortName">sim_spmC4[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmC4[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmC5">
+      <obj_property name="ElementShortName">sim_spmC5[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmC5[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmC6">
+      <obj_property name="ElementShortName">sim_spmC6[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmC6[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmC7">
+      <obj_property name="ElementShortName">sim_spmC7[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmC7[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmC8">
+      <obj_property name="ElementShortName">sim_spmC8[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmC8[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmC9">
+      <obj_property name="ElementShortName">sim_spmC9[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmC9[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmCA">
+      <obj_property name="ElementShortName">sim_spmCA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmCA[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmCB">
+      <obj_property name="ElementShortName">sim_spmCB[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmCB[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmCC">
+      <obj_property name="ElementShortName">sim_spmCC[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmCC[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmCD">
+      <obj_property name="ElementShortName">sim_spmCD[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmCD[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmCE">
+      <obj_property name="ElementShortName">sim_spmCE[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmCE[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmCF">
+      <obj_property name="ElementShortName">sim_spmCF[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmCF[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmD0">
+      <obj_property name="ElementShortName">sim_spmD0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmD0[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmD1">
+      <obj_property name="ElementShortName">sim_spmD1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmD1[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmD2">
+      <obj_property name="ElementShortName">sim_spmD2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmD2[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmD3">
+      <obj_property name="ElementShortName">sim_spmD3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmD3[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmD4">
+      <obj_property name="ElementShortName">sim_spmD4[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmD4[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmD5">
+      <obj_property name="ElementShortName">sim_spmD5[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmD5[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmD6">
+      <obj_property name="ElementShortName">sim_spmD6[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmD6[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmD7">
+      <obj_property name="ElementShortName">sim_spmD7[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmD7[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmD8">
+      <obj_property name="ElementShortName">sim_spmD8[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmD8[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmD9">
+      <obj_property name="ElementShortName">sim_spmD9[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmD9[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmDA">
+      <obj_property name="ElementShortName">sim_spmDA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmDA[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmDB">
+      <obj_property name="ElementShortName">sim_spmDB[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmDB[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmDC">
+      <obj_property name="ElementShortName">sim_spmDC[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmDC[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmDD">
+      <obj_property name="ElementShortName">sim_spmDD[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmDD[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmDE">
+      <obj_property name="ElementShortName">sim_spmDE[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmDE[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmDF">
+      <obj_property name="ElementShortName">sim_spmDF[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmDF[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmE0">
+      <obj_property name="ElementShortName">sim_spmE0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmE0[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmE1">
+      <obj_property name="ElementShortName">sim_spmE1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmE1[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmE2">
+      <obj_property name="ElementShortName">sim_spmE2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmE2[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmE3">
+      <obj_property name="ElementShortName">sim_spmE3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmE3[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmE4">
+      <obj_property name="ElementShortName">sim_spmE4[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmE4[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmE5">
+      <obj_property name="ElementShortName">sim_spmE5[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmE5[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmE6">
+      <obj_property name="ElementShortName">sim_spmE6[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmE6[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmE7">
+      <obj_property name="ElementShortName">sim_spmE7[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmE7[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmE8">
+      <obj_property name="ElementShortName">sim_spmE8[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmE8[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmE9">
+      <obj_property name="ElementShortName">sim_spmE9[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmE9[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmEA">
+      <obj_property name="ElementShortName">sim_spmEA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmEA[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmEB">
+      <obj_property name="ElementShortName">sim_spmEB[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmEB[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmEC">
+      <obj_property name="ElementShortName">sim_spmEC[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmEC[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmED">
+      <obj_property name="ElementShortName">sim_spmED[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmED[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmEE">
+      <obj_property name="ElementShortName">sim_spmEE[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmEE[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmEF">
+      <obj_property name="ElementShortName">sim_spmEF[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmEF[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmF0">
+      <obj_property name="ElementShortName">sim_spmF0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmF0[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmF1">
+      <obj_property name="ElementShortName">sim_spmF1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmF1[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmF2">
+      <obj_property name="ElementShortName">sim_spmF2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmF2[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmF3">
+      <obj_property name="ElementShortName">sim_spmF3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmF3[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmF4">
+      <obj_property name="ElementShortName">sim_spmF4[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmF4[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmF5">
+      <obj_property name="ElementShortName">sim_spmF5[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmF5[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmF6">
+      <obj_property name="ElementShortName">sim_spmF6[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmF6[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmF7">
+      <obj_property name="ElementShortName">sim_spmF7[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmF7[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmF8">
+      <obj_property name="ElementShortName">sim_spmF8[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmF8[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmF9">
+      <obj_property name="ElementShortName">sim_spmF9[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmF9[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmFA">
+      <obj_property name="ElementShortName">sim_spmFA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmFA[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmFB">
+      <obj_property name="ElementShortName">sim_spmFB[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmFB[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmFC">
+      <obj_property name="ElementShortName">sim_spmFC[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmFC[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmFD">
+      <obj_property name="ElementShortName">sim_spmFD[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmFD[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmFE">
+      <obj_property name="ElementShortName">sim_spmFE[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmFE[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/sim_spmFF">
+      <obj_property name="ElementShortName">sim_spmFF[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_spmFF[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/hwbuild">
+      <obj_property name="ElementShortName">hwbuild[7:0]</obj_property>
+      <obj_property name="ObjectShortName">hwbuild[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_kcpsm6/interrupt_vector">
+      <obj_property name="ElementShortName">interrupt_vector[11:0]</obj_property>
+      <obj_property name="ObjectShortName">interrupt_vector[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_zipi8/uut/processor_kcpsm6/scratch_pad_memory_size">
+      <obj_property name="ElementShortName">scratch_pad_memory_size</obj_property>
+      <obj_property name="ObjectShortName">scratch_pad_memory_size</obj_property>
+   </wvobject>
+</wave_config>

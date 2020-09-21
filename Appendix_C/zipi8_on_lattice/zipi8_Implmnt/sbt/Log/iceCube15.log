@@ -1,0 +1,8 @@
+10:31:44 PM
+"C:\lscc\iCEcube2.2017.08\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -options "zipi8_syn.prj" 
+starting Synplify_Prorunning Synplify_ProCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+Information : Using arguments of synplify instead, will not check them here.
+Synplify_Pro succeed.
+Synthesis runtime 1971599245 seconds
+Current Implementation zipi8_Implmnt its sbt path: C:/Users/esi/Documents/workspace/icecube2/zipi8/zipi8_Implmnt\sbt
+2:45:02 AM

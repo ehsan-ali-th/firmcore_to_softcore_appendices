@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../zipi8_core.srcs/sources_1/new/registers.vhd" \
+"../../../../zipi8_core.srcs/sim_1/new/test_registers.vhd" \
+
+# Do not sort compile order
+nosort

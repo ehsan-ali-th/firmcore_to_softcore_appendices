@@ -1,0 +1,29 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MO111 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\ram.vhd":56:11:56:15|Tristate driver ram_s_tri511 (in view: work.ram_16_5(behavioral)) on net ram_s_tri511 (in view: work.ram_16_5(behavioral)) has its enable tied to GND.
+@N: MO111 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\ram.vhd":56:11:56:15|Tristate driver ram_s_tri510 (in view: work.ram_16_5(behavioral)) on net ram_s_tri510 (in view: work.ram_16_5(behavioral)) has its enable tied to GND.
+@N: MO111 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\ram.vhd":56:11:56:15|Tristate driver ram_s_tri509 (in view: work.ram_16_5(behavioral)) on net ram_s_tri509 (in view: work.ram_16_5(behavioral)) has its enable tied to GND.
+@N: MO111 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\ram.vhd":56:11:56:15|Tristate driver ram_s_tri508 (in view: work.ram_16_5(behavioral)) on net ram_s_tri508 (in view: work.ram_16_5(behavioral)) has its enable tied to GND.
+@N: MO111 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\ram.vhd":56:11:56:15|Tristate driver ram_s_tri507 (in view: work.ram_16_5(behavioral)) on net ram_s_tri507 (in view: work.ram_16_5(behavioral)) has its enable tied to GND.
+@N: MO111 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\ram.vhd":56:11:56:15|Tristate driver ram_s_tri506 (in view: work.ram_16_5(behavioral)) on net ram_s_tri506 (in view: work.ram_16_5(behavioral)) has its enable tied to GND.
+@N: MO111 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\ram.vhd":56:11:56:15|Tristate driver ram_s_tri505 (in view: work.ram_16_5(behavioral)) on net ram_s_tri505 (in view: work.ram_16_5(behavioral)) has its enable tied to GND.
+@N: MO111 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\ram.vhd":56:11:56:15|Tristate driver ram_s_tri504 (in view: work.ram_16_5(behavioral)) on net ram_s_tri504 (in view: work.ram_16_5(behavioral)) has its enable tied to GND.
+@N: MO111 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\ram.vhd":56:11:56:15|Tristate driver ram_s_tri503 (in view: work.ram_16_5(behavioral)) on net ram_s_tri503 (in view: work.ram_16_5(behavioral)) has its enable tied to GND.
+@N: MO111 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\ram.vhd":56:11:56:15|Tristate driver ram_s_tri502 (in view: work.ram_16_5(behavioral)) on net ram_s_tri502 (in view: work.ram_16_5(behavioral)) has its enable tied to GND.
+@N: MT204 |Auto Constrain mode is disabled because clocks are defined in the SDC file
+@N: BN362 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\state_machine.vhd":45:56:45:59|Removing sequential instance interrupt_enable (in view: work.state_machine(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: FX702 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\ram.vhd":56:11:56:15|Found startup values on RAM instance spm_with_output_reg_i.spm_ram.ram_s[7:0]
+@N: MF135 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\ram_rw.vhd":58:11:58:21|RAM two_banks_of_16_gp_reg_i.sy_bank.ram_s_rd_wr[7:0] (in view: work.zipi8(behavioral)) is 32 words by 8 bits.
+@N: MF135 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\ram.vhd":56:11:56:15|RAM two_banks_of_16_gp_reg_i.sx_bank.ram_s[7:0] (in view: work.zipi8(behavioral)) is 32 words by 8 bits.
+@N: FX702 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\ram.vhd":56:11:56:15|Found startup values on RAM instance stack_ram.ram_s[15:0]
+@N: MF794 |RAM stack_ram.ram_s[15:0] required 5 registers during mapping 
+@N: MF794 |RAM two_banks_of_16_gp_reg_i.sx_bank.ram_s[7:0] required 256 registers during mapping 
+@N: MF794 |RAM two_banks_of_16_gp_reg_i.sx_bank.ram_s[7:0] required 256 registers during mapping 
+@N: FX1016 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\top.vhd":36:8:36:18|SB_GB_IO inserted on the port CLK_3P3_MHZ.
+@N: FX1017 :"c:\users\esi\documents\workspace\icecube2\zipi8\src\state_machine.vhd":58:38:58:40|SB_GB inserted on the net bram_enable.
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: C:\Users\esi\Documents\workspace\icecube2\zipi8\zipi8_Implmnt\zipi8.edf
+@N: MT615 |Found clock CLK_3P3_MHZ_main with period 303.03ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

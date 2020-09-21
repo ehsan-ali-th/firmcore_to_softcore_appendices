@@ -1,0 +1,217 @@
+--------------------------------------------------------------------------------
+Lattice Synthesis Timing Report, Version  
+Wed Jul 10 03:17:48 2019
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Design:     top
+Constraint file: top_temp_lse.sdc 
+Report level:    verbose report, limited to 3 items per constraint
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Constraint: create_clock -period 303.029999 -waveform { 0.000000 151.514999 } -name CLK_3P3_MHZ_main [ get_ports { CLK_3P3_MHZ } ]
+            352 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 278.218ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         SB_DFF     C              \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/i734_735  (from CLK_3P3_MHZ +)
+   Destination:    SB_DFF     D              \processor_zipi8/flags_i/arith_carry_422  (to CLK_3P3_MHZ +)
+
+   Delay:                  24.679ns  (26.3% logic, 73.7% route), 16 logic levels.
+
+ Constraint Details:
+
+     24.679ns data_path \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/i734_735 to \processor_zipi8/flags_i/arith_carry_422 meets
+    303.030ns delay constraint less
+      0.133ns L_S requirement (totaling 302.897ns) by 278.218ns
+
+ Path Details: \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/i734_735 to \processor_zipi8/flags_i/arith_carry_422
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.367              C to Q              \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/i734_735 (from CLK_3P3_MHZ)
+Route         2   e 1.258                                  \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/ram_s_30_0
+LUT4        ---     0.408             I1 to O              \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/instruction[8]_bdd_4_lut_10750
+Route         1   e 1.020                                  \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/n11927
+LUT4        ---     0.408             I0 to O              \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/n11927_bdd_4_lut
+Route         1   e 1.020                                  \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/n11012
+LUT4        ---     0.408             I2 to O              \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/instruction[10]_bdd_4_lut_10725
+Route         1   e 1.020                                  \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/n11903
+LUT4        ---     0.408             I0 to O              \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/n11903_bdd_4_lut
+Route         1   e 1.020                                  \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/n11906
+LUT4        ---     0.408             I1 to O              \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/i415630_i1_3_lut
+Route       265   e 1.550                                  register_vector[8]
+LUT4        ---     0.408             I2 to O              \processor_zipi8/arith_and_logic_operations_i/i1_3_lut
+Route         1   e 1.020                                  \processor_zipi8/arith_and_logic_operations_i/n8630
+LUT4        ---     0.408             I1 to O              \processor_zipi8/arith_and_logic_operations_i/i1_4_lut
+Route         2   e 1.158                                  \processor_zipi8/arith_and_logic_operations_i/half_arith_logical[0]
+LUT4        ---     0.408             I2 to O              \processor_zipi8/arith_and_logic_operations_i/arith_carry_in_I_0_4_lut
+Route         2   e 1.158                                  \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical[0]
+LUT4        ---     0.408             I1 to O              \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical_0__I_0_4_lut
+Route         2   e 1.158                                  \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical[1]
+LUT4        ---     0.408             I1 to O              \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical_1__I_0_4_lut
+Route         2   e 1.158                                  \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical[2]
+LUT4        ---     0.408             I1 to O              \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical_2__I_0_4_lut
+Route         2   e 1.158                                  \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical[3]
+LUT4        ---     0.408             I1 to O              \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical_3__I_0_4_lut
+Route         2   e 1.158                                  \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical[4]
+LUT4        ---     0.408             I1 to O              \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical_4__I_0_4_lut
+Route         2   e 1.158                                  \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical[5]
+LUT4        ---     0.408             I1 to O              \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical_5__I_0_4_lut
+Route         2   e 1.158                                  \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical[6]
+LUT4        ---     0.408             I1 to O              \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical_6__I_0_4_lut
+Route         1   e 1.020                                  \processor_zipi8/carry_arith_logical_7
+                  --------
+                   24.679  (26.3% logic, 73.7% route), 16 logic levels.
+
+
+Passed:  The following path meets requirements by 278.218ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         SB_DFF     C              \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/i734_735  (from CLK_3P3_MHZ +)
+   Destination:    SB_DFF     D              \processor_zipi8/flags_i/arith_carry_422  (to CLK_3P3_MHZ +)
+
+   Delay:                  24.679ns  (26.3% logic, 73.7% route), 16 logic levels.
+
+ Constraint Details:
+
+     24.679ns data_path \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/i734_735 to \processor_zipi8/flags_i/arith_carry_422 meets
+    303.030ns delay constraint less
+      0.133ns L_S requirement (totaling 302.897ns) by 278.218ns
+
+ Path Details: \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/i734_735 to \processor_zipi8/flags_i/arith_carry_422
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.367              C to Q              \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/i734_735 (from CLK_3P3_MHZ)
+Route         2   e 1.258                                  \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/ram_s_30_0
+LUT4        ---     0.408             I1 to O              \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/instruction[8]_bdd_4_lut_10750
+Route         1   e 1.020                                  \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/n11927
+LUT4        ---     0.408             I0 to O              \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/n11927_bdd_4_lut
+Route         1   e 1.020                                  \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/n11012
+LUT4        ---     0.408             I2 to O              \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/instruction[10]_bdd_4_lut_10725
+Route         1   e 1.020                                  \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/n11903
+LUT4        ---     0.408             I0 to O              \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/n11903_bdd_4_lut
+Route         1   e 1.020                                  \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/n11906
+LUT4        ---     0.408             I1 to O              \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/i415630_i1_3_lut
+Route       265   e 1.550                                  register_vector[8]
+LUT4        ---     0.408             I2 to O              \processor_zipi8/arith_and_logic_operations_i/i24_3_lut_4_lut
+Route         1   e 1.020                                  \processor_zipi8/arith_and_logic_operations_i/n11
+LUT4        ---     0.408             I3 to O              \processor_zipi8/arith_and_logic_operations_i/i1_4_lut
+Route         2   e 1.158                                  \processor_zipi8/arith_and_logic_operations_i/half_arith_logical[0]
+LUT4        ---     0.408             I2 to O              \processor_zipi8/arith_and_logic_operations_i/arith_carry_in_I_0_4_lut
+Route         2   e 1.158                                  \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical[0]
+LUT4        ---     0.408             I1 to O              \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical_0__I_0_4_lut
+Route         2   e 1.158                                  \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical[1]
+LUT4        ---     0.408             I1 to O              \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical_1__I_0_4_lut
+Route         2   e 1.158                                  \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical[2]
+LUT4        ---     0.408             I1 to O              \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical_2__I_0_4_lut
+Route         2   e 1.158                                  \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical[3]
+LUT4        ---     0.408             I1 to O              \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical_3__I_0_4_lut
+Route         2   e 1.158                                  \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical[4]
+LUT4        ---     0.408             I1 to O              \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical_4__I_0_4_lut
+Route         2   e 1.158                                  \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical[5]
+LUT4        ---     0.408             I1 to O              \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical_5__I_0_4_lut
+Route         2   e 1.158                                  \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical[6]
+LUT4        ---     0.408             I1 to O              \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical_6__I_0_4_lut
+Route         1   e 1.020                                  \processor_zipi8/carry_arith_logical_7
+                  --------
+                   24.679  (26.3% logic, 73.7% route), 16 logic levels.
+
+
+Passed:  The following path meets requirements by 278.218ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         SB_DFF     C              \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/i734_735  (from CLK_3P3_MHZ +)
+   Destination:    SB_DFF     D              \processor_zipi8/flags_i/arith_carry_422  (to CLK_3P3_MHZ +)
+
+   Delay:                  24.679ns  (26.3% logic, 73.7% route), 16 logic levels.
+
+ Constraint Details:
+
+     24.679ns data_path \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/i734_735 to \processor_zipi8/flags_i/arith_carry_422 meets
+    303.030ns delay constraint less
+      0.133ns L_S requirement (totaling 302.897ns) by 278.218ns
+
+ Path Details: \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/i734_735 to \processor_zipi8/flags_i/arith_carry_422
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.367              C to Q              \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/i734_735 (from CLK_3P3_MHZ)
+Route         2   e 1.258                                  \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/ram_s_30_0
+LUT4        ---     0.408             I1 to O              \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/instruction[8]_bdd_4_lut_10750
+Route         1   e 1.020                                  \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/n11927
+LUT4        ---     0.408             I0 to O              \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/n11927_bdd_4_lut
+Route         1   e 1.020                                  \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/n11012
+LUT4        ---     0.408             I2 to O              \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/instruction[10]_bdd_4_lut_10725
+Route         1   e 1.020                                  \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/n11903
+LUT4        ---     0.408             I0 to O              \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/n11903_bdd_4_lut
+Route         1   e 1.020                                  \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/n11906
+LUT4        ---     0.408             I1 to O              \processor_zipi8/two_banks_of_16_gp_reg_i/sx_bank/i415630_i1_3_lut
+Route       265   e 1.550                                  register_vector[8]
+LUT4        ---     0.408             I3 to O              \processor_zipi8/arith_and_logic_operations_i/i10093_3_lut_4_lut
+Route         1   e 1.020                                  \processor_zipi8/arith_and_logic_operations_i/n8658
+LUT4        ---     0.408             I2 to O              \processor_zipi8/arith_and_logic_operations_i/i1_4_lut
+Route         2   e 1.158                                  \processor_zipi8/arith_and_logic_operations_i/half_arith_logical[0]
+LUT4        ---     0.408             I2 to O              \processor_zipi8/arith_and_logic_operations_i/arith_carry_in_I_0_4_lut
+Route         2   e 1.158                                  \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical[0]
+LUT4        ---     0.408             I1 to O              \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical_0__I_0_4_lut
+Route         2   e 1.158                                  \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical[1]
+LUT4        ---     0.408             I1 to O              \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical_1__I_0_4_lut
+Route         2   e 1.158                                  \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical[2]
+LUT4        ---     0.408             I1 to O              \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical_2__I_0_4_lut
+Route         2   e 1.158                                  \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical[3]
+LUT4        ---     0.408             I1 to O              \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical_3__I_0_4_lut
+Route         2   e 1.158                                  \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical[4]
+LUT4        ---     0.408             I1 to O              \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical_4__I_0_4_lut
+Route         2   e 1.158                                  \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical[5]
+LUT4        ---     0.408             I1 to O              \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical_5__I_0_4_lut
+Route         2   e 1.158                                  \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical[6]
+LUT4        ---     0.408             I1 to O              \processor_zipi8/arith_and_logic_operations_i/carry_arith_logical_6__I_0_4_lut
+Route         1   e 1.020                                  \processor_zipi8/carry_arith_logical_7
+                  --------
+                   24.679  (26.3% logic, 73.7% route), 16 logic levels.
+
+Report: 24.812 ns is the maximum delay for this constraint.
+
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 303.029999         |             |             |
+-waveform { 0.000000 151.514999 } -name |             |             |
+CLK_3P3_MHZ_main [ get_ports {          |             |             |
+CLK_3P3_MHZ } ]                         |   303.030 ns|    24.812 ns|    16  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover  84862 paths, 6720 nets, and 16588 connections (80.2% coverage)
+
+
+Peak memory: 90550272 bytes, TRCE: 7401472 bytes, DLYMAN: 1064960 bytes
+CPU_TIME_REPORT: 0 secs 

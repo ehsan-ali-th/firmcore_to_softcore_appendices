@@ -1,0 +1,63 @@
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2017.08\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-N4P8E4G3
+
+# Thu May 09 22:55:51 2019
+
+#Implementation: zipi8_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2017.08\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\workspace\icecube2\zipi8\src\top.vhd":34:7:34:9|Top entity is set to top.
+@W: CD266 :"D:\workspace\icecube2\zipi8\src\decode4_strobes_enables.vhd":123:116:123:131|flag_enable_type is not readable.  This may cause a simulation mismatch.
+@E: CD185 :"D:\workspace\icecube2\zipi8\src\decode4_strobes_enables.vhd":123:132:123:132|Expecting readable signal name, got output:flag_enable_type
+1 error parsing file D:\workspace\icecube2\zipi8\src\decode4_strobes_enables.vhd
+1 error parsing file D:\workspace\icecube2\zipi8\src\decode4alu.vhd
+@W: CD266 :"D:\workspace\icecube2\zipi8\src\flags.vhd":115:70:115:79|carry_flag is not readable.  This may cause a simulation mismatch.
+@E: CD185 :"D:\workspace\icecube2\zipi8\src\flags.vhd":115:80:115:80|Expecting readable signal name, got output:carry_flag
+2 errors parsing file D:\workspace\icecube2\zipi8\src\flags.vhd
+2 errors parsing file D:\workspace\icecube2\zipi8\src\mux_outputs_from_alu_spm_input_ports.vhd
+@W: CD266 :"D:\workspace\icecube2\zipi8\src\program_counter.vhd":75:58:75:59|pc is not readable.  This may cause a simulation mismatch.
+@E: CD185 :"D:\workspace\icecube2\zipi8\src\program_counter.vhd":75:63:75:63|Expecting readable signal name, got output:pc(0)
+3 errors parsing file D:\workspace\icecube2\zipi8\src\program_counter.vhd
+3 errors parsing file D:\workspace\icecube2\zipi8\src\ram.vhd
+3 errors parsing file D:\workspace\icecube2\zipi8\src\ram32m_behav.vhd
+@W: CD266 :"D:\workspace\icecube2\zipi8\src\register_bank_control.vhd":95:95:95:98|bank is not readable.  This may cause a simulation mismatch.
+@E: CD185 :"D:\workspace\icecube2\zipi8\src\register_bank_control.vhd":95:99:95:99|Expecting readable signal name, got output:bank
+4 errors parsing file D:\workspace\icecube2\zipi8\src\register_bank_control.vhd
+4 errors parsing file D:\workspace\icecube2\zipi8\src\sel_of_2nd_op_to_alu_and_port_id.vhd
+4 errors parsing file D:\workspace\icecube2\zipi8\src\sel_of_out_port_value.vhd
+4 errors parsing file D:\workspace\icecube2\zipi8\src\shift_and_rotate_operations.vhd
+@W: CD266 :"D:\workspace\icecube2\zipi8\src\state_machine.vhd":83:31:83:46|active_interrupt is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"D:\workspace\icecube2\zipi8\src\state_machine.vhd":100:37:100:39|run is not readable.  This may cause a simulation mismatch.
+@E: CD185 :"D:\workspace\icecube2\zipi8\src\state_machine.vhd":100:40:100:40|Expecting readable signal name, got output:run
+5 errors parsing file D:\workspace\icecube2\zipi8\src\state_machine.vhd
+5 errors parsing file D:\workspace\icecube2\zipi8\src\x12_bit_program_address_generator.vhd
+5 errors parsing file D:\workspace\icecube2\zipi8\src\spm_with_output_reg.vhd
+@W: CD645 :"D:\workspace\icecube2\zipi8\src\stack.vhd":31:8:31:13|Ignoring undefined library unisim
+@W: CD642 :"D:\workspace\icecube2\zipi8\src\stack.vhd":32:26:32:26|Ignoring use clause - library unisim not found ...
+@W: CD266 :"D:\workspace\icecube2\zipi8\src\stack.vhd":319:95:319:113|stack_pointer_carry is not readable.  This may cause a simulation mismatch.
+@E: CD185 :"D:\workspace\icecube2\zipi8\src\stack.vhd":319:117:319:117|Expecting readable signal name, got output:stack_pointer_carry(0)
+6 errors parsing file D:\workspace\icecube2\zipi8\src\stack.vhd
+6 errors parsing file D:\workspace\icecube2\zipi8\src\two_banks_of_16_gp_reg.vhd
+@W: CD643 :"D:\workspace\icecube2\zipi8\src\zipi8.vhd":24:21:24:21|Ignoring use clause - op_codes not found ...
+6 errors parsing file D:\workspace\icecube2\zipi8\src\zipi8.vhd
+6 errors parsing file D:\workspace\icecube2\zipi8\src\top.vhd
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu May 09 22:55:51 2019
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu May 09 22:55:51 2019
+
+###########################################################]

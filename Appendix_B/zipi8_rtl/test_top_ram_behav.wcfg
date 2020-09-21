@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_zipi8_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="op_codes" />
+            <top_module name="test_zipi8" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="45490787604fs"></ZoomStartTime>
+      <ZoomEndTime time="48741842480fs"></ZoomEndTime>
+      <Cursor1Time time="48200000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="188"></NameColumnWidth>
+      <ValueColumnWidth column_width="80"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="52" />
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_zipi8/address">
+      <obj_property name="ElementShortName">address[11:0]</obj_property>
+      <obj_property name="ObjectShortName">address[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_zipi8/bram_enable">
+      <obj_property name="ElementShortName">bram_enable</obj_property>
+      <obj_property name="ObjectShortName">bram_enable</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_zipi8/out_port">
+      <obj_property name="ElementShortName">out_port[7:0]</obj_property>
+      <obj_property name="ObjectShortName">out_port[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_zipi8/port_id">
+      <obj_property name="ElementShortName">port_id[7:0]</obj_property>
+      <obj_property name="ObjectShortName">port_id[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_zipi8/write_strobe">
+      <obj_property name="ElementShortName">write_strobe</obj_property>
+      <obj_property name="ObjectShortName">write_strobe</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_zipi8/k_write_strobe">
+      <obj_property name="ElementShortName">k_write_strobe</obj_property>
+      <obj_property name="ObjectShortName">k_write_strobe</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_zipi8/read_strobe">
+      <obj_property name="ElementShortName">read_strobe</obj_property>
+      <obj_property name="ObjectShortName">read_strobe</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_zipi8/interrupt_ack">
+      <obj_property name="ElementShortName">interrupt_ack</obj_property>
+      <obj_property name="ObjectShortName">interrupt_ack</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_zipi8/instruction">
+      <obj_property name="ElementShortName">instruction[17:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[17:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_zipi8/in_port">
+      <obj_property name="ElementShortName">in_port[7:0]</obj_property>
+      <obj_property name="ObjectShortName">in_port[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_zipi8/interrupt">
+      <obj_property name="ElementShortName">interrupt</obj_property>
+      <obj_property name="ObjectShortName">interrupt</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_zipi8/sleep">
+      <obj_property name="ElementShortName">sleep</obj_property>
+      <obj_property name="ObjectShortName">sleep</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_zipi8/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_zipi8/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_zipi8/t_state">
+      <obj_property name="ElementShortName">t_state[2:1]</obj_property>
+      <obj_property name="ObjectShortName">t_state[2:1]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_zipi8/run">
+      <obj_property name="ElementShortName">run</obj_property>
+      <obj_property name="ObjectShortName">run</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_zipi8/active_interrupt">
+      <obj_property name="ElementShortName">active_interrupt</obj_property>
+      <obj_property name="ObjectShortName">active_interrupt</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_zipi8/internal_reset">
+      <obj_property name="ElementShortName">internal_reset</obj_property>
+      <obj_property name="ObjectShortName">internal_reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_zipi8/sx_addr4_value">
+      <obj_property name="ElementShortName">sx_addr4_value</obj_property>
+      <obj_property name="ObjectShortName">sx_addr4_value</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_zipi8/sx_addr">
+      <obj_property name="ElementShortName">sx_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">sx_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_zipi8/sy_addr">
+      <obj_property name="ElementShortName">sy_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">sy_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_zipi8/bank">
+      <obj_property name="ElementShortName">bank</obj_property>
+      <obj_property name="ObjectShortName">bank</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_zipi8/pop_stack">
+      <obj_property name="ElementShortName">pop_stack</obj_property>
+      <obj_property name="ObjectShortName">pop_stack</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_zipi8/push_stack">
+      <obj_property name="ElementShortName">push_stack</obj_property>
+      <obj_property name="ObjectShortName">push_stack</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_zipi8/pc_mode">
+      <obj_property name="ElementShortName">pc_mode[2:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_mode[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_zipi8/alu_mux_sel">
+      <obj_property name="ElementShortName">alu_mux_sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_mux_sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_zipi8/arith_logical_sel">
+      <obj_property name="ElementShortName">arith_logical_sel[2:0]</obj_property>
+      <obj_property name="ObjectShortName">arith_logical_sel[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_zipi8/arith_carry_in">
+      <obj_property name="ElementShortName">arith_carry_in</obj_property>
+      <obj_property name="ObjectShortName">arith_carry_in</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_zipi8/flag_enable_type">
+      <obj_property name="ElementShortName">flag_enable_type</obj_property>
+      <obj_property name="ObjectShortName">flag_enable_type</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_zipi8/register_enable">
+      <obj_property name="ElementShortName">register_enable</obj_property>
+      <obj_property name="ObjectShortName">register_enable</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_zipi8/flag_enable">
+      <obj_property name="ElementShortName">flag_enable</obj_property>
+      <obj_property name="ObjectShortName">flag_enable</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_zipi8/spm_enable">
+      <obj_property name="ElementShortName">spm_enable</obj_property>
+      <obj_property name="ObjectShortName">spm_enable</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_zipi8/zero_flag">
+      <obj_property name="ElementShortName">zero_flag</obj_property>
+      <obj_property name="ObjectShortName">zero_flag</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_zipi8/carry_flag">
+      <obj_property name="ElementShortName">carry_flag</obj_property>
+      <obj_property name="ObjectShortName">carry_flag</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_zipi8/strobe_type">
+      <obj_property name="ElementShortName">strobe_type</obj_property>
+      <obj_property name="ObjectShortName">strobe_type</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_zipi8/register_vector">
+      <obj_property name="ElementShortName">register_vector[11:0]</obj_property>
+      <obj_property name="ObjectShortName">register_vector[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_zipi8/pc_vector">
+      <obj_property name="ElementShortName">pc_vector[11:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_vector[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_zipi8/pc">
+      <obj_property name="ElementShortName">pc[11:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_zipi8/shadow_carry_flag">
+      <obj_property name="ElementShortName">shadow_carry_flag</obj_property>
+      <obj_property name="ObjectShortName">shadow_carry_flag</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_zipi8/shadow_zero_flag">
+      <obj_property name="ElementShortName">shadow_zero_flag</obj_property>
+      <obj_property name="ObjectShortName">shadow_zero_flag</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_zipi8/shadow_bank">
+      <obj_property name="ElementShortName">shadow_bank</obj_property>
+      <obj_property name="ObjectShortName">shadow_bank</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_zipi8/stack_memory">
+      <obj_property name="ElementShortName">stack_memory[11:0]</obj_property>
+      <obj_property name="ObjectShortName">stack_memory[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_zipi8/special_bit">
+      <obj_property name="ElementShortName">special_bit</obj_property>
+      <obj_property name="ObjectShortName">special_bit</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_zipi8/stack_pointer_carry">
+      <obj_property name="ElementShortName">stack_pointer_carry[4:0]</obj_property>
+      <obj_property name="ObjectShortName">stack_pointer_carry[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_zipi8/sx">
+      <obj_property name="ElementShortName">sx[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sx[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_zipi8/sy">
+      <obj_property name="ElementShortName">sy[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sy[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_zipi8/sy_or_kk">
+      <obj_property name="ElementShortName">sy_or_kk[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sy_or_kk[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_zipi8/arith_logical_result">
+      <obj_property name="ElementShortName">arith_logical_result[7:0]</obj_property>
+      <obj_property name="ObjectShortName">arith_logical_result[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_zipi8/uut/processor_zipi8/carry_arith_logical_7">
+      <obj_property name="ElementShortName">carry_arith_logical_7</obj_property>
+      <obj_property name="ObjectShortName">carry_arith_logical_7</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_zipi8/shift_rotate_result">
+      <obj_property name="ElementShortName">shift_rotate_result[7:0]</obj_property>
+      <obj_property name="ObjectShortName">shift_rotate_result[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_zipi8/spm_data">
+      <obj_property name="ElementShortName">spm_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">spm_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_zipi8/uut/processor_zipi8/alu_result">
+      <obj_property name="ElementShortName">alu_result[7:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_result[7:0]</obj_property>
+   </wvobject>
+</wave_config>

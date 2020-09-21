@@ -1,0 +1,2 @@
+proc_sys_reset_0.vhd,vhdl,xil_defaultlib,../../../../zipi8_core.srcs/sources_1/ip/proc_sys_reset_0/sim/proc_sys_reset_0.vhd,
+glbl.v,Verilog,xil_defaultlib,glbl.v

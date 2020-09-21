@@ -1,0 +1,13 @@
+@P:  Worst Slack : 263.823
+@P:  CLK_3P3_MHZ_main - Estimated Frequency : 25.5 MHz
+@P:  CLK_3P3_MHZ_main - Requested Frequency : 3.3 MHz
+@P:  CLK_3P3_MHZ_main - Estimated Period : 39.207
+@P:  CLK_3P3_MHZ_main - Requested Period : 303.030
+@P:  CLK_3P3_MHZ_main - Slack : 263.823
+@P: top Part : ice40lp1kqn84
+@P: top I/O primitives : 3
+@P: top I/O Register bits : 0
+@P: top Register bits (Non I/O) : 322 (25%)
+@P: top Block Rams : 11 of 16 (68%)
+@P: top Total Luts : 642 (50%)
+@P:  CPU Time : 0h:00m:04s

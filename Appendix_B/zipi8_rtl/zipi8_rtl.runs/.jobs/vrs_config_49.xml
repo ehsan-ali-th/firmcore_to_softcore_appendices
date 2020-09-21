@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="clk_wiz_0_synth_1" LaunchDir="/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.runs/clk_wiz_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="proc_sys_reset_0_synth_1" LaunchDir="/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.runs/proc_sys_reset_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="program_memory_synth_1" LaunchDir="/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.runs/program_memory_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="clk_wiz_0_synth_1"/>
+		<Parent Id="proc_sys_reset_0_synth_1"/>
+		<Parent Id="program_memory_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

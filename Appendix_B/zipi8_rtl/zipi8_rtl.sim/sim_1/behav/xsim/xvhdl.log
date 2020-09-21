@@ -1,0 +1,2 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/esi/workspace/Vivado_2018.3/zcu104/zipi8_rtl/zipi8_rtl.srcs/sim_1/new/test_zipi8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test_zipi8'

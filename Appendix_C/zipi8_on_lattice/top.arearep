@@ -1,0 +1,248 @@
+----------------------------------------------------------------------
+Report for cell top.TECH
+Register bits:  2378 of 1280 (185.781%)
+I/O cells:      0
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                             SB_DFF      2348          100.0
+                          SB_DFFESR        13          100.0
+                          SB_DFFESS         1          100.0
+                           SB_DFFSR        11          100.0
+                           SB_DFFSS         5          100.0
+                           SB_GB_IO         1          100.0
+                              SB_IO         2          100.0
+                            SB_LUT4      4393          100.0
+                       SB_RAM2048x2         9          100.0
+                       SB_RAM256x16         1          100.0
+SUB MODULES
+         arith_and_logic_operations         1
+                  decode4_pc_statck         1
+            decode4_strobes_enables         1
+                         decode4alu         1
+                              flags         1
+mux_outputs_from_alu_spm_input_ports         1
+                    program_counter         1
+                     program_memory         1
+                          ram(16,5)         1
+                           ram(8,5)         1
+                           ram(8,8)         1
+                       ram32m_behav         1
+              register_bank_control         1
+   sel_of_2nd_op_to_alu_and_port_id         1
+              sel_of_out_port_value         1
+        shift_and_rotate_operations         1
+                spm_with_output_reg         1
+                              stack         1
+                      state_machine         1
+             two_banks_of_16_gp_reg         1
+  x12_bit_program_address_generator         1
+                              zipi8         1
+                              TOTAL      6806
+----------------------------------------------------------------------
+Report for cell zipi8.v1
+Instance Path : processor_zipi8
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                             SB_DFF      2348          100.0
+                          SB_DFFESR        13          100.0
+                          SB_DFFESS         1          100.0
+                           SB_DFFSR        11          100.0
+                           SB_DFFSS         5          100.0
+                            SB_LUT4      3702           84.3
+                       SB_RAM256x16         1          100.0
+SUB MODULES
+         arith_and_logic_operations         1
+                  decode4_pc_statck         1
+            decode4_strobes_enables         1
+                         decode4alu         1
+                              flags         1
+mux_outputs_from_alu_spm_input_ports         1
+                    program_counter         1
+                          ram(16,5)         1
+                           ram(8,5)         1
+                           ram(8,8)         1
+                       ram32m_behav         1
+              register_bank_control         1
+   sel_of_2nd_op_to_alu_and_port_id         1
+              sel_of_out_port_value         1
+        shift_and_rotate_operations         1
+                spm_with_output_reg         1
+                              stack         1
+                      state_machine         1
+             two_banks_of_16_gp_reg         1
+  x12_bit_program_address_generator         1
+                              TOTAL      6101
+----------------------------------------------------------------------
+Report for cell x12_bit_program_address_generator.v1
+Instance Path : processor_zipi8.x12_bit_program_address_generator_i
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                             SB_DFF        12            0.5
+                            SB_LUT4         9            0.2
+                              TOTAL        21
+----------------------------------------------------------------------
+Report for cell two_banks_of_16_gp_reg.v1
+Instance Path : processor_zipi8.two_banks_of_16_gp_reg_i
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                             SB_DFF       256           10.9
+                            SB_LUT4       450           10.2
+SUB MODULES
+                           ram(8,5)         1
+                       ram32m_behav         1
+                              TOTAL       708
+----------------------------------------------------------------------
+Report for cell ram32m_behav.<NoName>
+Instance Path : 
+                              TOTAL         0
+----------------------------------------------------------------------
+Report for cell ram(8,5).v1
+Instance Path : processor_zipi8.two_banks_of_16_gp_reg_i.sx_bank
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                             SB_DFF       256           10.9
+                            SB_LUT4       450           10.2
+                              TOTAL       706
+----------------------------------------------------------------------
+Report for cell state_machine.v1
+Instance Path : processor_zipi8.state_machine_i
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                             SB_DFF         1            0.0
+                           SB_DFFSR         1            9.1
+                           SB_DFFSS         2           40.0
+                            SB_LUT4         8            0.2
+                              TOTAL        12
+----------------------------------------------------------------------
+Report for cell stack.v1
+Instance Path : processor_zipi8.stack_i
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                             SB_DFF        10            0.4
+                            SB_LUT4        22            0.5
+                       SB_RAM256x16         1          100.0
+SUB MODULES
+                          ram(16,5)         1
+                              TOTAL        34
+----------------------------------------------------------------------
+Report for cell ram(16,5).v1
+Instance Path : processor_zipi8.stack_i.stack_ram
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                       SB_RAM256x16         1          100.0
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell spm_with_output_reg.v1
+Instance Path : processor_zipi8.spm_with_output_reg_i
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                             SB_DFF      2056           87.6
+                            SB_LUT4      3011           68.5
+SUB MODULES
+                           ram(8,8)         1
+                              TOTAL      5068
+----------------------------------------------------------------------
+Report for cell ram(8,8).v1
+Instance Path : processor_zipi8.spm_with_output_reg_i.spm_ram
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                             SB_DFF      2048           87.2
+                            SB_LUT4      3011           68.5
+                              TOTAL      5059
+----------------------------------------------------------------------
+Report for cell shift_and_rotate_operations.v1
+Instance Path : processor_zipi8.shift_and_rotate_operations_i
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           SB_DFFSR         6           54.5
+                           SB_DFFSS         2           40.0
+                            SB_LUT4        10            0.2
+                              TOTAL        18
+----------------------------------------------------------------------
+Report for cell sel_of_out_port_value.v1
+Instance Path : processor_zipi8.sel_of_out_port_value_i
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            SB_LUT4         1            0.0
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell sel_of_2nd_op_to_alu_and_port_id.v1
+Instance Path : processor_zipi8.sel_of_2nd_op_to_alu_and_port_id_i
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            SB_LUT4         8            0.2
+                              TOTAL         8
+----------------------------------------------------------------------
+Report for cell register_bank_control.v1
+Instance Path : processor_zipi8.register_bank_control_i
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                             SB_DFF         1            0.0
+                          SB_DFFESS         1          100.0
+                            SB_LUT4         8            0.2
+                              TOTAL        10
+----------------------------------------------------------------------
+Report for cell program_counter.v1
+Instance Path : processor_zipi8.program_counter_i
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                             SB_DFF         1            0.0
+                          SB_DFFESR        11           84.6
+                            SB_LUT4        47            1.1
+                              TOTAL        59
+----------------------------------------------------------------------
+Report for cell mux_outputs_from_alu_spm_input_ports.v1
+Instance Path : processor_zipi8.mux_outputs_from_alu_spm_input_ports_i
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            SB_LUT4        16            0.4
+                              TOTAL        16
+----------------------------------------------------------------------
+Report for cell flags.v1
+Instance Path : processor_zipi8.flags_i
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                             SB_DFF         1            0.0
+                          SB_DFFESR         2           15.4
+                           SB_DFFSR         1            9.1
+                           SB_DFFSS         1           20.0
+                            SB_LUT4        30            0.7
+                              TOTAL        35
+----------------------------------------------------------------------
+Report for cell decode4alu.v1
+Instance Path : processor_zipi8.decode4alu_i
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                             SB_DFF         2            0.1
+                            SB_LUT4        10            0.2
+                              TOTAL        12
+----------------------------------------------------------------------
+Report for cell decode4_strobes_enables.v1
+Instance Path : processor_zipi8.decode4_strobes_enables_i
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           SB_DFFSR         3           27.3
+                            SB_LUT4        13            0.3
+                              TOTAL        16
+----------------------------------------------------------------------
+Report for cell decode4_pc_statck.v1
+Instance Path : processor_zipi8.decode4_pc_statck_i
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            SB_LUT4        15            0.3
+                              TOTAL        15
+----------------------------------------------------------------------
+Report for cell arith_and_logic_operations.v1
+Instance Path : processor_zipi8.arith_and_logic_operations_i
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                             SB_DFF         8            0.3
+                            SB_LUT4        44            1.0
+                              TOTAL        52
+----------------------------------------------------------------------
+Report for cell program_memory.v1
+Instance Path : test_program
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                       SB_RAM2048x2         9          100.0
+                              TOTAL         9

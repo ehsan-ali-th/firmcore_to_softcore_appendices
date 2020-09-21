@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../zipi8_rtl.srcs/sources_1/ip/clk_wiz_0" \
+"../../../../zipi8_rtl.srcs/sources_1/ip/program_memory/sim/program_memory.v" \
+"../../../../zipi8_rtl.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" \
+"../../../../zipi8_rtl.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

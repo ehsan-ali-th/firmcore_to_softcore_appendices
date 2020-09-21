@@ -1,0 +1,568 @@
+<html><body><samp><pre>
+<!@TC:1557417441>
+# Thu May 09 22:57:19 2019
+
+<a name=mapperReport7></a>Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39</a>
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1557417441> | Running in 64-bit mode. 
+@N:<a href="@N:MF666:@XP_HELP">MF666</a> : <!@TM:1557417441> | Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.) 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 100MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N:<a href="@N:MT206:@XP_HELP">MT206</a> : <!@TM:1557417441> | Auto Constrain mode is enabled 
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\state_machine.vhd:45:56:45:60:@N:BN362:@XP_MSG">state_machine.vhd(45)</a><!@TM:1557417441> | Removing sequential instance interrupt_enable (in view: work.state_machine(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+<font color=#A52A2A>@W:<a href="@W:FX1039:@XP_HELP">FX1039</a> : <a href="d:\workspace\icecube2\zipi8\src\state_machine.vhd:75:8:75:10:@W:FX1039:@XP_MSG">state_machine.vhd(75)</a><!@TM:1557417441> | User-specified initial value defined for instance processor_zipi8.state_machine_i.run is being ignored. </font>
+<font color=#A52A2A>@W:<a href="@W:FX1039:@XP_HELP">FX1039</a> : <a href="d:\workspace\icecube2\zipi8\src\state_machine.vhd:46:31:46:34:@W:FX1039:@XP_MSG">state_machine.vhd(46)</a><!@TM:1557417441> | User-specified initial value defined for instance processor_zipi8.state_machine_i.internal_reset is being ignored. </font>
+<font color=#A52A2A>@W:<a href="@W:FX1039:@XP_HELP">FX1039</a> : <a href="d:\workspace\icecube2\zipi8\src\program_counter.vhd:55:8:55:10:@W:FX1039:@XP_MSG">program_counter.vhd(55)</a><!@TM:1557417441> | User-specified initial value defined for instance processor_zipi8.program_counter_i.pc[11:0] is being ignored. </font>
+<font color=#A52A2A>@W:<a href="@W:FX1039:@XP_HELP">FX1039</a> : <a href="d:\workspace\icecube2\zipi8\src\stack.vhd:48:39:48:42:@W:FX1039:@XP_MSG">stack.vhd(48)</a><!@TM:1557417441> | User-specified initial value defined for instance processor_zipi8.stack_i.special_bit is being ignored. </font>
+<font color=#A52A2A>@W:<a href="@W:FX1039:@XP_HELP">FX1039</a> : <a href="d:\workspace\icecube2\zipi8\src\arith_and_logic_operations.vhd:56:8:56:10:@W:FX1039:@XP_MSG">arith_and_logic_operations.vhd(56)</a><!@TM:1557417441> | User-specified initial value defined for instance processor_zipi8.arith_and_logic_operations_i.arith_logical_result[7:0] is being ignored. </font>
+<font color=#A52A2A>@W:<a href="@W:FX1039:@XP_HELP">FX1039</a> : <a href="d:\workspace\icecube2\zipi8\src\decode4_strobes_enables.vhd:63:8:63:10:@W:FX1039:@XP_MSG">decode4_strobes_enables.vhd(63)</a><!@TM:1557417441> | User-specified initial value defined for instance processor_zipi8.decode4_strobes_enables_i.register_enable is being ignored. </font>
+<font color=#A52A2A>@W:<a href="@W:FX1039:@XP_HELP">FX1039</a> : <a href="d:\workspace\icecube2\zipi8\src\register_bank_control.vhd:63:8:63:10:@W:FX1039:@XP_MSG">register_bank_control.vhd(63)</a><!@TM:1557417441> | User-specified initial value defined for instance processor_zipi8.register_bank_control_i.bank is being ignored. </font>
+<font color=#A52A2A>@W:<a href="@W:FX1039:@XP_HELP">FX1039</a> : <a href="d:\workspace\icecube2\zipi8\src\register_bank_control.vhd:57:8:57:10:@W:FX1039:@XP_MSG">register_bank_control.vhd(57)</a><!@TM:1557417441> | User-specified initial value defined for instance processor_zipi8.register_bank_control_i.sx_addr_4 is being ignored. </font>
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+<font color=#A52A2A>@W:<a href="@W:MO161:@XP_HELP">MO161</a> : <a href="d:\workspace\icecube2\zipi8\src\register_bank_control.vhd:63:8:63:10:@W:MO161:@XP_MSG">register_bank_control.vhd(63)</a><!@TM:1557417441> | Register bit register_bank_control_i.bank (in view view:work.zipi8(behavioral)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:FX703:@XP_HELP">FX703</a> : <a href="d:\workspace\icecube2\zipi8\src\ram32m_behav.vhd:49:11:49:16:@W:FX703:@XP_MSG">ram32m_behav.vhd(49)</a><!@TM:1557417441> | Unable to map RAM instance two_banks_of_16_gp_reg_i.sy_bank.ram_s_0[7:0] to RAM for technology specified. </font>
+@N:<a href="@N:MF135:@XP_HELP">MF135</a> : <a href="d:\workspace\icecube2\zipi8\src\ram32m_behav.vhd:49:11:49:16:@N:MF135:@XP_MSG">ram32m_behav.vhd(49)</a><!@TM:1557417441> | RAM two_banks_of_16_gp_reg_i.sy_bank.ram_s_0[7:0] (in view: work.zipi8(behavioral)) is 2 words by 8 bits.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\ram.vhd:48:11:48:16:@N:BN362:@XP_MSG">ram.vhd(48)</a><!@TM:1557417441> | Removing sequential instance two_banks_of_16_gp_reg_i.sy_bank.ram_s_0_ram0_[0] (in view: work.SYNRAM2X8(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\ram.vhd:48:11:48:16:@N:BN362:@XP_MSG">ram.vhd(48)</a><!@TM:1557417441> | Removing sequential instance two_banks_of_16_gp_reg_i.sy_bank.ram_s_0_ram0_[1] (in view: work.SYNRAM2X8(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\ram.vhd:48:11:48:16:@N:BN362:@XP_MSG">ram.vhd(48)</a><!@TM:1557417441> | Removing sequential instance two_banks_of_16_gp_reg_i.sy_bank.ram_s_0_ram0_[2] (in view: work.SYNRAM2X8(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\ram.vhd:48:11:48:16:@N:BN362:@XP_MSG">ram.vhd(48)</a><!@TM:1557417441> | Removing sequential instance two_banks_of_16_gp_reg_i.sy_bank.ram_s_0_ram0_[3] (in view: work.SYNRAM2X8(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\ram.vhd:48:11:48:16:@N:BN362:@XP_MSG">ram.vhd(48)</a><!@TM:1557417441> | Removing sequential instance two_banks_of_16_gp_reg_i.sy_bank.ram_s_0_ram0_[4] (in view: work.SYNRAM2X8(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\ram.vhd:48:11:48:16:@N:BN362:@XP_MSG">ram.vhd(48)</a><!@TM:1557417441> | Removing sequential instance two_banks_of_16_gp_reg_i.sy_bank.ram_s_0_ram0_[5] (in view: work.SYNRAM2X8(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\ram.vhd:48:11:48:16:@N:BN362:@XP_MSG">ram.vhd(48)</a><!@TM:1557417441> | Removing sequential instance two_banks_of_16_gp_reg_i.sy_bank.ram_s_0_ram0_[6] (in view: work.SYNRAM2X8(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\ram.vhd:48:11:48:16:@N:BN362:@XP_MSG">ram.vhd(48)</a><!@TM:1557417441> | Removing sequential instance two_banks_of_16_gp_reg_i.sy_bank.ram_s_0_ram0_[7] (in view: work.SYNRAM2X8(decomp)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N:<a href="@N:MF135:@XP_HELP">MF135</a> : <a href="d:\workspace\icecube2\zipi8\src\ram.vhd:48:11:48:16:@N:MF135:@XP_MSG">ram.vhd(48)</a><!@TM:1557417441> | RAM two_banks_of_16_gp_reg_i.sx_bank.ram_s_0[7:0] (in view: work.zipi8(behavioral)) is 2 words by 8 bits.
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="d:\workspace\icecube2\zipi8\src\ram.vhd:48:11:48:16:@W:BN132:@XP_MSG">ram.vhd(48)</a><!@TM:1557417441> | Removing instance processor_zipi8.two_banks_of_16_gp_reg_i.sy_bank.ram_s_0.two_banks_of_16_gp_reg_i.sy_bank.ram_s_0_ram1_[1] because it is equivalent to instance processor_zipi8.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0_ram1_[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="d:\workspace\icecube2\zipi8\src\ram.vhd:48:11:48:16:@W:BN132:@XP_MSG">ram.vhd(48)</a><!@TM:1557417441> | Removing instance processor_zipi8.two_banks_of_16_gp_reg_i.sy_bank.ram_s_0.two_banks_of_16_gp_reg_i.sy_bank.ram_s_0_ram1_[2] because it is equivalent to instance processor_zipi8.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0_ram1_[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="d:\workspace\icecube2\zipi8\src\ram.vhd:48:11:48:16:@W:BN132:@XP_MSG">ram.vhd(48)</a><!@TM:1557417441> | Removing instance processor_zipi8.two_banks_of_16_gp_reg_i.sy_bank.ram_s_0.two_banks_of_16_gp_reg_i.sy_bank.ram_s_0_ram1_[3] because it is equivalent to instance processor_zipi8.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0_ram1_[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="d:\workspace\icecube2\zipi8\src\ram.vhd:48:11:48:16:@W:BN132:@XP_MSG">ram.vhd(48)</a><!@TM:1557417441> | Removing instance processor_zipi8.two_banks_of_16_gp_reg_i.sy_bank.ram_s_0.two_banks_of_16_gp_reg_i.sy_bank.ram_s_0_ram1_[4] because it is equivalent to instance processor_zipi8.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0_ram1_[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="d:\workspace\icecube2\zipi8\src\ram.vhd:48:11:48:16:@W:BN132:@XP_MSG">ram.vhd(48)</a><!@TM:1557417441> | Removing instance processor_zipi8.two_banks_of_16_gp_reg_i.sy_bank.ram_s_0.two_banks_of_16_gp_reg_i.sy_bank.ram_s_0_ram1_[0] because it is equivalent to instance processor_zipi8.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0_ram1_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="d:\workspace\icecube2\zipi8\src\ram.vhd:48:11:48:16:@W:BN132:@XP_MSG">ram.vhd(48)</a><!@TM:1557417441> | Removing instance processor_zipi8.two_banks_of_16_gp_reg_i.sy_bank.ram_s_0.two_banks_of_16_gp_reg_i.sy_bank.ram_s_0_ram1_[7] because it is equivalent to instance processor_zipi8.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0_ram1_[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="d:\workspace\icecube2\zipi8\src\ram.vhd:48:11:48:16:@W:BN132:@XP_MSG">ram.vhd(48)</a><!@TM:1557417441> | Removing instance processor_zipi8.two_banks_of_16_gp_reg_i.sy_bank.ram_s_0.two_banks_of_16_gp_reg_i.sy_bank.ram_s_0_ram1_[5] because it is equivalent to instance processor_zipi8.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0_ram1_[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="d:\workspace\icecube2\zipi8\src\ram.vhd:48:11:48:16:@W:BN132:@XP_MSG">ram.vhd(48)</a><!@TM:1557417441> | Removing instance processor_zipi8.two_banks_of_16_gp_reg_i.sy_bank.ram_s_0.two_banks_of_16_gp_reg_i.sy_bank.ram_s_0_ram1_[6] because it is equivalent to instance processor_zipi8.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0_ram1_[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+Encoding state machine t_state_1[0:2] (in view: work.state_machine(behavioral))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine stack_pointer[0:31] (in view: work.stack(behavioral))
+original code -> new code
+   00000 -> 00000000000000000000000000000001
+   00001 -> 00000000000000000000000000000010
+   00010 -> 00000000000000000000000000000100
+   00011 -> 00000000000000000000000000001000
+   00100 -> 00000000000000000000000000010000
+   00101 -> 00000000000000000000000000100000
+   00110 -> 00000000000000000000000001000000
+   00111 -> 00000000000000000000000010000000
+   01000 -> 00000000000000000000000100000000
+   01001 -> 00000000000000000000001000000000
+   01010 -> 00000000000000000000010000000000
+   01011 -> 00000000000000000000100000000000
+   01100 -> 00000000000000000001000000000000
+   01101 -> 00000000000000000010000000000000
+   01110 -> 00000000000000000100000000000000
+   01111 -> 00000000000000001000000000000000
+   10000 -> 00000000000000010000000000000000
+   10001 -> 00000000000000100000000000000000
+   10010 -> 00000000000001000000000000000000
+   10011 -> 00000000000010000000000000000000
+   10100 -> 00000000000100000000000000000000
+   10101 -> 00000000001000000000000000000000
+   10110 -> 00000000010000000000000000000000
+   10111 -> 00000000100000000000000000000000
+   11000 -> 00000001000000000000000000000000
+   11001 -> 00000010000000000000000000000000
+   11010 -> 00000100000000000000000000000000
+   11011 -> 00001000000000000000000000000000
+   11100 -> 00010000000000000000000000000000
+   11101 -> 00100000000000000000000000000000
+   11110 -> 01000000000000000000000000000000
+   11111 -> 10000000000000000000000000000000
+<font color=#A52A2A>@W:<a href="@W:FX107:@XP_HELP">FX107</a> : <a href="d:\workspace\icecube2\zipi8\src\ram.vhd:48:11:48:16:@W:FX107:@XP_MSG">ram.vhd(48)</a><!@TM:1557417441> | RAM stack_ram_low.ram_s[5:0] (in view: work.stack(behavioral)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.</font>
+@N:<a href="@N:FX702:@XP_HELP">FX702</a> : <a href="d:\workspace\icecube2\zipi8\src\ram.vhd:48:11:48:16:@N:FX702:@XP_MSG">ram.vhd(48)</a><!@TM:1557417441> | Found startup values on RAM instance stack_ram_low.ram_s[5:0]
+@N:<a href="@N:MF794:@XP_HELP">MF794</a> : <!@TM:1557417441> | RAM stack_ram_low.ram_s[5:0] required 16 registers during mapping  
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 139MB)
+
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\ram.vhd:48:11:48:16:@N:BN362:@XP_MSG">ram.vhd(48)</a><!@TM:1557417441> | Removing sequential instance processor_zipi8.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0_ram0_[1] (in view: work.top(behavioral)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\ram.vhd:48:11:48:16:@N:BN362:@XP_MSG">ram.vhd(48)</a><!@TM:1557417441> | Removing sequential instance processor_zipi8.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0_ram0_[2] (in view: work.top(behavioral)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\ram.vhd:48:11:48:16:@N:BN362:@XP_MSG">ram.vhd(48)</a><!@TM:1557417441> | Removing sequential instance processor_zipi8.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0_ram0_[3] (in view: work.top(behavioral)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\ram.vhd:48:11:48:16:@N:BN362:@XP_MSG">ram.vhd(48)</a><!@TM:1557417441> | Removing sequential instance processor_zipi8.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0_ram0_[4] (in view: work.top(behavioral)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\ram.vhd:48:11:48:16:@N:BN362:@XP_MSG">ram.vhd(48)</a><!@TM:1557417441> | Removing sequential instance processor_zipi8.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0_ram0_[5] (in view: work.top(behavioral)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\ram.vhd:48:11:48:16:@N:BN362:@XP_MSG">ram.vhd(48)</a><!@TM:1557417441> | Removing sequential instance processor_zipi8.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0_ram0_[6] (in view: work.top(behavioral)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\ram.vhd:48:11:48:16:@N:BN362:@XP_MSG">ram.vhd(48)</a><!@TM:1557417441> | Removing sequential instance processor_zipi8.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0_ram0_[7] (in view: work.top(behavioral)) because it does not drive other instances.
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 139MB)
+
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\ram.vhd:48:11:48:16:@N:BN362:@XP_MSG">ram.vhd(48)</a><!@TM:1557417441> | Removing sequential instance processor_zipi8.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0_ram0_[0] (in view: work.top(behavioral)) because it does not drive other instances.
+<font color=#A52A2A>@W:<a href="@W:BN114:@XP_HELP">BN114</a> : <a href="d:\workspace\icecube2\zipi8\src\ram.vhd:48:11:48:16:@W:BN114:@XP_MSG">ram.vhd(48)</a><!@TM:1557417441> | Removing instance processor_zipi8.stack_i.stack_ram_low.ram_s_ram_s_0_0 (in view: work.top(behavioral)) of black box view:sb_ice.SB_RAM256x16(PRIM) because it does not drive other instances.</font>
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 139MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 139MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 139MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 139MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 139MB)
+
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\arith_and_logic_operations.vhd:56:8:56:10:@N:BN362:@XP_MSG">arith_and_logic_operations.vhd(56)</a><!@TM:1557417441> | Removing sequential instance processor_zipi8.arith_and_logic_operations_i.arith_logical_result[6] (in view: work.top(behavioral)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\arith_and_logic_operations.vhd:56:8:56:10:@N:BN362:@XP_MSG">arith_and_logic_operations.vhd(56)</a><!@TM:1557417441> | Removing sequential instance processor_zipi8.arith_and_logic_operations_i.arith_logical_result[5] (in view: work.top(behavioral)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\arith_and_logic_operations.vhd:56:8:56:10:@N:BN362:@XP_MSG">arith_and_logic_operations.vhd(56)</a><!@TM:1557417441> | Removing sequential instance processor_zipi8.arith_and_logic_operations_i.arith_logical_result[4] (in view: work.top(behavioral)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\arith_and_logic_operations.vhd:56:8:56:10:@N:BN362:@XP_MSG">arith_and_logic_operations.vhd(56)</a><!@TM:1557417441> | Removing sequential instance processor_zipi8.arith_and_logic_operations_i.arith_logical_result[3] (in view: work.top(behavioral)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\arith_and_logic_operations.vhd:56:8:56:10:@N:BN362:@XP_MSG">arith_and_logic_operations.vhd(56)</a><!@TM:1557417441> | Removing sequential instance processor_zipi8.arith_and_logic_operations_i.arith_logical_result[2] (in view: work.top(behavioral)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\arith_and_logic_operations.vhd:56:8:56:10:@N:BN362:@XP_MSG">arith_and_logic_operations.vhd(56)</a><!@TM:1557417441> | Removing sequential instance processor_zipi8.arith_and_logic_operations_i.arith_logical_result[1] (in view: work.top(behavioral)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\arith_and_logic_operations.vhd:56:8:56:10:@N:BN362:@XP_MSG">arith_and_logic_operations.vhd(56)</a><!@TM:1557417441> | Removing sequential instance processor_zipi8.arith_and_logic_operations_i.arith_logical_result[7] (in view: work.top(behavioral)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\ram.vhd:48:11:48:16:@N:BN362:@XP_MSG">ram.vhd(48)</a><!@TM:1557417441> | Removing sequential instance processor_zipi8.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0_ram1_[7] (in view: work.top(behavioral)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\ram.vhd:48:11:48:16:@N:BN362:@XP_MSG">ram.vhd(48)</a><!@TM:1557417441> | Removing sequential instance processor_zipi8.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0_ram1_[6] (in view: work.top(behavioral)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\ram.vhd:48:11:48:16:@N:BN362:@XP_MSG">ram.vhd(48)</a><!@TM:1557417441> | Removing sequential instance processor_zipi8.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0_ram1_[5] (in view: work.top(behavioral)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\ram.vhd:48:11:48:16:@N:BN362:@XP_MSG">ram.vhd(48)</a><!@TM:1557417441> | Removing sequential instance processor_zipi8.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0_ram1_[4] (in view: work.top(behavioral)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\ram.vhd:48:11:48:16:@N:BN362:@XP_MSG">ram.vhd(48)</a><!@TM:1557417441> | Removing sequential instance processor_zipi8.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0_ram1_[3] (in view: work.top(behavioral)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\ram.vhd:48:11:48:16:@N:BN362:@XP_MSG">ram.vhd(48)</a><!@TM:1557417441> | Removing sequential instance processor_zipi8.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0_ram1_[2] (in view: work.top(behavioral)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\ram.vhd:48:11:48:16:@N:BN362:@XP_MSG">ram.vhd(48)</a><!@TM:1557417441> | Removing sequential instance processor_zipi8.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0.two_banks_of_16_gp_reg_i.sx_bank.ram_s_0_ram1_[1] (in view: work.top(behavioral)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\program_counter.vhd:55:8:55:10:@N:BN362:@XP_MSG">program_counter.vhd(55)</a><!@TM:1557417441> | Removing sequential instance processor_zipi8.program_counter_i.pc[11] (in view: work.top(behavioral)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\program_counter.vhd:55:8:55:10:@N:BN362:@XP_MSG">program_counter.vhd(55)</a><!@TM:1557417441> | Removing sequential instance processor_zipi8.program_counter_i.pc[10] (in view: work.top(behavioral)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\program_counter.vhd:55:8:55:10:@N:BN362:@XP_MSG">program_counter.vhd(55)</a><!@TM:1557417441> | Removing sequential instance processor_zipi8.program_counter_i.pc[9] (in view: work.top(behavioral)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\program_counter.vhd:55:8:55:10:@N:BN362:@XP_MSG">program_counter.vhd(55)</a><!@TM:1557417441> | Removing sequential instance processor_zipi8.program_counter_i.pc[8] (in view: work.top(behavioral)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\program_counter.vhd:55:8:55:10:@N:BN362:@XP_MSG">program_counter.vhd(55)</a><!@TM:1557417441> | Removing sequential instance processor_zipi8.program_counter_i.pc[7] (in view: work.top(behavioral)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\program_counter.vhd:55:8:55:10:@N:BN362:@XP_MSG">program_counter.vhd(55)</a><!@TM:1557417441> | Removing sequential instance processor_zipi8.program_counter_i.pc[6] (in view: work.top(behavioral)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\program_counter.vhd:55:8:55:10:@N:BN362:@XP_MSG">program_counter.vhd(55)</a><!@TM:1557417441> | Removing sequential instance processor_zipi8.program_counter_i.pc[5] (in view: work.top(behavioral)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\program_counter.vhd:55:8:55:10:@N:BN362:@XP_MSG">program_counter.vhd(55)</a><!@TM:1557417441> | Removing sequential instance processor_zipi8.program_counter_i.pc[4] (in view: work.top(behavioral)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\program_counter.vhd:55:8:55:10:@N:BN362:@XP_MSG">program_counter.vhd(55)</a><!@TM:1557417441> | Removing sequential instance processor_zipi8.program_counter_i.pc[3] (in view: work.top(behavioral)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\program_counter.vhd:55:8:55:10:@N:BN362:@XP_MSG">program_counter.vhd(55)</a><!@TM:1557417441> | Removing sequential instance processor_zipi8.program_counter_i.pc[2] (in view: work.top(behavioral)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\program_counter.vhd:55:8:55:10:@N:BN362:@XP_MSG">program_counter.vhd(55)</a><!@TM:1557417441> | Removing sequential instance processor_zipi8.program_counter_i.pc[1] (in view: work.top(behavioral)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\workspace\icecube2\zipi8\src\program_counter.vhd:55:8:55:10:@N:BN362:@XP_MSG">program_counter.vhd(55)</a><!@TM:1557417441> | Removing sequential instance processor_zipi8.program_counter_i.pc[0] (in view: work.top(behavioral)) because it does not drive other instances.
+@N:<a href="@N:MF794:@XP_HELP">MF794</a> : <!@TM:1557417441> | RAM stack_ram_low.ram_s[5:0] required 1 registers during mapping  
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 139MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -2.05ns		 131 /        39
+   2		0h:00m:01s		    -2.05ns		 117 /        39
+   3		0h:00m:01s		    -0.65ns		 117 /        39
+   4		0h:00m:01s		    -0.65ns		 117 /        39
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="d:\workspace\icecube2\zipi8\src\state_machine.vhd:63:38:63:41:@N:FX271:@XP_MSG">state_machine.vhd(63)</a><!@TM:1557417441> | Replicating instance processor_zipi8.state_machine_i.t_state_1[0] (in view: work.top(behavioral)) with 50 loads 3 times to improve timing.
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="d:\workspace\icecube2\zipi8\src\state_machine.vhd:63:38:63:41:@N:FX271:@XP_MSG">state_machine.vhd(63)</a><!@TM:1557417441> | Replicating instance processor_zipi8.state_machine_i.t_state_1[1] (in view: work.top(behavioral)) with 55 loads 3 times to improve timing.
+Timing driven replication report
+Added 6 Registers via timing driven replication
+Added 6 LUTs via timing driven replication
+
+   5		0h:00m:01s		    -0.65ns		 122 /        45
+   6		0h:00m:01s		    -0.65ns		 121 /        45
+
+
+   7		0h:00m:01s		    -0.65ns		 117 /        45
+@N:<a href="@N:FX1016:@XP_HELP">FX1016</a> : <a href="d:\workspace\icecube2\zipi8\src\top.vhd:36:6:36:17:@N:FX1016:@XP_MSG">top.vhd(36)</a><!@TM:1557417441> | SB_GB_IO inserted on the port CLK_3P3_MHZ.
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 141MB peak: 142MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 141MB peak: 142MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+<a name=clockReport8></a>#### START OF CLOCK OPTIMIZATION REPORT #####[</a>
+
+1 non-gated/non-generated clock tree(s) driving 45 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+========================================================= Non-Gated/Non-Generated Clocks ==========================================================
+Clock Tree ID     Driving Element            Drive Element Type     Fanout     Sample Instance                                                     
+---------------------------------------------------------------------------------------------------------------------------------------------------
+<a href="@|S:CLK_3P3_MHZ_ibuf_gb_io@|E:processor_zipi8.arith_and_logic_operations_i.arith_logical_result[0]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001  @XP_NAMES_BY_PROP">ClockId0001 </a>       CLK_3P3_MHZ_ibuf_gb_io     SB_GB_IO               45         processor_zipi8.arith_and_logic_operations_i.arith_logical_result[0]
+===================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 114MB peak: 142MB)
+
+Writing Analyst data base D:\workspace\icecube2\zipi8\zipi8_Implmnt\synwork\zipi8_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 138MB peak: 142MB)
+
+Writing EDIF Netlist and constraint files
+@N:<a href="@N:BW103:@XP_HELP">BW103</a> : <!@TM:1557417441> | The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns. 
+@N:<a href="@N:BW107:@XP_HELP">BW107</a> : <!@TM:1557417441> | Synopsys Constraint File capacitance units using default value of 1pF  
+@N:<a href="@N:FX1056:@XP_HELP">FX1056</a> : <!@TM:1557417441> | Writing EDF file: D:\workspace\icecube2\zipi8\zipi8_Implmnt\zipi8.edf 
+L-2016.09L+ice40
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 139MB peak: 142MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 139MB peak: 142MB)
+
+<font color=#A52A2A>@W:<a href="@W:MT420:@XP_HELP">MT420</a> : <!@TM:1557417441> | Found inferred clock top|CLK_3P3_MHZ with period 7.47ns. Please declare a user-defined clock on object "p:CLK_3P3_MHZ"</font> 
+
+
+<a name=timingReport9></a>##### START OF TIMING REPORT #####[</a>
+# Timing Report written on Thu May 09 22:57:21 2019
+#
+
+
+Top view:               top
+Requested Frequency:    133.9 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N:<a href="@N:MT320:@XP_HELP">MT320</a> : <!@TM:1557417441> | This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report. 
+
+@N:<a href="@N:MT322:@XP_HELP">MT322</a> : <!@TM:1557417441> | Clock constraints include only register-to-register paths associated with each individual clock. 
+
+
+
+<a name=performanceSummary10></a>Performance Summary</a>
+*******************
+
+
+Worst slack in design: -1.317
+
+                    Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock      Frequency     Frequency     Period        Period        Slack      Type         Group                
+-------------------------------------------------------------------------------------------------------------------------
+top|CLK_3P3_MHZ     133.9 MHz     113.9 MHz     7.466         8.783         -1.317     inferred     Autoconstr_clkgroup_0
+=========================================================================================================================
+
+
+
+
+
+<a name=clockRelationships11></a>Clock Relationships</a>
+*******************
+
+Clocks                            |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------------
+Starting         Ending           |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------------
+top|CLK_3P3_MHZ  top|CLK_3P3_MHZ  |  7.466       -1.318  |  No paths    -      |  No paths    -      |  No paths    -    
+=========================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+<a name=interfaceInfo12></a>Interface Information </a>
+*********************
+
+No IO constraint found
+
+
+
+====================================
+<a name=clockReport13></a>Detailed Report for Clock: top|CLK_3P3_MHZ</a>
+====================================
+
+
+
+<a name=startingSlack14></a>Starting Points with Worst Slack</a>
+********************************
+
+                                              Starting                                                     Arrival           
+Instance                                      Reference           Type       Pin     Net                   Time        Slack 
+                                              Clock                                                                          
+-----------------------------------------------------------------------------------------------------------------------------
+processor_zipi8.stack_i.stack_pointer[8]      top|CLK_3P3_MHZ     SB_DFF     Q       stack_pointer[8]      0.796       -1.317
+processor_zipi8.stack_i.stack_pointer[1]      top|CLK_3P3_MHZ     SB_DFF     Q       stack_pointer[1]      0.796       -1.245
+processor_zipi8.stack_i.stack_pointer[10]     top|CLK_3P3_MHZ     SB_DFF     Q       stack_pointer[10]     0.796       -1.245
+processor_zipi8.stack_i.stack_pointer[0]      top|CLK_3P3_MHZ     SB_DFF     Q       stack_pointer[0]      0.796       -1.214
+processor_zipi8.stack_i.stack_pointer[12]     top|CLK_3P3_MHZ     SB_DFF     Q       stack_pointer[12]     0.796       -1.214
+processor_zipi8.stack_i.stack_pointer[19]     top|CLK_3P3_MHZ     SB_DFF     Q       stack_pointer[19]     0.796       -1.214
+processor_zipi8.stack_i.stack_pointer[3]      top|CLK_3P3_MHZ     SB_DFF     Q       stack_pointer[3]      0.796       -1.173
+processor_zipi8.stack_i.stack_pointer[2]      top|CLK_3P3_MHZ     SB_DFF     Q       stack_pointer[2]      0.796       -1.142
+processor_zipi8.stack_i.stack_pointer[9]      top|CLK_3P3_MHZ     SB_DFF     Q       stack_pointer[9]      0.796       -1.142
+processor_zipi8.stack_i.stack_pointer[15]     top|CLK_3P3_MHZ     SB_DFF     Q       stack_pointer[15]     0.796       -1.142
+=============================================================================================================================
+
+
+<a name=endingSlack15></a>Ending Points with Worst Slack</a>
+******************************
+
+                                                   Starting                                           Required           
+Instance                                           Reference           Type       Pin     Net         Time         Slack 
+                                                   Clock                                                                 
+-------------------------------------------------------------------------------------------------------------------------
+processor_zipi8.stack_i.stack_pointer[31]          top|CLK_3P3_MHZ     SB_DFF     D       N_328_0     7.311        -1.317
+processor_zipi8.state_machine_i.run                top|CLK_3P3_MHZ     SB_DFF     D       N_158       7.311        -1.245
+processor_zipi8.state_machine_i.internal_reset     top|CLK_3P3_MHZ     SB_DFF     D       N_6_i       7.311        -1.214
+processor_zipi8.stack_i.stack_pointer[3]           top|CLK_3P3_MHZ     SB_DFF     D       N_35_i      7.311        -1.101
+processor_zipi8.stack_i.stack_pointer[5]           top|CLK_3P3_MHZ     SB_DFF     D       N_48_i      7.311        -1.101
+processor_zipi8.stack_i.stack_pointer[7]           top|CLK_3P3_MHZ     SB_DFF     D       N_21_i      7.311        -1.101
+processor_zipi8.stack_i.stack_pointer[9]           top|CLK_3P3_MHZ     SB_DFF     D       N_46_i      7.311        -1.101
+processor_zipi8.stack_i.stack_pointer[11]          top|CLK_3P3_MHZ     SB_DFF     D       N_44_i      7.311        -1.101
+processor_zipi8.stack_i.stack_pointer[17]          top|CLK_3P3_MHZ     SB_DFF     D       N_38_i      7.311        -1.101
+processor_zipi8.stack_i.stack_pointer[19]          top|CLK_3P3_MHZ     SB_DFF     D       N_12_i      7.311        -1.101
+=========================================================================================================================
+
+
+
+<a name=worstPaths16></a>Worst Path Information</a>
+<a href="D:\workspace\icecube2\zipi8\zipi8_Implmnt\synlog\zipi8_fpga_mapper.srr:srsfD:\workspace\icecube2\zipi8\zipi8_Implmnt\zipi8.srs:fp:33361:34765:@XP_NAMES_GATE">View Worst Path in Analyst</a>
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      7.466
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.311
+
+    - Propagation time:                      8.628
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.317
+
+    Number of logic level(s):                3
+    Starting point:                          processor_zipi8.stack_i.stack_pointer[8] / Q
+    Ending point:                            processor_zipi8.stack_i.stack_pointer[31] / D
+    The start point is clocked by            top|CLK_3P3_MHZ [rising] on pin C
+    The end   point is clocked by            top|CLK_3P3_MHZ [rising] on pin C
+
+Instance / Net                                                    Pin      Pin               Arrival     No. of    
+Name                                                  Type        Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------
+processor_zipi8.stack_i.stack_pointer[8]              SB_DFF      Q        Out     0.796     0.796       -         
+stack_pointer[8]                                      Net         -        -       1.599     -           5         
+processor_zipi8.stack_i.stack_pointer_RNID7QP[8]      SB_LUT4     I0       In      -         2.395       -         
+processor_zipi8.stack_i.stack_pointer_RNID7QP[8]      SB_LUT4     O        Out     0.661     3.056       -         
+stack_pointer_srsts_i_0_0_a2_2_7[31]                  Net         -        -       1.371     -           1         
+processor_zipi8.stack_i.stack_pointer_RNIH2403[0]     SB_LUT4     I0       In      -         4.427       -         
+processor_zipi8.stack_i.stack_pointer_RNIH2403[0]     SB_LUT4     O        Out     0.661     5.089       -         
+N_347                                                 Net         -        -       1.371     -           3         
+processor_zipi8.stack_i.stack_pointer_RNO[31]         SB_LUT4     I0       In      -         6.460       -         
+processor_zipi8.stack_i.stack_pointer_RNO[31]         SB_LUT4     O        Out     0.661     7.121       -         
+N_328_0                                               Net         -        -       1.507     -           1         
+processor_zipi8.stack_i.stack_pointer[31]             SB_DFF      D        In      -         8.628       -         
+===================================================================================================================
+Total path delay (propagation time + setup) of 8.783 is 2.935(33.4%) logic and 5.848(66.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      7.466
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.311
+
+    - Propagation time:                      8.556
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.245
+
+    Number of logic level(s):                3
+    Starting point:                          processor_zipi8.stack_i.stack_pointer[1] / Q
+    Ending point:                            processor_zipi8.stack_i.stack_pointer[31] / D
+    The start point is clocked by            top|CLK_3P3_MHZ [rising] on pin C
+    The end   point is clocked by            top|CLK_3P3_MHZ [rising] on pin C
+
+Instance / Net                                                    Pin      Pin               Arrival     No. of    
+Name                                                  Type        Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------
+processor_zipi8.stack_i.stack_pointer[1]              SB_DFF      Q        Out     0.796     0.796       -         
+stack_pointer[1]                                      Net         -        -       1.599     -           5         
+processor_zipi8.stack_i.stack_pointer_RNIBTDN[1]      SB_LUT4     I0       In      -         2.395       -         
+processor_zipi8.stack_i.stack_pointer_RNIBTDN[1]      SB_LUT4     O        Out     0.661     3.056       -         
+stack_pointer_srsts_i_0_0_a2_2_8[31]                  Net         -        -       1.371     -           1         
+processor_zipi8.stack_i.stack_pointer_RNIH2403[0]     SB_LUT4     I1       In      -         4.427       -         
+processor_zipi8.stack_i.stack_pointer_RNIH2403[0]     SB_LUT4     O        Out     0.589     5.017       -         
+N_347                                                 Net         -        -       1.371     -           3         
+processor_zipi8.stack_i.stack_pointer_RNO[31]         SB_LUT4     I0       In      -         6.388       -         
+processor_zipi8.stack_i.stack_pointer_RNO[31]         SB_LUT4     O        Out     0.661     7.049       -         
+N_328_0                                               Net         -        -       1.507     -           1         
+processor_zipi8.stack_i.stack_pointer[31]             SB_DFF      D        In      -         8.556       -         
+===================================================================================================================
+Total path delay (propagation time + setup) of 8.711 is 2.863(32.9%) logic and 5.848(67.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      7.466
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.311
+
+    - Propagation time:                      8.556
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.245
+
+    Number of logic level(s):                3
+    Starting point:                          processor_zipi8.stack_i.stack_pointer[10] / Q
+    Ending point:                            processor_zipi8.stack_i.stack_pointer[31] / D
+    The start point is clocked by            top|CLK_3P3_MHZ [rising] on pin C
+    The end   point is clocked by            top|CLK_3P3_MHZ [rising] on pin C
+
+Instance / Net                                                    Pin      Pin               Arrival     No. of    
+Name                                                  Type        Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------
+processor_zipi8.stack_i.stack_pointer[10]             SB_DFF      Q        Out     0.796     0.796       -         
+stack_pointer[10]                                     Net         -        -       1.599     -           5         
+processor_zipi8.stack_i.stack_pointer_RNID7QP[8]      SB_LUT4     I1       In      -         2.395       -         
+processor_zipi8.stack_i.stack_pointer_RNID7QP[8]      SB_LUT4     O        Out     0.589     2.984       -         
+stack_pointer_srsts_i_0_0_a2_2_7[31]                  Net         -        -       1.371     -           1         
+processor_zipi8.stack_i.stack_pointer_RNIH2403[0]     SB_LUT4     I0       In      -         4.355       -         
+processor_zipi8.stack_i.stack_pointer_RNIH2403[0]     SB_LUT4     O        Out     0.661     5.017       -         
+N_347                                                 Net         -        -       1.371     -           3         
+processor_zipi8.stack_i.stack_pointer_RNO[31]         SB_LUT4     I0       In      -         6.388       -         
+processor_zipi8.stack_i.stack_pointer_RNO[31]         SB_LUT4     O        Out     0.661     7.049       -         
+N_328_0                                               Net         -        -       1.507     -           1         
+processor_zipi8.stack_i.stack_pointer[31]             SB_DFF      D        In      -         8.556       -         
+===================================================================================================================
+Total path delay (propagation time + setup) of 8.711 is 2.863(32.9%) logic and 5.848(67.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      7.466
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.311
+
+    - Propagation time:                      8.556
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.245
+
+    Number of logic level(s):                3
+    Starting point:                          processor_zipi8.stack_i.stack_pointer[8] / Q
+    Ending point:                            processor_zipi8.state_machine_i.run / D
+    The start point is clocked by            top|CLK_3P3_MHZ [rising] on pin C
+    The end   point is clocked by            top|CLK_3P3_MHZ [rising] on pin C
+
+Instance / Net                                                    Pin      Pin               Arrival     No. of    
+Name                                                  Type        Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------
+processor_zipi8.stack_i.stack_pointer[8]              SB_DFF      Q        Out     0.796     0.796       -         
+stack_pointer[8]                                      Net         -        -       1.599     -           5         
+processor_zipi8.stack_i.stack_pointer_RNID7QP[8]      SB_LUT4     I0       In      -         2.395       -         
+processor_zipi8.stack_i.stack_pointer_RNID7QP[8]      SB_LUT4     O        Out     0.661     3.056       -         
+stack_pointer_srsts_i_0_0_a2_2_7[31]                  Net         -        -       1.371     -           1         
+processor_zipi8.stack_i.stack_pointer_RNIH2403[0]     SB_LUT4     I0       In      -         4.427       -         
+processor_zipi8.stack_i.stack_pointer_RNIH2403[0]     SB_LUT4     O        Out     0.661     5.089       -         
+N_347                                                 Net         -        -       1.371     -           3         
+processor_zipi8.state_machine_i.run_RNO               SB_LUT4     I1       In      -         6.460       -         
+processor_zipi8.state_machine_i.run_RNO               SB_LUT4     O        Out     0.589     7.049       -         
+N_158                                                 Net         -        -       1.507     -           1         
+processor_zipi8.state_machine_i.run                   SB_DFF      D        In      -         8.556       -         
+===================================================================================================================
+Total path delay (propagation time + setup) of 8.711 is 2.863(32.9%) logic and 5.848(67.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      7.466
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.311
+
+    - Propagation time:                      8.525
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.214
+
+    Number of logic level(s):                3
+    Starting point:                          processor_zipi8.stack_i.stack_pointer[0] / Q
+    Ending point:                            processor_zipi8.stack_i.stack_pointer[31] / D
+    The start point is clocked by            top|CLK_3P3_MHZ [rising] on pin C
+    The end   point is clocked by            top|CLK_3P3_MHZ [rising] on pin C
+
+Instance / Net                                                    Pin      Pin               Arrival     No. of    
+Name                                                  Type        Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------
+processor_zipi8.stack_i.stack_pointer[0]              SB_DFF      Q        Out     0.796     0.796       -         
+stack_pointer[0]                                      Net         -        -       1.599     -           5         
+processor_zipi8.stack_i.stack_pointer_RNIOPQG[0]      SB_LUT4     I0       In      -         2.395       -         
+processor_zipi8.stack_i.stack_pointer_RNIOPQG[0]      SB_LUT4     O        Out     0.661     3.056       -         
+stack_pointer_srsts_i_0_0_a2_2_9[31]                  Net         -        -       1.371     -           1         
+processor_zipi8.stack_i.stack_pointer_RNIH2403[0]     SB_LUT4     I2       In      -         4.427       -         
+processor_zipi8.stack_i.stack_pointer_RNIH2403[0]     SB_LUT4     O        Out     0.558     4.986       -         
+N_347                                                 Net         -        -       1.371     -           3         
+processor_zipi8.stack_i.stack_pointer_RNO[31]         SB_LUT4     I0       In      -         6.356       -         
+processor_zipi8.stack_i.stack_pointer_RNO[31]         SB_LUT4     O        Out     0.661     7.018       -         
+N_328_0                                               Net         -        -       1.507     -           1         
+processor_zipi8.stack_i.stack_pointer[31]             SB_DFF      D        In      -         8.525       -         
+===================================================================================================================
+Total path delay (propagation time + setup) of 8.680 is 2.832(32.6%) logic and 5.848(67.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 140MB peak: 142MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 140MB peak: 142MB)
+
+---------------------------------------
+<a name=resourceUsage17></a>Resource Usage Report for top </a>
+
+Mapping to part: ice40lp1kqn84
+Cell usage:
+GND             7 uses
+SB_DFF          44 uses
+SB_DFFE         1 use
+VCC             7 uses
+SB_LUT4         116 uses
+
+I/O ports: 3
+I/O primitives: 3
+SB_GB_IO       1 use
+SB_IO          2 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   45 (3%)
+Total load per clock:
+   top|CLK_3P3_MHZ: 1
+
+@S |Mapping Summary:
+Total  LUTs: 116 (9%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 116 = 116 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 28MB peak: 142MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu May 09 22:57:21 2019
+
+###########################################################]
+
+</pre></samp></body></html>

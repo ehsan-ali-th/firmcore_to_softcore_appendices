@@ -1,0 +1,13 @@
+3:56:16 AM
+Active-HDL command:
+ design create -a A {C:\Users\esi\Documents\workspace\icecube2\zipi8\aldec}; design open -a {C:/Users/esi/Documents/workspace/icecube2/zipi8/aldec/A}; addfile {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\top.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\arith_and_logic_operations.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\decode4_pc_statck.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\decode4_strobes_enables.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\decode4alu.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\flags.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\mux_outputs_from_alu_spm_input_ports.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_counter.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\register_bank_control.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\sel_of_2nd_op_to_alu_and_port_id.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\sel_of_out_port_value.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\shift_and_rotate_operations.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\spm_with_output_reg.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\stack.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\state_machine.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\two_banks_of_16_gp_reg.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\x12_bit_program_address_generator.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\zipi8.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\program_memory.vhd} {C:\Users\esi\Documents\workspace\icecube2\zipi8\src\global.vhd};designverlibrarysim -L ovi_ice ice 
+
+
+"C:/lscc/iCEcube2.2017.08/sbt_backend/bin/win32/opt\edifparser.exe" "C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ICE40P01.dev" "C:/Users/esi/Documents/workspace/icecube2/zipi8/zipi8_Implmnt/zipi8.edf " "C:/Users/esi/Documents/workspace/icecube2/zipi8/zipi8_Implmnt\sbt\netlist" "-pQN84" "-yC:/Users/esi/Documents/workspace/icecube2/zipi8/constraints/top_io.pcf " "-sC:/Users/esi/Documents/workspace/icecube2/zipi8/constraints/timing.sdc " -c --devicename iCE40LP1K
+starting edif parserrunning edif parserLattice Semiconductor Corporation  Edif Parser
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 16:51:25
+
+Parsing edif file: C:/Users/esi/Documents/workspace/icecube2/zipi8/zipi8_Implmnt/zipi8.edf...
+Error: Module ram_work_top_behavioral_0 is not a valid primitive. Please check!
+3:58:26 AM

@@ -1,0 +1,326 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\spm_with_output_reg.vhd" 
+MESSAGE "Compile Entity "spm_with_output_reg"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "spm_with_output_reg"" 
+MESSAGE "File: c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\src\ram32m_behav.vhd" 
+MESSAGE "Compile Entity "ram32m_behav"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "ram32m_behav"" 
+MESSAGE "File: c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\src\ram.vhd" 
+MESSAGE "Compile Entity "ram"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "ram"" 
+MESSAGE "File: c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\x12_bit_program_address_generator.vhd" 
+MESSAGE "Compile Entity "x12_bit_program_address_generator"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "x12_bit_program_address_generator"" 
+MESSAGE "File: c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\state_machine.vhd" 
+MESSAGE "Compile Entity "state_machine"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "state_machine"" 
+MESSAGE "File: c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\mux_outputs_from_alu_spm_input_ports.vhd" 
+MESSAGE "Compile Entity "mux_outputs_from_alu_spm_input_ports"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "mux_outputs_from_alu_spm_input_ports"" 
+MESSAGE "File: c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\register_bank_control.vhd" 
+MESSAGE "Compile Entity "register_bank_control"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "register_bank_control"" 
+MESSAGE "File: c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\sel_of_out_port_value.vhd" 
+MESSAGE "Compile Entity "sel_of_out_port_value"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "sel_of_out_port_value"" 
+MESSAGE "File: c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\shift_and_rotate_operations.vhd" 
+MESSAGE "Compile Entity "shift_and_rotate_operations"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "shift_and_rotate_operations"" 
+MESSAGE "File: c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\sel_of_2nd_op_to_alu_and_port_id.vhd" 
+MESSAGE "Compile Entity "sel_of_2nd_op_to_alu_and_port_id"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "sel_of_2nd_op_to_alu_and_port_id"" 
+MESSAGE "File: c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\program_counter.vhd" 
+BEGINPROGRESS c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\program_counter.vhd
+UPDATEPROGRESS 3
+MESSAGE "Compile Entity "program_counter"" 
+UPDATEPROGRESS 5
+UPDATEPROGRESS 6
+MESSAGE "Compile Architecture "Behavioral" of Entity "program_counter"" 
+UPDATEPROGRESS 7
+UPDATEPROGRESS 10
+UPDATEPROGRESS 13
+UPDATEPROGRESS 17
+UPDATEPROGRESS 21
+UPDATEPROGRESS 25
+UPDATEPROGRESS 29
+UPDATEPROGRESS 33
+UPDATEPROGRESS 37
+UPDATEPROGRESS 41
+UPDATEPROGRESS 45
+UPDATEPROGRESS 49
+UPDATEPROGRESS 53
+UPDATEPROGRESS 57
+UPDATEPROGRESS 58
+UPDATEPROGRESS 59
+UPDATEPROGRESS 60
+UPDATEPROGRESS 61
+UPDATEPROGRESS 62
+UPDATEPROGRESS 64
+UPDATEPROGRESS 65
+UPDATEPROGRESS 68
+UPDATEPROGRESS 69
+UPDATEPROGRESS 71
+UPDATEPROGRESS 72
+UPDATEPROGRESS 75
+UPDATEPROGRESS 76
+UPDATEPROGRESS 78
+UPDATEPROGRESS 79
+UPDATEPROGRESS 81
+UPDATEPROGRESS 82
+UPDATEPROGRESS 85
+UPDATEPROGRESS 86
+UPDATEPROGRESS 88
+UPDATEPROGRESS 89
+UPDATEPROGRESS 91
+UPDATEPROGRESS 92
+UPDATEPROGRESS 95
+UPDATEPROGRESS 96
+UPDATEPROGRESS 98
+UPDATEPROGRESS 99
+UPDATEPROGRESS 100
+ENDPROGRESS c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\program_counter.vhd
+MESSAGE "File: c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\program_memory.vhd" 
+BEGINPROGRESS c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\program_memory.vhd
+UPDATEPROGRESS 1
+MESSAGE "Compile Entity "program_memory"" 
+UPDATEPROGRESS 4
+UPDATEPROGRESS 5
+MESSAGE "Compile Architecture "Behavioral" of Entity "program_memory"" 
+UPDATEPROGRESS 15
+UPDATEPROGRESS 25
+UPDATEPROGRESS 34
+UPDATEPROGRESS 43
+UPDATEPROGRESS 52
+UPDATEPROGRESS 62
+UPDATEPROGRESS 71
+UPDATEPROGRESS 80
+UPDATEPROGRESS 90
+UPDATEPROGRESS 99
+UPDATEPROGRESS 100
+ENDPROGRESS c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\program_memory.vhd
+MESSAGE "File: c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\decode4alu.vhd" 
+MESSAGE "Compile Entity "decode4alu"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "decode4alu"" 
+MESSAGE "File: c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\flags.vhd" 
+BEGINPROGRESS c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\flags.vhd
+UPDATEPROGRESS 3
+MESSAGE "Compile Entity "flags"" 
+UPDATEPROGRESS 8
+UPDATEPROGRESS 9
+MESSAGE "Compile Architecture "Behavioral" of Entity "flags"" 
+UPDATEPROGRESS 10
+UPDATEPROGRESS 11
+UPDATEPROGRESS 12
+UPDATEPROGRESS 13
+UPDATEPROGRESS 14
+UPDATEPROGRESS 15
+UPDATEPROGRESS 16
+UPDATEPROGRESS 19
+UPDATEPROGRESS 22
+UPDATEPROGRESS 23
+UPDATEPROGRESS 24
+UPDATEPROGRESS 27
+UPDATEPROGRESS 31
+UPDATEPROGRESS 35
+UPDATEPROGRESS 48
+UPDATEPROGRESS 50
+UPDATEPROGRESS 53
+UPDATEPROGRESS 56
+UPDATEPROGRESS 59
+UPDATEPROGRESS 62
+UPDATEPROGRESS 65
+UPDATEPROGRESS 67
+UPDATEPROGRESS 70
+UPDATEPROGRESS 72
+UPDATEPROGRESS 74
+UPDATEPROGRESS 77
+UPDATEPROGRESS 80
+UPDATEPROGRESS 84
+UPDATEPROGRESS 86
+UPDATEPROGRESS 88
+UPDATEPROGRESS 91
+UPDATEPROGRESS 94
+UPDATEPROGRESS 96
+UPDATEPROGRESS 99
+UPDATEPROGRESS 100
+ENDPROGRESS c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\flags.vhd
+MESSAGE "File: c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\decode4_pc_statck.vhd" 
+MESSAGE "Compile Entity "decode4_pc_statck"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "decode4_pc_statck"" 
+MESSAGE "File: c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\decode4_strobes_enables.vhd" 
+MESSAGE "Compile Entity "decode4_strobes_enables"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "decode4_strobes_enables"" 
+MESSAGE "File: c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\arith_and_logic_operations.vhd" 
+BEGINPROGRESS c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\arith_and_logic_operations.vhd
+UPDATEPROGRESS 2
+MESSAGE "Compile Entity "arith_and_logic_operations"" 
+UPDATEPROGRESS 5
+MESSAGE "Compile Architecture "Behavioral" of Entity "arith_and_logic_operations"" 
+UPDATEPROGRESS 6
+UPDATEPROGRESS 7
+UPDATEPROGRESS 8
+UPDATEPROGRESS 9
+UPDATEPROGRESS 11
+UPDATEPROGRESS 12
+UPDATEPROGRESS 14
+UPDATEPROGRESS 17
+UPDATEPROGRESS 19
+UPDATEPROGRESS 20
+UPDATEPROGRESS 22
+UPDATEPROGRESS 25
+UPDATEPROGRESS 27
+UPDATEPROGRESS 28
+UPDATEPROGRESS 30
+UPDATEPROGRESS 32
+UPDATEPROGRESS 35
+UPDATEPROGRESS 36
+UPDATEPROGRESS 38
+UPDATEPROGRESS 40
+UPDATEPROGRESS 43
+UPDATEPROGRESS 46
+UPDATEPROGRESS 48
+UPDATEPROGRESS 50
+UPDATEPROGRESS 51
+UPDATEPROGRESS 54
+UPDATEPROGRESS 56
+UPDATEPROGRESS 58
+UPDATEPROGRESS 59
+UPDATEPROGRESS 61
+UPDATEPROGRESS 64
+UPDATEPROGRESS 66
+UPDATEPROGRESS 67
+UPDATEPROGRESS 69
+UPDATEPROGRESS 72
+UPDATEPROGRESS 75
+UPDATEPROGRESS 76
+UPDATEPROGRESS 78
+UPDATEPROGRESS 79
+UPDATEPROGRESS 81
+UPDATEPROGRESS 82
+UPDATEPROGRESS 84
+UPDATEPROGRESS 85
+UPDATEPROGRESS 87
+UPDATEPROGRESS 88
+UPDATEPROGRESS 90
+UPDATEPROGRESS 91
+UPDATEPROGRESS 93
+UPDATEPROGRESS 94
+UPDATEPROGRESS 96
+UPDATEPROGRESS 97
+UPDATEPROGRESS 98
+UPDATEPROGRESS 99
+UPDATEPROGRESS 100
+ENDPROGRESS c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\arith_and_logic_operations.vhd
+MESSAGE "File: c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\stack.vhd" 
+BEGINPROGRESS c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\stack.vhd
+UPDATEPROGRESS 4
+MESSAGE "Compile Entity "stack"" 
+UPDATEPROGRESS 9
+MESSAGE "Compile Architecture "Behavioral" of Entity "stack"" 
+UPDATEPROGRESS 22
+UPDATEPROGRESS 23
+UPDATEPROGRESS 24
+UPDATEPROGRESS 25
+UPDATEPROGRESS 26
+UPDATEPROGRESS 28
+UPDATEPROGRESS 29
+UPDATEPROGRESS 31
+UPDATEPROGRESS 40
+UPDATEPROGRESS 41
+UPDATEPROGRESS 44
+UPDATEPROGRESS 45
+UPDATEPROGRESS 46
+UPDATEPROGRESS 52
+UPDATEPROGRESS 55
+UPDATEPROGRESS 59
+UPDATEPROGRESS 61
+UPDATEPROGRESS 65
+UPDATEPROGRESS 67
+UPDATEPROGRESS 71
+UPDATEPROGRESS 73
+UPDATEPROGRESS 77
+UPDATEPROGRESS 79
+UPDATEPROGRESS 81
+UPDATEPROGRESS 84
+UPDATEPROGRESS 85
+UPDATEPROGRESS 87
+UPDATEPROGRESS 88
+UPDATEPROGRESS 90
+UPDATEPROGRESS 91
+UPDATEPROGRESS 93
+UPDATEPROGRESS 94
+UPDATEPROGRESS 97
+UPDATEPROGRESS 98
+UPDATEPROGRESS 99
+UPDATEPROGRESS 100
+ENDPROGRESS c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\stack.vhd
+MESSAGE "File: c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\two_banks_of_16_gp_reg.vhd" 
+MESSAGE "Compile Entity "two_banks_of_16_gp_reg"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "two_banks_of_16_gp_reg"" 
+MESSAGE "File: c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\zipi8.vhd" 
+BEGINPROGRESS c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\zipi8.vhd
+UPDATEPROGRESS 2
+MESSAGE "Compile Entity "zipi8"" 
+UPDATEPROGRESS 5
+MESSAGE "Compile Architecture "Behavioral" of Entity "zipi8"" 
+UPDATEPROGRESS 10
+UPDATEPROGRESS 13
+UPDATEPROGRESS 15
+UPDATEPROGRESS 17
+UPDATEPROGRESS 21
+UPDATEPROGRESS 24
+UPDATEPROGRESS 27
+UPDATEPROGRESS 29
+UPDATEPROGRESS 33
+UPDATEPROGRESS 35
+UPDATEPROGRESS 37
+UPDATEPROGRESS 39
+UPDATEPROGRESS 41
+UPDATEPROGRESS 43
+UPDATEPROGRESS 45
+UPDATEPROGRESS 47
+UPDATEPROGRESS 48
+UPDATEPROGRESS 49
+UPDATEPROGRESS 50
+UPDATEPROGRESS 51
+UPDATEPROGRESS 52
+UPDATEPROGRESS 53
+UPDATEPROGRESS 54
+UPDATEPROGRESS 55
+UPDATEPROGRESS 56
+UPDATEPROGRESS 57
+UPDATEPROGRESS 58
+UPDATEPROGRESS 59
+UPDATEPROGRESS 61
+UPDATEPROGRESS 65
+UPDATEPROGRESS 68
+UPDATEPROGRESS 70
+UPDATEPROGRESS 72
+UPDATEPROGRESS 75
+UPDATEPROGRESS 78
+UPDATEPROGRESS 80
+UPDATEPROGRESS 82
+UPDATEPROGRESS 83
+UPDATEPROGRESS 86
+UPDATEPROGRESS 89
+UPDATEPROGRESS 90
+UPDATEPROGRESS 91
+UPDATEPROGRESS 92
+UPDATEPROGRESS 94
+UPDATEPROGRESS 96
+UPDATEPROGRESS 98
+UPDATEPROGRESS 100
+ENDPROGRESS c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\zipi8.vhd
+MESSAGE "File: c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\top.vhd" 
+MESSAGE "Compile Entity "top"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "top"" 
+MESSAGE "File: c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\src\top_tb.vhd" 
+MESSAGE "Compile Entity "top_tb"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "top_tb"" 
+MESSAGE "Incorrect order of units detected." 
+MESSAGE "Automatic reorder and incremental recompilation of required units in progress." 
+MESSAGE "Top-level unit(s) detected:" 
+MESSAGE "Entity => top_tb" 
+MESSAGE "File: c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\spm_with_output_reg.vhd" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "spm_with_output_reg"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  2.0 [s]" 

@@ -1,0 +1,23 @@
+"c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\spm_with_output_reg.vhd" VHDL work_sim 1 0 0 -02 -08
+"c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\src\ram32m_behav.vhd" VHDL work_sim 1 0 0 -02 -08
+"c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\src\ram.vhd" VHDL work_sim 1 0 0 -02 -08
+"c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\x12_bit_program_address_generator.vhd" VHDL work_sim 1 0 0 -02 -08
+"c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\state_machine.vhd" VHDL work_sim 1 0 0 -02 -08
+"c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\mux_outputs_from_alu_spm_input_ports.vhd" VHDL work_sim 1 0 0 -02 -08
+"c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\register_bank_control.vhd" VHDL work_sim 1 0 0 -02 -08
+"c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\sel_of_out_port_value.vhd" VHDL work_sim 1 0 0 -02 -08
+"c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\shift_and_rotate_operations.vhd" VHDL work_sim 1 0 0 -02 -08
+"c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\sel_of_2nd_op_to_alu_and_port_id.vhd" VHDL work_sim 1 0 0 -02 -08
+"c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\program_counter.vhd" VHDL work_sim 1 0 0 -02 -08
+"c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\program_memory.vhd" VHDL work_sim 1 0 0 -02 -08
+"c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\decode4alu.vhd" VHDL work_sim 1 0 0 -02 -08
+"c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\flags.vhd" VHDL work_sim 1 0 0 -02 -08
+"c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\decode4_pc_statck.vhd" VHDL work_sim 1 0 0 -02 -08
+"c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\decode4_strobes_enables.vhd" VHDL work_sim 1 0 0 -02 -08
+"c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\arith_and_logic_operations.vhd" VHDL work_sim 1 0 0 -02 -08
+"c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\stack.vhd" VHDL work_sim 1 0 0 -02 -08
+"c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\two_banks_of_16_gp_reg.vhd" VHDL work_sim 1 0 0 -02 -08
+"c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\zipi8.vhd" VHDL work_sim 1 0 0 -02 -08
+"c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\..\..\src\top.vhd" VHDL work_sim 1 0 0 -02 -08
+"c:\Users\esi\Documents\workspace\icecube2\zipi8\aldec\work_sim\src\top_tb.vhd" VHDL work_sim 1 0 0 -02 -08
+. . 0 0 0

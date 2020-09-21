@@ -1,0 +1,476 @@
+#### START OF AREA REPORT #####[
+
+Part:			ICE40LP1KQN84 (Lattice)
+
+-------------------------------------------------------------------
+########   Utilization report for  Top level view:   top   ########
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     322                100 %                
+==================================================
+Total SEQUENTIAL ELEMENTS in the block top:	322 (7.86 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     642                100 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block top:	642 (15.67 % Utilization)
+
+
+MEMORY ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+RAMS     11                 100 %                
+=================================================
+Total MEMORY ELEMENTS in the block top:	11 (0.27 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     4                  100 %                
+=================================================
+Total IO PADS in the block top:	4 (0.10 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   program_memory   ########
+Instance path:   top.program_memory                                 
+====================================================================
+
+MEMORY ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+RAMS     9                  81.8 %               
+=================================================
+Total MEMORY ELEMENTS in the block top.program_memory:	9 (0.22 % Utilization)
+
+-----------------------------------------------------------
+########   Utilization report for  cell:   zipi8   ########
+Instance path:   top.zipi8                                 
+===========================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     322                100 %                
+==================================================
+Total SEQUENTIAL ELEMENTS in the block top.zipi8:	322 (7.86 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     642                100 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block top.zipi8:	642 (15.67 % Utilization)
+
+
+MEMORY ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+RAMS     2                  18.2 %               
+=================================================
+Total MEMORY ELEMENTS in the block top.zipi8:	2 (0.05 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     1                  25 %                 
+=================================================
+Total IO PADS in the block top.zipi8:	1 (0.02 % Utilization)
+
+--------------------------------------------------------------------------------
+########   Utilization report for  cell:   arith_and_logic_operations   ########
+Instance path:   zipi8.arith_and_logic_operations                               
+================================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     8                  2.48 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block zipi8.arith_and_logic_operations:	8 (0.20 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     57                 8.88 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block zipi8.arith_and_logic_operations:	57 (1.39 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   decode4_pc_statck   ########
+Instance path:   zipi8.decode4_pc_statck                               
+=======================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     6                  0.9350 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block zipi8.decode4_pc_statck:	6 (0.15 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   decode4_strobes_enables   ########
+Instance path:   zipi8.decode4_strobes_enables                               
+=============================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     3                  0.9320 %             
+==================================================
+Total SEQUENTIAL ELEMENTS in the block zipi8.decode4_strobes_enables:	3 (0.07 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     12                 1.87 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block zipi8.decode4_strobes_enables:	12 (0.29 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   decode4alu   ########
+Instance path:   zipi8.decode4alu                               
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     2                  0.6210 %             
+==================================================
+Total SEQUENTIAL ELEMENTS in the block zipi8.decode4alu:	2 (0.05 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     7                  1.09 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block zipi8.decode4alu:	7 (0.17 % Utilization)
+
+-----------------------------------------------------------
+########   Utilization report for  cell:   flags   ########
+Instance path:   zipi8.flags                               
+===========================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     5                  1.55 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block zipi8.flags:	5 (0.12 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     61                 9.5 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block zipi8.flags:	61 (1.49 % Utilization)
+
+------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   mux_outputs_from_alu_spm_input_ports   ########
+Instance path:   zipi8.mux_outputs_from_alu_spm_input_ports                               
+==========================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     16                 2.49 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block zipi8.mux_outputs_from_alu_spm_input_ports:	16 (0.39 % Utilization)
+
+---------------------------------------------------------------------
+########   Utilization report for  cell:   program_counter   ########
+Instance path:   zipi8.program_counter                               
+=====================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     12                 3.73 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block zipi8.program_counter:	12 (0.29 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     41                 6.39 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block zipi8.program_counter:	41 (1.00 % Utilization)
+
+---------------------------------------------------------------------------
+########   Utilization report for  cell:   register_bank_control   ########
+Instance path:   zipi8.register_bank_control                               
+===========================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     2                  0.6210 %             
+==================================================
+Total SEQUENTIAL ELEMENTS in the block zipi8.register_bank_control:	2 (0.05 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     6                  0.9350 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block zipi8.register_bank_control:	6 (0.15 % Utilization)
+
+--------------------------------------------------------------------------------------
+########   Utilization report for  cell:   sel_of_2nd_op_to_alu_and_port_id   ########
+Instance path:   zipi8.sel_of_2nd_op_to_alu_and_port_id                               
+======================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     8                  1.25 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block zipi8.sel_of_2nd_op_to_alu_and_port_id:	8 (0.20 % Utilization)
+
+---------------------------------------------------------------------------
+########   Utilization report for  cell:   sel_of_out_port_value   ########
+Instance path:   zipi8.sel_of_out_port_value                               
+===========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     1                  0.1560 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block zipi8.sel_of_out_port_value:	1 (0.02 % Utilization)
+
+---------------------------------------------------------------------------------
+########   Utilization report for  cell:   shift_and_rotate_operations   ########
+Instance path:   zipi8.shift_and_rotate_operations                               
+=================================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     8                  2.48 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block zipi8.shift_and_rotate_operations:	8 (0.20 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     11                 1.71 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block zipi8.shift_and_rotate_operations:	11 (0.27 % Utilization)
+
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   spm_with_output_reg   ########
+Instance path:   zipi8.spm_with_output_reg                               
+=========================================================================
+
+MEMORY ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+RAMS     1                  9.09 %               
+=================================================
+Total MEMORY ELEMENTS in the block zipi8.spm_with_output_reg:	1 (0.02 % Utilization)
+
+-------------------------------------------------------------
+########   Utilization report for  cell:   ram_8_8   ########
+Instance path:   spm_with_output_reg.ram_8_8                 
+=============================================================
+
+MEMORY ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+RAMS     1                  9.09 %               
+=================================================
+Total MEMORY ELEMENTS in the block spm_with_output_reg.ram_8_8:	1 (0.02 % Utilization)
+
+-----------------------------------------------------------
+########   Utilization report for  cell:   stack   ########
+Instance path:   zipi8.stack                               
+===========================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     10                 3.11 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block zipi8.stack:	10 (0.24 % Utilization)
+
+
+MEMORY ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+RAMS     1                  9.09 %               
+=================================================
+Total MEMORY ELEMENTS in the block zipi8.stack:	1 (0.02 % Utilization)
+
+--------------------------------------------------------------
+########   Utilization report for  cell:   ram_16_5   ########
+Instance path:   stack.ram_16_5                               
+==============================================================
+
+MEMORY ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+RAMS     1                  9.09 %               
+=================================================
+Total MEMORY ELEMENTS in the block stack.ram_16_5:	1 (0.02 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   state_machine   ########
+Instance path:   zipi8.state_machine                               
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     4                  1.24 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block zipi8.state_machine:	4 (0.10 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     1                  25 %                 
+=================================================
+Total IO PADS in the block zipi8.state_machine:	1 (0.02 % Utilization)
+
+----------------------------------------------------------------------------
+########   Utilization report for  cell:   two_banks_of_16_gp_reg   ########
+Instance path:   zipi8.two_banks_of_16_gp_reg                               
+============================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     256                79.5 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block zipi8.two_banks_of_16_gp_reg:	256 (6.25 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     406                63.2 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block zipi8.two_banks_of_16_gp_reg:	406 (9.91 % Utilization)
+
+-------------------------------------------------------------
+########   Utilization report for  cell:   ram_8_5   ########
+Instance path:   two_banks_of_16_gp_reg.ram_8_5              
+=============================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     256                79.5 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block two_banks_of_16_gp_reg.ram_8_5:	256 (6.25 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     206                32.1 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block two_banks_of_16_gp_reg.ram_8_5:	206 (5.03 % Utilization)
+
+------------------------------------------------------------
+########   Utilization report for  cell:   ram_rw   ########
+Instance path:   two_banks_of_16_gp_reg.ram_rw              
+============================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     200                31.2 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block two_banks_of_16_gp_reg.ram_rw:	200 (4.88 % Utilization)
+
+---------------------------------------------------------------------------------------
+########   Utilization report for  cell:   x12_bit_program_address_generator   ########
+Instance path:   zipi8.x12_bit_program_address_generator                               
+=======================================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     12                 3.73 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block zipi8.x12_bit_program_address_generator:	12 (0.29 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     10                 1.56 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block zipi8.x12_bit_program_address_generator:	10 (0.24 % Utilization)
+
+#### START OF Block RAM DETAILED REPORT ####
+
+Total Block RAMs: 11
+
+processor_zipi8.spm_with_output_reg_i.spm_ram.ram_s_ram_s_0_0
+----------------------------
+----------------------------
+
+processor_zipi8.stack_i.stack_ram.ram_s_ram_s_0_0
+----------------------------
+----------------------------
+
+test_program.Ram2048x2_inst0
+----------------------------
+----------------------------
+
+test_program.Ram2048x2_inst1
+----------------------------
+----------------------------
+
+test_program.Ram2048x2_inst2
+----------------------------
+----------------------------
+
+test_program.Ram2048x2_inst3
+----------------------------
+----------------------------
+
+test_program.Ram2048x2_inst4
+----------------------------
+----------------------------
+
+test_program.Ram2048x2_inst5
+----------------------------
+----------------------------
+
+test_program.Ram2048x2_inst6
+----------------------------
+----------------------------
+
+test_program.Ram2048x2_inst7
+----------------------------
+----------------------------
+
+test_program.Ram2048x2_inst8
+----------------------------
+----------------------------
+
+#### END OF  Block RAM DETAILED REPORT ####
+
+
+##### END OF AREA REPORT #####]
+

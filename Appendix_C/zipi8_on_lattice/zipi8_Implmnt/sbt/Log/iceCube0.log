@@ -1,0 +1,1205 @@
+12:36:40 PM
+C:\lscc\iCEcube2.2017.08\LSE\bin\nt\synthesis.exe -f "zipi8_lse.prj"
+starting Synthesisrunning SynthesisCopyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+Thu May 09 13:22:30 2019
+
+
+Command Line:  C:\lscc\iCEcube2.2017.08\LSE\bin\nt\synthesis.exe -f zipi8_lse.prj 
+
+INFO - synthesis: Lattice Synthesis Engine Launched.
+Synthesis options:
+The -a option is SBTiCE40UL.
+The -t option is CM36A.
+The -d option is iCE40UL1K.
+                                                          
+
+##########################################################
+
+### Lattice Family : SBTiCE40UL
+
+### Device  : iCE40UL1K
+
+### Package : CM36A
+
+### Number of Logic Cells: 1000
+
+### Number of RAM4k Blocks: 14
+
+### Number of DSP Blocks: 0
+
+### Number of PLLs: 1
+
+### Number of IO Pins: 18
+
+##########################################################
+
+                                                          
+
+Optimization goal = Area
+The -top option is not used.
+Target frequency = 1.000000 MHz.
+Maximum fanout = 10000.
+Timing path count = 3
+RWCheckOnRam = 0
+
+BRAM utilization = 100.000000 %
+DSP usage = true (default)
+DSP utilization = 100 % (default)
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = auto (Default)
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+Output EDIF file name = zipi8_Implmnt/zipi8.edf.
+WARNING - synthesis: Option -force_gsr will be set to false when option -output_edif/-ngo are set
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p D:/workspace/icecube2/zipi8 (searchpath added)
+VHDL library = work
+VHDL design file = src/top.vhd
+VHDL library = work
+VHDL design file = src/arith_and_logic_operations.vhd
+VHDL library = work
+VHDL design file = src/decode4_pc_statck.vhd
+VHDL library = work
+VHDL design file = src/decode4_strobes_enables.vhd
+VHDL library = work
+VHDL design file = src/decode4alu.vhd
+VHDL library = work
+VHDL design file = src/flags.vhd
+VHDL library = work
+VHDL design file = src/mux_outputs_from_alu_spm_input_ports.vhd
+VHDL library = work
+VHDL design file = src/program_counter.vhd
+VHDL library = work
+VHDL design file = src/ram.vhd
+VHDL library = work
+VHDL design file = src/ram32m_behav.vhd
+VHDL library = work
+VHDL design file = src/register_bank_control.vhd
+VHDL library = work
+VHDL design file = src/sel_of_2nd_op_to_alu_and_port_id.vhd
+VHDL library = work
+VHDL design file = src/sel_of_out_port_value.vhd
+VHDL library = work
+VHDL design file = src/shift_and_rotate_operations.vhd
+VHDL library = work
+VHDL design file = src/spm_with_output_reg.vhd
+VHDL library = work
+VHDL design file = src/stack.vhd
+VHDL library = work
+VHDL design file = src/state_machine.vhd
+VHDL library = work
+VHDL design file = src/two_banks_of_16_gp_reg.vhd
+VHDL library = work
+VHDL design file = src/x12_bit_program_address_generator.vhd
+VHDL library = work
+VHDL design file = src/zipi8.vhd
+-sdc option: SDC file input not used.
+Technology check ok...
+
+Analyzing Verilog file C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/machxo2.v. VERI-1482
+Analyzing Verilog file C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v. VERI-1482
+Compile design.
+Compile Design Begin
+ERROR - synthesis: src/top.vhd(131): kcpsm6_bram_enable is not declared. VHDL-1241
+Synthesis failed.
+Synthesis batch mode runtime 7 secondsC:\lscc\iCEcube2.2017.08\LSE\bin\nt\synthesis.exe -f "zipi8_lse.prj"
+starting Synthesisrunning SynthesisCopyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+Thu May 09 13:23:46 2019
+
+
+Command Line:  C:\lscc\iCEcube2.2017.08\LSE\bin\nt\synthesis.exe -f zipi8_lse.prj 
+
+INFO - synthesis: Lattice Synthesis Engine Launched.
+Synthesis options:
+The -a option is SBTiCE40UL.
+The -t option is CM36A.
+The -d option is iCE40UL1K.
+                                                          
+
+##########################################################
+
+### Lattice Family : SBTiCE40UL
+
+### Device  : iCE40UL1K
+
+### Package : CM36A
+
+### Number of Logic Cells: 1000
+
+### Number of RAM4k Blocks: 14
+
+### Number of DSP Blocks: 0
+
+### Number of PLLs: 1
+
+### Number of IO Pins: 18
+
+##########################################################
+
+                                                          
+
+Optimization goal = Area
+Top-level module name = top.
+Target frequency = 1.000000 MHz.
+Maximum fanout = 10000.
+Timing path count = 3
+RWCheckOnRam = 0
+
+BRAM utilization = 100.000000 %
+DSP usage = true (default)
+DSP utilization = 100 % (default)
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = auto (Default)
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+Output EDIF file name = zipi8_Implmnt/zipi8.edf.
+WARNING - synthesis: Option -force_gsr will be set to false when option -output_edif/-ngo are set
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p D:/workspace/icecube2/zipi8 (searchpath added)
+VHDL library = work
+VHDL design file = src/top.vhd
+VHDL library = work
+VHDL design file = src/arith_and_logic_operations.vhd
+VHDL library = work
+VHDL design file = src/decode4_pc_statck.vhd
+VHDL library = work
+VHDL design file = src/decode4_strobes_enables.vhd
+VHDL library = work
+VHDL design file = src/decode4alu.vhd
+VHDL library = work
+VHDL design file = src/flags.vhd
+VHDL library = work
+VHDL design file = src/mux_outputs_from_alu_spm_input_ports.vhd
+VHDL library = work
+VHDL design file = src/program_counter.vhd
+VHDL library = work
+VHDL design file = src/ram.vhd
+VHDL library = work
+VHDL design file = src/ram32m_behav.vhd
+VHDL library = work
+VHDL design file = src/register_bank_control.vhd
+VHDL library = work
+VHDL design file = src/sel_of_2nd_op_to_alu_and_port_id.vhd
+VHDL library = work
+VHDL design file = src/sel_of_out_port_value.vhd
+VHDL library = work
+VHDL design file = src/shift_and_rotate_operations.vhd
+VHDL library = work
+VHDL design file = src/spm_with_output_reg.vhd
+VHDL library = work
+VHDL design file = src/stack.vhd
+VHDL library = work
+VHDL design file = src/state_machine.vhd
+VHDL library = work
+VHDL design file = src/two_banks_of_16_gp_reg.vhd
+VHDL library = work
+VHDL design file = src/x12_bit_program_address_generator.vhd
+VHDL library = work
+VHDL design file = src/zipi8.vhd
+-sdc option: SDC file input not used.
+Technology check ok...
+
+Analyzing Verilog file C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/machxo2.v. VERI-1482
+Analyzing Verilog file C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v. VERI-1482
+Compile design.
+Compile Design Begin
+INFO - synthesis: The default VHDL library search path is now "D:/workspace/icecube2/zipi8". VHDL-1504
+Analyzing VHDL file src/top.vhd. VHDL-1481
+INFO - synthesis: src/top.vhd(34): analyzing entity top. VHDL-1012
+INFO - synthesis: src/top.vhd(44): analyzing architecture behavioral. VHDL-1010
+ERROR - synthesis: src/top.vhd(131): kcpsm6_bram_enable is not declared. VHDL-1241
+Synthesis failed.
+Synthesis batch mode runtime 0 secondsC:\lscc\iCEcube2.2017.08\LSE\bin\nt\synthesis.exe -f "zipi8_lse.prj"
+starting Synthesisrunning SynthesisCopyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+Thu May 09 13:24:01 2019
+
+
+Command Line:  C:\lscc\iCEcube2.2017.08\LSE\bin\nt\synthesis.exe -f zipi8_lse.prj 
+
+INFO - synthesis: Lattice Synthesis Engine Launched.
+Synthesis options:
+The -a option is SBTiCE40UL.
+The -t option is CM36A.
+The -d option is iCE40UL1K.
+                                                          
+
+##########################################################
+
+### Lattice Family : SBTiCE40UL
+
+### Device  : iCE40UL1K
+
+### Package : CM36A
+
+### Number of Logic Cells: 1000
+
+### Number of RAM4k Blocks: 14
+
+### Number of DSP Blocks: 0
+
+### Number of PLLs: 1
+
+### Number of IO Pins: 18
+
+##########################################################
+
+                                                          
+
+Optimization goal = Area
+Top-level module name = top.
+Target frequency = 1.000000 MHz.
+Maximum fanout = 10000.
+Timing path count = 3
+RWCheckOnRam = 0
+
+BRAM utilization = 100.000000 %
+DSP usage = true (default)
+DSP utilization = 100 % (default)
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = auto (Default)
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+Output EDIF file name = zipi8_Implmnt/zipi8.edf.
+WARNING - synthesis: Option -force_gsr will be set to false when option -output_edif/-ngo are set
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p D:/workspace/icecube2/zipi8 (searchpath added)
+VHDL library = work
+VHDL design file = src/top.vhd
+VHDL library = work
+VHDL design file = src/arith_and_logic_operations.vhd
+VHDL library = work
+VHDL design file = src/decode4_pc_statck.vhd
+VHDL library = work
+VHDL design file = src/decode4_strobes_enables.vhd
+VHDL library = work
+VHDL design file = src/decode4alu.vhd
+VHDL library = work
+VHDL design file = src/flags.vhd
+VHDL library = work
+VHDL design file = src/mux_outputs_from_alu_spm_input_ports.vhd
+VHDL library = work
+VHDL design file = src/program_counter.vhd
+VHDL library = work
+VHDL design file = src/ram.vhd
+VHDL library = work
+VHDL design file = src/ram32m_behav.vhd
+VHDL library = work
+VHDL design file = src/register_bank_control.vhd
+VHDL library = work
+VHDL design file = src/sel_of_2nd_op_to_alu_and_port_id.vhd
+VHDL library = work
+VHDL design file = src/sel_of_out_port_value.vhd
+VHDL library = work
+VHDL design file = src/shift_and_rotate_operations.vhd
+VHDL library = work
+VHDL design file = src/spm_with_output_reg.vhd
+VHDL library = work
+VHDL design file = src/stack.vhd
+VHDL library = work
+VHDL design file = src/state_machine.vhd
+VHDL library = work
+VHDL design file = src/two_banks_of_16_gp_reg.vhd
+VHDL library = work
+VHDL design file = src/x12_bit_program_address_generator.vhd
+VHDL library = work
+VHDL design file = src/zipi8.vhd
+-sdc option: SDC file input not used.
+Technology check ok...
+
+Analyzing Verilog file C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/machxo2.v. VERI-1482
+Analyzing Verilog file C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v. VERI-1482
+Compile design.
+Compile Design Begin
+INFO - synthesis: The default VHDL library search path is now "D:/workspace/icecube2/zipi8". VHDL-1504
+Analyzing VHDL file src/top.vhd. VHDL-1481
+INFO - synthesis: src/top.vhd(34): analyzing entity top. VHDL-1012
+ERROR - synthesis: src/top.vhd(39): syntax error near ). VHDL-1261
+Synthesis failed.
+Synthesis batch mode runtime 0 secondsC:\lscc\iCEcube2.2017.08\LSE\bin\nt\synthesis.exe -f "zipi8_lse.prj"
+starting Synthesisrunning SynthesisCopyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+Thu May 09 13:24:56 2019
+
+
+Command Line:  C:\lscc\iCEcube2.2017.08\LSE\bin\nt\synthesis.exe -f zipi8_lse.prj 
+
+INFO - synthesis: Lattice Synthesis Engine Launched.
+Synthesis options:
+The -a option is SBTiCE40UL.
+The -t option is CM36A.
+The -d option is iCE40UL1K.
+                                                          
+
+##########################################################
+
+### Lattice Family : SBTiCE40UL
+
+### Device  : iCE40UL1K
+
+### Package : CM36A
+
+### Number of Logic Cells: 1000
+
+### Number of RAM4k Blocks: 14
+
+### Number of DSP Blocks: 0
+
+### Number of PLLs: 1
+
+### Number of IO Pins: 18
+
+##########################################################
+
+                                                          
+
+Optimization goal = Area
+Top-level module name = top.
+Target frequency = 1.000000 MHz.
+Maximum fanout = 10000.
+Timing path count = 3
+RWCheckOnRam = 0
+
+BRAM utilization = 100.000000 %
+DSP usage = true (default)
+DSP utilization = 100 % (default)
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = auto (Default)
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+Output EDIF file name = zipi8_Implmnt/zipi8.edf.
+WARNING - synthesis: Option -force_gsr will be set to false when option -output_edif/-ngo are set
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p D:/workspace/icecube2/zipi8 (searchpath added)
+VHDL library = work
+VHDL design file = src/top.vhd
+VHDL library = work
+VHDL design file = src/arith_and_logic_operations.vhd
+VHDL library = work
+VHDL design file = src/decode4_pc_statck.vhd
+VHDL library = work
+VHDL design file = src/decode4_strobes_enables.vhd
+VHDL library = work
+VHDL design file = src/decode4alu.vhd
+VHDL library = work
+VHDL design file = src/flags.vhd
+VHDL library = work
+VHDL design file = src/mux_outputs_from_alu_spm_input_ports.vhd
+VHDL library = work
+VHDL design file = src/program_counter.vhd
+VHDL library = work
+VHDL design file = src/ram.vhd
+VHDL library = work
+VHDL design file = src/ram32m_behav.vhd
+VHDL library = work
+VHDL design file = src/register_bank_control.vhd
+VHDL library = work
+VHDL design file = src/sel_of_2nd_op_to_alu_and_port_id.vhd
+VHDL library = work
+VHDL design file = src/sel_of_out_port_value.vhd
+VHDL library = work
+VHDL design file = src/shift_and_rotate_operations.vhd
+VHDL library = work
+VHDL design file = src/spm_with_output_reg.vhd
+VHDL library = work
+VHDL design file = src/stack.vhd
+VHDL library = work
+VHDL design file = src/state_machine.vhd
+VHDL library = work
+VHDL design file = src/two_banks_of_16_gp_reg.vhd
+VHDL library = work
+VHDL design file = src/x12_bit_program_address_generator.vhd
+VHDL library = work
+VHDL design file = src/zipi8.vhd
+-sdc option: SDC file input not used.
+Technology check ok...
+
+Analyzing Verilog file C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/machxo2.v. VERI-1482
+Analyzing Verilog file C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v. VERI-1482
+Compile design.
+Compile Design Begin
+INFO - synthesis: The default VHDL library search path is now "D:/workspace/icecube2/zipi8". VHDL-1504
+Analyzing VHDL file src/top.vhd. VHDL-1481
+INFO - synthesis: src/top.vhd(34): analyzing entity top. VHDL-1012
+INFO - synthesis: src/top.vhd(42): analyzing architecture behavioral. VHDL-1010
+ERROR - synthesis: src/top.vhd(106): mb_reset is not declared. VHDL-1241
+Synthesis failed.
+Synthesis batch mode runtime 0 secondsC:\lscc\iCEcube2.2017.08\LSE\bin\nt\synthesis.exe -f "zipi8_lse.prj"
+starting Synthesisrunning SynthesisCopyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+Thu May 09 13:25:19 2019
+
+
+Command Line:  C:\lscc\iCEcube2.2017.08\LSE\bin\nt\synthesis.exe -f zipi8_lse.prj 
+
+INFO - synthesis: Lattice Synthesis Engine Launched.
+Synthesis options:
+The -a option is SBTiCE40UL.
+The -t option is CM36A.
+The -d option is iCE40UL1K.
+                                                          
+
+##########################################################
+
+### Lattice Family : SBTiCE40UL
+
+### Device  : iCE40UL1K
+
+### Package : CM36A
+
+### Number of Logic Cells: 1000
+
+### Number of RAM4k Blocks: 14
+
+### Number of DSP Blocks: 0
+
+### Number of PLLs: 1
+
+### Number of IO Pins: 18
+
+##########################################################
+
+                                                          
+
+Optimization goal = Area
+Top-level module name = top.
+Target frequency = 1.000000 MHz.
+Maximum fanout = 10000.
+Timing path count = 3
+RWCheckOnRam = 0
+
+BRAM utilization = 100.000000 %
+DSP usage = true (default)
+DSP utilization = 100 % (default)
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = auto (Default)
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+Output EDIF file name = zipi8_Implmnt/zipi8.edf.
+WARNING - synthesis: Option -force_gsr will be set to false when option -output_edif/-ngo are set
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p D:/workspace/icecube2/zipi8 (searchpath added)
+VHDL library = work
+VHDL design file = src/top.vhd
+VHDL library = work
+VHDL design file = src/arith_and_logic_operations.vhd
+VHDL library = work
+VHDL design file = src/decode4_pc_statck.vhd
+VHDL library = work
+VHDL design file = src/decode4_strobes_enables.vhd
+VHDL library = work
+VHDL design file = src/decode4alu.vhd
+VHDL library = work
+VHDL design file = src/flags.vhd
+VHDL library = work
+VHDL design file = src/mux_outputs_from_alu_spm_input_ports.vhd
+VHDL library = work
+VHDL design file = src/program_counter.vhd
+VHDL library = work
+VHDL design file = src/ram.vhd
+VHDL library = work
+VHDL design file = src/ram32m_behav.vhd
+VHDL library = work
+VHDL design file = src/register_bank_control.vhd
+VHDL library = work
+VHDL design file = src/sel_of_2nd_op_to_alu_and_port_id.vhd
+VHDL library = work
+VHDL design file = src/sel_of_out_port_value.vhd
+VHDL library = work
+VHDL design file = src/shift_and_rotate_operations.vhd
+VHDL library = work
+VHDL design file = src/spm_with_output_reg.vhd
+VHDL library = work
+VHDL design file = src/stack.vhd
+VHDL library = work
+VHDL design file = src/state_machine.vhd
+VHDL library = work
+VHDL design file = src/two_banks_of_16_gp_reg.vhd
+VHDL library = work
+VHDL design file = src/x12_bit_program_address_generator.vhd
+VHDL library = work
+VHDL design file = src/zipi8.vhd
+-sdc option: SDC file input not used.
+Technology check ok...
+
+Analyzing Verilog file C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/machxo2.v. VERI-1482
+Analyzing Verilog file C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v. VERI-1482
+Compile design.
+Compile Design Begin
+INFO - synthesis: The default VHDL library search path is now "D:/workspace/icecube2/zipi8". VHDL-1504
+Analyzing VHDL file src/top.vhd. VHDL-1481
+INFO - synthesis: src/top.vhd(34): analyzing entity top. VHDL-1012
+INFO - synthesis: src/top.vhd(42): analyzing architecture behavioral. VHDL-1010
+ERROR - synthesis: src/top.vhd(111): gpio_led_0_ls_zipi8 is not declared. VHDL-1241
+Synthesis failed.
+Synthesis batch mode runtime 0 secondsC:\lscc\iCEcube2.2017.08\LSE\bin\nt\synthesis.exe -f "zipi8_lse.prj"
+starting Synthesisrunning SynthesisCopyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+Thu May 09 13:25:45 2019
+
+
+Command Line:  C:\lscc\iCEcube2.2017.08\LSE\bin\nt\synthesis.exe -f zipi8_lse.prj 
+
+INFO - synthesis: Lattice Synthesis Engine Launched.
+Synthesis options:
+The -a option is SBTiCE40UL.
+The -t option is CM36A.
+The -d option is iCE40UL1K.
+                                                          
+
+##########################################################
+
+### Lattice Family : SBTiCE40UL
+
+### Device  : iCE40UL1K
+
+### Package : CM36A
+
+### Number of Logic Cells: 1000
+
+### Number of RAM4k Blocks: 14
+
+### Number of DSP Blocks: 0
+
+### Number of PLLs: 1
+
+### Number of IO Pins: 18
+
+##########################################################
+
+                                                          
+
+Optimization goal = Area
+Top-level module name = top.
+Target frequency = 1.000000 MHz.
+Maximum fanout = 10000.
+Timing path count = 3
+RWCheckOnRam = 0
+
+BRAM utilization = 100.000000 %
+DSP usage = true (default)
+DSP utilization = 100 % (default)
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = auto (Default)
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+Output EDIF file name = zipi8_Implmnt/zipi8.edf.
+WARNING - synthesis: Option -force_gsr will be set to false when option -output_edif/-ngo are set
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p D:/workspace/icecube2/zipi8 (searchpath added)
+VHDL library = work
+VHDL design file = src/top.vhd
+VHDL library = work
+VHDL design file = src/arith_and_logic_operations.vhd
+VHDL library = work
+VHDL design file = src/decode4_pc_statck.vhd
+VHDL library = work
+VHDL design file = src/decode4_strobes_enables.vhd
+VHDL library = work
+VHDL design file = src/decode4alu.vhd
+VHDL library = work
+VHDL design file = src/flags.vhd
+VHDL library = work
+VHDL design file = src/mux_outputs_from_alu_spm_input_ports.vhd
+VHDL library = work
+VHDL design file = src/program_counter.vhd
+VHDL library = work
+VHDL design file = src/ram.vhd
+VHDL library = work
+VHDL design file = src/ram32m_behav.vhd
+VHDL library = work
+VHDL design file = src/register_bank_control.vhd
+VHDL library = work
+VHDL design file = src/sel_of_2nd_op_to_alu_and_port_id.vhd
+VHDL library = work
+VHDL design file = src/sel_of_out_port_value.vhd
+VHDL library = work
+VHDL design file = src/shift_and_rotate_operations.vhd
+VHDL library = work
+VHDL design file = src/spm_with_output_reg.vhd
+VHDL library = work
+VHDL design file = src/stack.vhd
+VHDL library = work
+VHDL design file = src/state_machine.vhd
+VHDL library = work
+VHDL design file = src/two_banks_of_16_gp_reg.vhd
+VHDL library = work
+VHDL design file = src/x12_bit_program_address_generator.vhd
+VHDL library = work
+VHDL design file = src/zipi8.vhd
+-sdc option: SDC file input not used.
+Technology check ok...
+
+Analyzing Verilog file C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/machxo2.v. VERI-1482
+Analyzing Verilog file C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v. VERI-1482
+Compile design.
+Compile Design Begin
+INFO - synthesis: The default VHDL library search path is now "D:/workspace/icecube2/zipi8". VHDL-1504
+Analyzing VHDL file src/top.vhd. VHDL-1481
+INFO - synthesis: src/top.vhd(34): analyzing entity top. VHDL-1012
+INFO - synthesis: src/top.vhd(42): analyzing architecture behavioral. VHDL-1010
+unit top is not yet analyzed. VHDL-1485
+Analyzing VHDL file src/arith_and_logic_operations.vhd. VHDL-1481
+INFO - synthesis: src/arith_and_logic_operations.vhd(34): analyzing entity arith_and_logic_operations. VHDL-1012
+INFO - synthesis: src/arith_and_logic_operations.vhd(46): analyzing architecture behavioral. VHDL-1010
+unit top is not yet analyzed. VHDL-1485
+Analyzing VHDL file src/decode4_pc_statck.vhd. VHDL-1481
+INFO - synthesis: src/decode4_pc_statck.vhd(34): analyzing entity decode4_pc_statck. VHDL-1012
+INFO - synthesis: src/decode4_pc_statck.vhd(46): analyzing architecture behavioral. VHDL-1010
+unit top is not yet analyzed. VHDL-1485
+Analyzing VHDL file src/decode4_strobes_enables.vhd. VHDL-1481
+INFO - synthesis: src/decode4_strobes_enables.vhd(34): analyzing entity decode4_strobes_enables. VHDL-1012
+INFO - synthesis: src/decode4_strobes_enables.vhd(51): analyzing architecture behavioral. VHDL-1010
+ERROR - synthesis: src/decode4_strobes_enables.vhd(124): cannot read from 'out' object flag_enable_type  use 'buffer' or 'inout'. VHDL-1033
+Synthesis failed.
+Synthesis batch mode runtime 0 seconds"C:\lscc\iCEcube2.2017.08\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "zipi8_syn.prj" -log "D:/workspace/icecube2/zipi8/zipi8_Implmnt/zipi8.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of D:/workspace/icecube2/zipi8/zipi8_Implmnt/zipi8.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2017.08\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-N4P8E4G3
+
+# Thu May 09 13:26:42 2019
+
+#Implementation: zipi8_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\iCEcube2.2017.08\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\workspace\icecube2\zipi8\src\top.vhd":34:7:34:9|Top entity is set to top.
+@W: CD266 :"D:\workspace\icecube2\zipi8\src\decode4_strobes_enables.vhd":123:116:123:131|flag_enable_type is not readable.  This may cause a simulation mismatch.
+@E: CD185 :"D:\workspace\icecube2\zipi8\src\decode4_strobes_enables.vhd":123:132:123:132|Expecting readable signal name, got output:flag_enable_type
+1 error parsing file D:\workspace\icecube2\zipi8\src\decode4_strobes_enables.vhd
+1 error parsing file D:\workspace\icecube2\zipi8\src\decode4alu.vhd
+@W: CD266 :"D:\workspace\icecube2\zipi8\src\flags.vhd":115:70:115:79|carry_flag is not readable.  This may cause a simulation mismatch.
+@E: CD185 :"D:\workspace\icecube2\zipi8\src\flags.vhd":115:80:115:80|Expecting readable signal name, got output:carry_flag
+2 errors parsing file D:\workspace\icecube2\zipi8\src\flags.vhd
+2 errors parsing file D:\workspace\icecube2\zipi8\src\mux_outputs_from_alu_spm_input_ports.vhd
+@W: CD266 :"D:\workspace\icecube2\zipi8\src\program_counter.vhd":75:58:75:59|pc is not readable.  This may cause a simulation mismatch.
+@E: CD185 :"D:\workspace\icecube2\zipi8\src\program_counter.vhd":75:63:75:63|Expecting readable signal name, got output:pc(0)
+3 errors parsing file D:\workspace\icecube2\zipi8\src\program_counter.vhd
+3 errors parsing file D:\workspace\icecube2\zipi8\src\ram.vhd
+3 errors parsing file D:\workspace\icecube2\zipi8\src\ram32m_behav.vhd
+@W: CD266 :"D:\workspace\icecube2\zipi8\src\register_bank_control.vhd":95:95:95:98|bank is not readable.  This may cause a simulation mismatch.
+@E: CD185 :"D:\workspace\icecube2\zipi8\src\register_bank_control.vhd":95:99:95:99|Expecting readable signal name, got output:bank
+4 errors parsing file D:\workspace\icecube2\zipi8\src\register_bank_control.vhd
+4 errors parsing file D:\workspace\icecube2\zipi8\src\sel_of_2nd_op_to_alu_and_port_id.vhd
+4 errors parsing file D:\workspace\icecube2\zipi8\src\sel_of_out_port_value.vhd
+4 errors parsing file D:\workspace\icecube2\zipi8\src\shift_and_rotate_operations.vhd
+@W: CD266 :"D:\workspace\icecube2\zipi8\src\state_machine.vhd":83:31:83:46|active_interrupt is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"D:\workspace\icecube2\zipi8\src\state_machine.vhd":100:37:100:39|run is not readable.  This may cause a simulation mismatch.
+@E: CD185 :"D:\workspace\icecube2\zipi8\src\state_machine.vhd":100:40:100:40|Expecting readable signal name, got output:run
+5 errors parsing file D:\workspace\icecube2\zipi8\src\state_machine.vhd
+5 errors parsing file D:\workspace\icecube2\zipi8\src\x12_bit_program_address_generator.vhd
+5 errors parsing file D:\workspace\icecube2\zipi8\src\spm_with_output_reg.vhd
+@W: CD645 :"D:\workspace\icecube2\zipi8\src\stack.vhd":31:8:31:13|Ignoring undefined library unisim
+@W: CD642 :"D:\workspace\icecube2\zipi8\src\stack.vhd":32:26:32:26|Ignoring use clause - library unisim not found ...
+@W: CD266 :"D:\workspace\icecube2\zipi8\src\stack.vhd":319:95:319:113|stack_pointer_carry is not readable.  This may cause a simulation mismatch.
+@E: CD185 :"D:\workspace\icecube2\zipi8\src\stack.vhd":319:117:319:117|Expecting readable signal name, got output:stack_pointer_carry(0)
+6 errors parsing file D:\workspace\icecube2\zipi8\src\stack.vhd
+6 errors parsing file D:\workspace\icecube2\zipi8\src\two_banks_of_16_gp_reg.vhd
+@W: CD643 :"D:\workspace\icecube2\zipi8\src\zipi8.vhd":24:21:24:21|Ignoring use clause - op_codes not found ...
+6 errors parsing file D:\workspace\icecube2\zipi8\src\zipi8.vhd
+6 errors parsing file D:\workspace\icecube2\zipi8\src\top.vhd
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu May 09 13:26:43 2019
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu May 09 13:26:43 2019
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 5 secondsC:\lscc\iCEcube2.2017.08\LSE\bin\nt\synthesis.exe -f "zipi8_lse.prj"
+starting Synthesisrunning SynthesisCopyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+Thu May 09 13:27:14 2019
+
+
+Command Line:  C:\lscc\iCEcube2.2017.08\LSE\bin\nt\synthesis.exe -f zipi8_lse.prj 
+
+INFO - synthesis: Lattice Synthesis Engine Launched.
+Synthesis options:
+The -a option is SBTiCE40UL.
+The -t option is CM36A.
+The -d option is iCE40UL1K.
+                                                          
+
+##########################################################
+
+### Lattice Family : SBTiCE40UL
+
+### Device  : iCE40UL1K
+
+### Package : CM36A
+
+### Number of Logic Cells: 1000
+
+### Number of RAM4k Blocks: 14
+
+### Number of DSP Blocks: 0
+
+### Number of PLLs: 1
+
+### Number of IO Pins: 18
+
+##########################################################
+
+                                                          
+
+Optimization goal = Area
+Top-level module name = top.
+Target frequency = 1.000000 MHz.
+Maximum fanout = 10000.
+Timing path count = 3
+RWCheckOnRam = 0
+
+BRAM utilization = 100.000000 %
+DSP usage = true (default)
+DSP utilization = 100 % (default)
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = auto (Default)
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+Output EDIF file name = zipi8_Implmnt/zipi8.edf.
+WARNING - synthesis: Option -force_gsr will be set to false when option -output_edif/-ngo are set
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p D:/workspace/icecube2/zipi8 (searchpath added)
+VHDL library = work
+VHDL design file = src/top.vhd
+VHDL library = work
+VHDL design file = src/arith_and_logic_operations.vhd
+VHDL library = work
+VHDL design file = src/decode4_pc_statck.vhd
+VHDL library = work
+VHDL design file = src/decode4_strobes_enables.vhd
+VHDL library = work
+VHDL design file = src/decode4alu.vhd
+VHDL library = work
+VHDL design file = src/flags.vhd
+VHDL library = work
+VHDL design file = src/mux_outputs_from_alu_spm_input_ports.vhd
+VHDL library = work
+VHDL design file = src/program_counter.vhd
+VHDL library = work
+VHDL design file = src/ram.vhd
+VHDL library = work
+VHDL design file = src/ram32m_behav.vhd
+VHDL library = work
+VHDL design file = src/register_bank_control.vhd
+VHDL library = work
+VHDL design file = src/sel_of_2nd_op_to_alu_and_port_id.vhd
+VHDL library = work
+VHDL design file = src/sel_of_out_port_value.vhd
+VHDL library = work
+VHDL design file = src/shift_and_rotate_operations.vhd
+VHDL library = work
+VHDL design file = src/spm_with_output_reg.vhd
+VHDL library = work
+VHDL design file = src/stack.vhd
+VHDL library = work
+VHDL design file = src/state_machine.vhd
+VHDL library = work
+VHDL design file = src/two_banks_of_16_gp_reg.vhd
+VHDL library = work
+VHDL design file = src/x12_bit_program_address_generator.vhd
+VHDL library = work
+VHDL design file = src/zipi8.vhd
+-sdc option: SDC file input not used.
+-vh2008
+
+Technology check ok...
+
+Analyzing Verilog file C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/machxo2.v. VERI-1482
+Analyzing Verilog file C:/lscc/iCEcube2.2017.08/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v. VERI-1482
+Compile design.
+Compile Design Begin
+INFO - synthesis: The default VHDL library search path is now "D:/workspace/icecube2/zipi8". VHDL-1504
+Analyzing VHDL file src/top.vhd. VHDL-1481
+INFO - synthesis: src/top.vhd(34): analyzing entity top. VHDL-1012
+INFO - synthesis: src/top.vhd(42): analyzing architecture behavioral. VHDL-1010
+Analyzing VHDL file src/arith_and_logic_operations.vhd. VHDL-1481
+INFO - synthesis: src/arith_and_logic_operations.vhd(34): analyzing entity arith_and_logic_operations. VHDL-1012
+INFO - synthesis: src/arith_and_logic_operations.vhd(46): analyzing architecture behavioral. VHDL-1010
+Analyzing VHDL file src/decode4_pc_statck.vhd. VHDL-1481
+INFO - synthesis: src/decode4_pc_statck.vhd(34): analyzing entity decode4_pc_statck. VHDL-1012
+INFO - synthesis: src/decode4_pc_statck.vhd(46): analyzing architecture behavioral. VHDL-1010
+Analyzing VHDL file src/decode4_strobes_enables.vhd. VHDL-1481
+INFO - synthesis: src/decode4_strobes_enables.vhd(34): analyzing entity decode4_strobes_enables. VHDL-1012
+INFO - synthesis: src/decode4_strobes_enables.vhd(51): analyzing architecture behavioral. VHDL-1010
+Analyzing VHDL file src/decode4alu.vhd. VHDL-1481
+INFO - synthesis: src/decode4alu.vhd(34): analyzing entity decode4alu. VHDL-1012
+INFO - synthesis: src/decode4alu.vhd(46): analyzing architecture behavioral. VHDL-1010
+Analyzing VHDL file src/flags.vhd. VHDL-1481
+INFO - synthesis: src/flags.vhd(34): analyzing entity flags. VHDL-1012
+INFO - synthesis: src/flags.vhd(55): analyzing architecture behavioral. VHDL-1010
+Analyzing VHDL file src/mux_outputs_from_alu_spm_input_ports.vhd. VHDL-1481
+INFO - synthesis: src/mux_outputs_from_alu_spm_input_ports.vhd(34): analyzing entity mux_outputs_from_alu_spm_input_ports. VHDL-1012
+INFO - synthesis: src/mux_outputs_from_alu_spm_input_ports.vhd(45): analyzing architecture behavioral. VHDL-1010
+Analyzing VHDL file src/program_counter.vhd. VHDL-1481
+INFO - synthesis: src/program_counter.vhd(34): analyzing entity program_counter. VHDL-1012
+INFO - synthesis: src/program_counter.vhd(46): analyzing architecture behavioral. VHDL-1010
+Analyzing VHDL file src/ram.vhd. VHDL-1481
+INFO - synthesis: src/ram.vhd(34): analyzing entity ram. VHDL-1012
+INFO - synthesis: src/ram.vhd(46): analyzing architecture behavioral. VHDL-1010
+Analyzing VHDL file src/ram32m_behav.vhd. VHDL-1481
+INFO - synthesis: src/ram32m_behav.vhd(34): analyzing entity ram32m_behav. VHDL-1012
+INFO - synthesis: src/ram32m_behav.vhd(47): analyzing architecture behavioral. VHDL-1010
+Analyzing VHDL file src/register_bank_control.vhd. VHDL-1481
+INFO - synthesis: src/register_bank_control.vhd(34): analyzing entity register_bank_control. VHDL-1012
+INFO - synthesis: src/register_bank_control.vhd(49): analyzing architecture behavioral. VHDL-1010
+Analyzing VHDL file src/sel_of_2nd_op_to_alu_and_port_id.vhd. VHDL-1481
+INFO - synthesis: src/sel_of_2nd_op_to_alu_and_port_id.vhd(34): analyzing entity sel_of_2nd_op_to_alu_and_port_id. VHDL-1012
+INFO - synthesis: src/sel_of_2nd_op_to_alu_and_port_id.vhd(44): analyzing architecture behavioral. VHDL-1010
+Analyzing VHDL file src/sel_of_out_port_value.vhd. VHDL-1481
+INFO - synthesis: src/sel_of_out_port_value.vhd(34): analyzing entity sel_of_out_port_value. VHDL-1012
+INFO - synthesis: src/sel_of_out_port_value.vhd(43): analyzing architecture behavioral. VHDL-1010
+Analyzing VHDL file src/shift_and_rotate_operations.vhd. VHDL-1481
+INFO - synthesis: src/shift_and_rotate_operations.vhd(34): analyzing entity shift_and_rotate_operations. VHDL-1012
+INFO - synthesis: src/shift_and_rotate_operations.vhd(45): analyzing architecture behavioral. VHDL-1010
+Analyzing VHDL file src/spm_with_output_reg.vhd. VHDL-1481
+INFO - synthesis: src/spm_with_output_reg.vhd(34): analyzing entity spm_with_output_reg. VHDL-1012
+INFO - synthesis: src/spm_with_output_reg.vhd(44): analyzing architecture behavioral. VHDL-1010
+Analyzing VHDL file src/stack.vhd. VHDL-1481
+WARNING - synthesis: src/stack.vhd(32): 'vcomponents' is not compiled in library unisim. VHDL-1240
+INFO - synthesis: src/stack.vhd(34): analyzing entity stack. VHDL-1012
+INFO - synthesis: src/stack.vhd(55): analyzing architecture behavioral. VHDL-1010
+Analyzing VHDL file src/state_machine.vhd. VHDL-1481
+INFO - synthesis: src/state_machine.vhd(34): analyzing entity state_machine. VHDL-1012
+INFO - synthesis: src/state_machine.vhd(54): analyzing architecture behavioral. VHDL-1010
+Analyzing VHDL file src/two_banks_of_16_gp_reg.vhd. VHDL-1481
+INFO - synthesis: src/two_banks_of_16_gp_reg.vhd(34): analyzing entity two_banks_of_16_gp_reg. VHDL-1012
+INFO - synthesis: src/two_banks_of_16_gp_reg.vhd(46): analyzing architecture behavioral. VHDL-1010
+Analyzing VHDL file src/x12_bit_program_address_generator.vhd. VHDL-1481
+INFO - synthesis: src/x12_bit_program_address_generator.vhd(34): analyzing entity x12_bit_program_address_generator. VHDL-1012
+INFO - synthesis: src/x12_bit_program_address_generator.vhd(46): analyzing architecture behavioral. VHDL-1010
+Analyzing VHDL file src/zipi8.vhd. VHDL-1481
+WARNING - synthesis: src/zipi8.vhd(24): 'op_codes' is not compiled in library work. VHDL-1240
+INFO - synthesis: src/zipi8.vhd(35): analyzing entity zipi8. VHDL-1012
+INFO - synthesis: src/zipi8.vhd(54): analyzing architecture behavioral. VHDL-1010
+unit top is not yet analyzed. VHDL-1485
+src/top.vhd(34): executing top(Behavioral)
+
+WARNING - synthesis: src/top.vhd(81): using initial value "00000000" for in_port since it is never assigned. VHDL-1303
+WARNING - synthesis: src/top.vhd(84): using initial value "UUUUUUUUUUUUUUUUUU" for instruction since it is never assigned. VHDL-1303
+WARNING - synthesis: src/top.vhd(40): replacing existing netlist top(Behavioral). VHDL-1205
+Top module name (VHDL): top
+Last elaborated design is top(Behavioral)
+Loading NGL library 'C:/lscc/iCEcube2.2017.08/LSE/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/iCEcube2.2017.08/LSE/or5g00/data/orc5glib.ngl'...
+Top-level module name = top.
+WARNING - synthesis: Initial value found on net bram_enable will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sx_addr4_value will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net run_value will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net internal_reset_value will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net t_state_value[2] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net t_state_value[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net interrupt_enable_value will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net active_interrupt_value will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net loadstar_type will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net int_enable_type will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net regbank_type will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net bank_value will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net pop_stack will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net push_stack will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net pc_mode[2] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net pc_mode[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net pc_mode[0] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net pc_move_is_valid will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net returni_type will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net move_type will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net arith_logical_sel[2] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net arith_logical_sel[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net arith_logical_sel[0] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net arith_carry_in will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net alu_mux_sel_value[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net alu_mux_sel_value[0] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net flag_enable_type will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net register_enable_type will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net flag_enable_value will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net register_enable_value will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net k_write_strobe_value will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net spm_enable_value will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net read_strobe_value will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net write_strobe_value will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net gnd will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net strobe_type will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net lower_parity will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net upper_parity will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net shift_carry_value will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net parity will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net drive_carry_in_zero will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net lower_zero will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net use_zero_flag_value will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net middle_zero_sel will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net carry_middle_zero will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net upper_zero_sel will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net zero_flag_value will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net pc_vector[11] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net pc_vector[10] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net pc_vector[9] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net pc_vector[8] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net pc_vector[7] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net pc_vector[6] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net pc_vector[5] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net pc_vector[4] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net pc_vector[3] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net pc_vector[2] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net pc_vector[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net pc_vector[0] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_memory[11] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_memory[10] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_memory[9] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_memory[8] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_memory[7] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_memory[6] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_memory[5] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_memory[4] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_memory[3] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_memory[2] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_memory[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_memory[0] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_pointer_carry[4] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_pointer_carry[3] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_pointer_carry[2] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_pointer_carry[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_pointer_carry[0] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net data_out_ram_low[3] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net data_out_ram_low[2] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net data_out_ram_low[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net data_out_ram_low[0] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_pointer_value[4] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_pointer_value[3] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_pointer_value[2] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_pointer_value[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net stack_pointer_value[0] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net half_pointer_value[4] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net half_pointer_value[3] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net half_pointer_value[2] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net half_pointer_value[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sx[7] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sx[6] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sx[5] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sx[4] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sx[3] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sx[2] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sx[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sx[0] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sy[7] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sy[6] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sy[5] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sy[4] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sy[3] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sy[2] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sy[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sy[0] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sy_or_kk[7] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sy_or_kk[6] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sy_or_kk[5] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sy_or_kk[4] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sy_or_kk[3] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sy_or_kk[2] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sy_or_kk[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net sy_or_kk[0] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net out_port[7] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net out_port[6] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net out_port[5] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net out_port[4] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net out_port[3] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net out_port[2] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net out_port[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net out_port[0] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net carry_arith_logical_7 will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net logical_carry_mask[7] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net logical_carry_mask[6] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net logical_carry_mask[5] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net logical_carry_mask[4] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net logical_carry_mask[3] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net logical_carry_mask[2] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net logical_carry_mask[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net logical_carry_mask[0] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net half_arith_logical[7] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net half_arith_logical[6] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net half_arith_logical[5] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net half_arith_logical[4] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net half_arith_logical[3] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net half_arith_logical[2] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net half_arith_logical[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net half_arith_logical[0] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net arith_logical_value[7] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net arith_logical_value[6] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net arith_logical_value[5] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net arith_logical_value[4] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net arith_logical_value[3] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net arith_logical_value[2] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net arith_logical_value[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net arith_logical_value[0] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net carry_arith_logical[6] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net carry_arith_logical[5] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net carry_arith_logical[4] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net carry_arith_logical[3] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net carry_arith_logical[2] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net carry_arith_logical[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net carry_arith_logical[0] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net shift_rotate_value[7] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net shift_rotate_value[6] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net shift_rotate_value[5] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net shift_rotate_value[4] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net shift_rotate_value[3] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net shift_rotate_value[2] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net shift_rotate_value[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net shift_rotate_value[0] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net shift_in_bit will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net spm_ram_data[7] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net spm_ram_data[6] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net spm_ram_data[5] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net spm_ram_data[4] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net spm_ram_data[3] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net spm_ram_data[2] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net spm_ram_data[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net spm_ram_data[0] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net alu_result[7] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net alu_result[6] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net alu_result[5] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net alu_result[4] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net alu_result[3] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net alu_result[2] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net alu_result[1] will be ignored due to unrecognized driver type
+WARNING - synthesis: Initial value found on net alu_result[0] will be ignored due to unrecognized driver type
+WARNING - synthesis: src/state_machine.vhd(84): Register \processor_zipi8/state_machine_i/sync_sleep_118 is stuck at Zero. VDB-5013
+WARNING - synthesis: Bit 0 of Register \processor_zipi8/decode4alu_i/alu_mux_sel is stuck at Zero
+WARNING - synthesis: Bit 0 of Register \processor_zipi8/decode4alu_i/alu_mux_sel is stuck at Zero
+WARNING - synthesis: src/decode4_strobes_enables.vhd(81): Register \processor_zipi8/decode4_strobes_enables_i/flag_enable_98 is stuck at Zero. VDB-5013
+WARNING - synthesis: src/flags.vhd(88): Register \processor_zipi8/flags_i/carry_flag_422 is stuck at Zero. VDB-5013
+WARNING - synthesis: src/shift_and_rotate_operations.vhd(59): Register \processor_zipi8/shift_and_rotate_operations_i/shift_rotate_result_i0 is stuck at Zero. VDB-5013
+Constant propagated thru Write Port :\processor_zipi8/spm_with_output_reg_i/spm_ram/WCLK_I_0.
+
+Found mux-orfb->fb :%s\processor_zipi8/register_bank_control_i/bank_I_0Found mux-orfb->fb :%s\processor_zipi8/register_bank_control_i/bank_I_0Synthesis Exit.
+Synthesis runtime 6 seconds1:29:12 PM
